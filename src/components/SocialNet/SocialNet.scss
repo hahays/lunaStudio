@@ -1,0 +1,43 @@
+.header-social{
+    transition: 1s;
+        align-items: center;
+        display: flex;
+        gap: 15px;
+        a{
+            transition: 1s;
+            fill: white;
+        }
+        .social-icon{
+            height: 35px;
+            width: 35px;
+        }
+        .social-icon:hover {
+            color: rgba(255, 0, 183, 1);
+            box-shadow: 0 0px px rgba(102, 221, 5, 0.2);
+          }
+        a{ 
+            svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa:hover {
+                transition: 1s;
+                overflow: visible;
+                box-sizing: content-box;
+            }
+
+      
+        }
+    img{
+        fill:red;
+        height: 35px;
+        width: 35px;
+
+    }
+}
+
+
+    #surface182826414{
+        transition: 1s;
+        fill: white;
+    }
+    #surface182826414:hover{
+        transition: 1s;
+        fill: rgba(255, 0, 183, 1);
+    }

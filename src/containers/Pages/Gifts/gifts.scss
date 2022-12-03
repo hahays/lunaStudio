@@ -1,0 +1,162 @@
+.gifts-block{
+    .answers-block-header{
+        padding-top: 50px;
+        width: 1000px;
+        text-align: center;
+        /* display: grid; */
+      margin: 0 auto;
+        h1{
+            padding-top: 30px;
+        }
+        h2{
+            padding-top: 90px;
+        }
+        .answers-block-header-side-info{
+            width: 60%;
+            margin: 0 auto;
+            color: white;
+            font-size: 20px;
+            font-family: "Montserrat", system-ui;
+        }
+    }
+    .gifts-block-cards{
+        margin: auto;
+        display: flex;
+        height: 65vh;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        .gifts-card{
+            height:100%;
+            width: 27%;
+            .gifts-card-item{
+                height: 100%;
+                .card-item-img{
+                    height: 75%;
+                }
+                .card-item-text{
+                    height: 25%;
+                    color: white;
+                    font-family: "Montserrat", system-ui;
+                    font-size: 18px;
+                    display: flex;
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    justify-content: center;
+                    align-items: center;
+                    .text-1 {
+                        width: 57%;
+                        text-align:start;
+                        text-indent: 20px;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        padding-bottom: 20px;
+                        margin-right: 50px;
+                    }
+                    .text-2 {
+                        width: 65%;
+                        text-align:start;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                    }
+                    .text-3 {
+                        width: 63%;
+                        text-align:start;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                    }
+                    p{
+                        margin-block-start: 0em;
+                        margin-block-end: 3em;
+                        margin-inline-start: 0px;
+                        margin-inline-end: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .gifts-block-video{
+        padding-bottom: 30px;
+        width: 90vw;
+        margin: 0 auto;
+        height: 60vh;
+        display: grid;
+        justify-content: center;
+        
+
+        .gifts-block-video-text{
+            color: white;
+            font-family: "Montserrat", system-ui;
+            font-size: 30px;
+
+            p{ 
+                justify-content: center;
+                display: flex;
+            }
+            .shadow-word{
+                text-indent: 10px;
+                text-shadow: 1px 1px 0px #ff00ec;
+                color: white;
+                margin-block-start: 0em;
+                margin-block-end: 0em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+            }
+        }
+        .gifts-block-video-button{
+            height: 20px;
+            width: 600px;
+            background: inherit;
+            border-radius: 15px;
+            border: 1px solid rgba(43, 43, 43, 0.568);
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.192);
+            backdrop-filter: blur(10px);
+            height: 450px;
+            width: 800px;
+            border-radius: 15px;
+            border: 1px solid rgba(43, 43, 43, 0.568);
+            .button-play{
+                transform: rotate(0deg);
+               a {
+                transition: 1s;
+                 
+                }
+           
+                    
+            
+            }
+            .button-play:hover{
+                transform: rotate(0deg);
+               a {
+           
+                    color: #ff00ec;
+                }
+           
+                    
+            
+            }
+        }
+        .gifts-block-video-button::before{
+            position: absolute;
+            content: '';
+            background: inherit;
+            height: 370px;
+            width: 650px;
+            left: -25px;
+            right: 0;
+            top: -25px;
+            bottom: 0;
+            box-shadow: inset 0 0 0 3000px rgba(150, 150, 150, 0.192);
+            filter: blur(10px);
+            border-radius: 15px;
+        }
+    }
+}

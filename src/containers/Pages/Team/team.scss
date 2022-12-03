@@ -1,0 +1,1199 @@
+.team-block{
+ 
+
+    @media (max-width: 2099px) { 
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: flex;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 50%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    color: white;
+                    font-size: 20px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 60%;
+                    padding-left:350px;
+                    padding-top: 90px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-left: 350px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 65%;
+                        width: 40%;
+                        font-size:22px;
+                    }
+                }
+            }
+            .team-block-main-right{
+                height: 100%;
+                width: 50%;
+                padding-left: 130px;
+                padding-top: 20px;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 400px;
+                        height: 600px;
+                    }
+    
+                }
+            }
+        }
+     
+
+        .team-button{
+            padding-top: 35px;
+            z-index: 1;
+            .blue-l::before{
+                display: none;
+            }
+        }
+    }
+
+    @media (max-width: 1550px) { 
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: flex;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 50%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    color: white;
+                    font-size: 20px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 60%;
+                    padding-left:350px;
+                    padding-top: 90px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-left: 350px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 65%;
+                        width: 40%;
+                        font-size:22px;
+                    }
+                }
+            }
+            .team-block-main-right{
+                height: 100%;
+                width: 50%;
+                padding-left: 130px;
+                padding-top: 20px;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 400px;
+                        height: 600px;
+                    }
+    
+                }
+            }
+        }
+     
+
+        .team-button{
+            padding-top: 35px;
+            z-index: 1;
+            .blue-l::before{
+                display: none;
+            }
+        }
+    }
+    @media (max-width: 1345px) { 
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: flex;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 50%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 20px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 70%;
+                    padding-left: 237px;
+                    padding-top: 90px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-left: 233px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 30%;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .team-block-main-right{
+                height: 100%;
+                width: 50%;
+                padding-left: 130px;
+                padding-top: 20px;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 400px;
+                        height: 600px;
+                    }
+    
+                }
+            }
+        }
+     
+
+        .team-button{
+            padding-top: 85px;
+        }
+    }
+    @media (max-width: 1340px) { 
+   .team-block-main-left{
+            .team-text{
+                padding-left: 200px;
+            }
+        }
+        .team-button{
+            padding-top: 120px;
+        }
+    }
+
+    @media (max-width: 1345px) { 
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: flex;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 50%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 20px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 70%;
+                    padding-left: 237px;
+                    padding-top: 90px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-top: 175px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                    }
+                    .blue-l::before{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                        display: none;
+                    }
+                }
+            }
+            .team-block-main-right{
+                height: 100%;
+                width: 50%;
+                padding-left: 130px;
+                padding-top: 20px;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 400px;
+                        height: 600px;
+                    }
+    
+                }
+            }
+        }
+     
+
+      
+    }
+    @media (max-width: 1040px) { 
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: flex;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 50%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 20px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 90%;
+                    padding-left: 100px;
+                    padding-top: 90px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-top: 175px;
+                    padding-left: 95px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 55%;
+                        font-size: 16px;
+                    }
+                    .blue-l::before{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                        display: none;
+                    }
+                }
+            }
+            .team-block-main-right{
+                transform: 1s;
+                height: 100%;
+                width: 50%;
+                padding-left: 100px;
+                padding-top: 20px;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 400px;
+                        height: 600px;
+                    }
+    
+                }
+            }
+        }
+     
+
+      
+    }
+    @media (max-width: 840px) { 
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: flex;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 50%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 20px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 100%;
+                    padding-left: 36px;
+                    padding-top: 53px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-top: 175px;
+                    padding-left: 31px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 55%;
+                        font-size: 16px;
+                    }
+                    .blue-l::before{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                        display: none;
+                    }
+                }
+            }
+            .team-block-main-right{
+                transform: 1s;
+                height: 100%;
+                width: 50%;
+                padding-left: 100px;
+                padding-top: 20px;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 371px;
+                        height: 562px;
+                    }
+    
+                }
+            }
+        }
+     
+
+      
+    }
+    @media (max-width: 783px) { 
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: flex;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 50%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 18px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 90%;
+                    padding-left: 36px;
+                    padding-top: 53px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-top: 115px;
+                    padding-left: 31px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 55%;
+                        font-size: 16px;
+                    }
+                    .blue-l::before{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                        display: none;
+                    }
+                }
+            }
+            .team-block-main-right{
+                transform: 1s;
+                height: 100%;
+                width: 50%;
+                padding-left: 29px;
+                padding-top: 20px;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 300px;
+                        height: 500px;
+                    }
+    
+                }
+            }
+        }
+     
+
+      
+    }
+    @media (max-width: 653px) { 
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: flex;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 50%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 15px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 90%;
+                    padding-left: 36px;
+                    padding-top: 53px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-top: 50px;
+                    padding-left: 31px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 55%;
+                        font-size: 16px;
+                    }
+                    .blue-l::before{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                        display: none;
+                    }
+                }
+            }
+            .team-block-main-right{
+                transform: 1s;
+                height: 100%;
+                width: 50%;
+                padding-left: 29px;
+                padding-top: 20px;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 250px;
+                        height: 450px;
+                    }
+    
+                }
+            }
+        }
+     
+
+      
+    }
+    @media (max-width: 653px) { 
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: block;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 80%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 20px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 90%;
+                    padding-left: 80px;
+                    padding-top: 14px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-top: 41px;
+                    padding-left: 71px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 55%;
+                        font-size: 16px;
+                        position: relative;
+                        top: 564px;
+                        left: 69px;
+                    }
+                    .blue-l::before{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                        display: none;
+                    }
+                }
+            }
+            .team-block-main-right{
+                transform: 1s;
+                height: 100%;
+                width: 50%;
+                padding-left: 85px;
+                bottom: 120px;
+                position: relative;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 389px;
+                        height: 523px;
+                    }
+    
+                }
+            }
+        }
+
+    }
+    @media (max-width: 568px) { 
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: block;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 80%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 18px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 90%;
+                    padding-left: 80px;
+                    padding-top: 14px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-top: 41px;
+                    padding-left: 8px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 80%;
+                        font-size: 16px;
+                        position: relative;
+                        top: 564px;
+                        left: 69px;
+                    }
+                    .blue-l::before{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                        display: none;
+                    }
+                }
+            }
+            .team-block-main-right{
+                transform: 1s;
+                height: 100%;
+                width: 50%;
+                padding-left: 55px;
+                bottom: 120px;
+                position: relative;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 389px;
+                        height: 523px;
+                    }
+    
+                }
+            }
+        }
+
+    }
+    @media (max-width: 484px) { 
+        .header-block {
+            padding-top: 27px;
+        }
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: block;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 80%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 18px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 100%;
+                    padding-left: 43px;
+                    padding-top: 3px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-top: 41px;
+                    padding-left: 8px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 80%;
+                        font-size: 16px;
+                        position: relative;
+                        top: 564px;
+                        left: 69px;
+                    }
+                    .blue-l::before{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                        display: none;
+                    }
+                }
+            }
+            .team-block-main-right{
+                transform: 1s;
+                height: 100%;
+                width: 50%;
+                padding-left: 55px;
+                bottom: 120px;
+                position: relative;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 335px;
+                        height: 460px;
+                    }
+    
+                }
+            }
+        }
+
+    }
+    @media (max-width: 415px) { 
+        .header-block {
+            padding-top: 27px;
+        }
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: block;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 80%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 15px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 100%;
+                    padding-left: 43px;
+                    padding-top: 3px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-top: 0px;
+                    padding-left: 0px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 90%;
+                        font-size: 16px;
+                        position: relative;
+                        top: 467px;
+                        left: 42px;
+                    }
+                    .blue-l::before{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                        display: none;
+                    }
+                }
+            }
+            .team-block-main-right{
+                transform: 1s;
+                height: 100%;
+                width: 50%;
+                padding-left: 55px;
+                bottom: 169px;
+                position: relative;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 291px;
+                        height: 397px;
+                    }
+    
+                }
+            }
+        }
+
+    }
+    @media (max-width: 395px) { 
+        .header-block {
+            padding-top: 27px;
+        }
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: block;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 80%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 15px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 100%;
+                    padding-left: 43px;
+                    padding-top: 3px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-top: 0px;
+                    padding-left: 0px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 90%;
+                        font-size: 16px;
+                        position: relative;
+                        top: 467px;
+                        left: 42px;
+                    }
+                    .blue-l::before{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                        display: none;
+                    }
+                }
+            }
+            .team-block-main-right{
+                transform: 1s;
+                height: 100%;
+                width: 50%;
+                padding-left: 55px;
+                bottom: 134px;
+                position: relative;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 291px;
+                        height: 397px;
+                    }
+    
+                }
+            }
+        }
+
+    }
+    @media (max-width: 383px) { 
+        .header-block {
+            padding-top: 27px;
+        }
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: block;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 80%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 15px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 100%;
+                    padding-left: 43px;
+                    padding-top: 3px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-top: 0px;
+                    padding-left: 0px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 90%;
+                        font-size: 16px;
+                        position: relative;
+                        top: 467px;
+                        left: 42px;
+                    }
+                    .blue-l::before{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                        display: none;
+                    }
+                }
+            }
+            .team-block-main-right{
+                transform: 1s;
+                height: 100%;
+                width: 50%;
+                padding-left: 36px;
+                bottom: 169px;
+                position: relative;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 291px;
+                        height: 397px;
+                    }
+    
+                }
+            }
+        }
+
+    }
+    @media (max-width: 375px) { 
+        .header-block {
+            padding-top: 27px;
+        }
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: block;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 80%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 15px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 100%;
+                    padding-left: 43px;
+                    padding-top: 3px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-top: 0px;
+                    padding-left: 0px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 90%;
+                        font-size: 16px;
+                        position: relative;
+                        top: 387px;
+                        left: 47px;
+                    }
+                    .blue-l::before{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                        display: none;
+                    }
+                }
+            }
+            .team-block-main-right{
+                transform: 1s;
+                height: 100%;
+                width: 50%;
+                padding-left: 54px;
+                bottom: 75px;
+                position: relative;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 279px;
+                        height: 307px;
+                    }
+    
+                }
+            }
+        }
+
+    }
+    @media (max-width: 360px) { 
+        .header-block {
+            padding-top: 27px;
+        }
+        background: url("./assets/bg.png");
+        height: 100vh;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: block;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 80%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 15px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 100%;
+                    padding-left: 43px;
+                    padding-top: 3px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    height: 25%;
+                    display: flex;
+                    width: 100%;
+                    padding-top: 0px;
+                    padding-left: 0px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 90%;
+                        font-size: 16px;
+                        position: relative;
+                        top: 415px;
+                        left: 38px;
+                    }
+                    .blue-l::before{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                        display: none;
+                    }
+                }
+            }
+            .team-block-main-right{
+                transform: 1s;
+                height: 100%;
+                width: 50%;
+                padding-left: 42px;
+                bottom: 75px;
+                position: relative;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 279px;
+                        height: 307px;
+                    }
+    
+                }
+            }
+        }
+
+    }
+}

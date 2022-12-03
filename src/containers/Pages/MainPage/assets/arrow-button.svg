@@ -1,0 +1,7 @@
+<svg viewBox="0 0 70 70" width="40%">
+  <path d="M35,35m-23,0a23,23 0 1,1 46,0a23,23 0 1,1 -46,0" fill="lightpink" id="tophalf"/>
+  <text style="font: initial;">
+    <textPath xlink:href="#tophalf" startOffset="0%">Шпаргалка</textPath>
+    <textPath xlink:href="#tophalf" startOffset="56%">блоггера</textPath>
+  </text>
+</svg>

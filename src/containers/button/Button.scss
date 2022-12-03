@@ -1,0 +1,119 @@
+.btn {
+    border-radius: 18px;
+}
+.blue-l-navi{
+    z-index: 9999;
+    width: 193px;
+    height: 42px;
+    border: none;
+    background-color: #4D05E3;
+    color: white;
+    font-family: "Poiret One";
+    font-size: 22px;
+    font-weight: 100;
+    cursor: pointer;
+        border-radius: 18px;
+        
+}
+
+.blue-l-navi::before {
+    content: "";
+    position: fixed;
+    width: 143px;
+    height: 27px;
+    border-radius: 7px;
+    filter: blur(10px);
+    transform: translateX(-33px);
+    transform: translate(-10px, -5px);
+
+    // border: solid 7px #4d05e3;
+} 
+.blue-b {
+    width: 99%;
+
+    height: 62px;
+    border: none;
+    background-color: #4D05E3;
+    color: white;
+    font-family: "Montserrat", system-ui;
+    font-size: 20px;
+    cursor: pointer;
+    text-shadow: #000000 1px 0 10px;
+    /* font-size: 12px; */
+    /* background-color: #1f2235; */
+    border: 2px solid var(--blue-lag);
+    transition: 1s;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+}
+
+.blue-b:hover {
+    transition: all ease 1s;
+    transform: translateY(-1px);
+    text-shadow: #000000 1px 0 10px;
+    box-shadow: 2px 1px 20px 0px rgb(110, 4, 80);
+
+}
+
+.blue-b:active{
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(112, 4, 89, 0.2);
+}
+
+
+// .blue-b:before {
+//     content: "";
+//     position: absolute;
+//     // width: 100%;
+//     height: 27px;
+//     border-radius: 7px;
+//     filter: blur(10px);
+//     transform: translateX(-33px);
+//     transform: translate(-10px, -5px);
+//     border: solid 7px #4d05e3;
+// } 
+
+
+.blue-l {
+    width: 193px;
+    height: 42px;
+    border: none;
+    background-color: #4D05E3;
+    color: white;
+    font-family: "Montserrat", system-ui;
+    font-size: 15px;
+    cursor: pointer;
+    text-shadow: #000000 1px 0 10px;
+    /* font-size: 12px; */
+    /* background-color: #1f2235; */
+    border: 2px solid var(--blue-lag);
+    transition: 1s;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+
+}
+
+.blue-l:hover {
+    transition: all ease 1s;
+    transform: translateY(-1px);
+    text-shadow: #000000 1px 0 10px;
+    box-shadow: 2px 1px 20px 0px rgb(110, 4, 80);
+
+}
+
+.blue-l:active{
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(112, 4, 89, 0.2);
+}
+
+
+.blue-l:before {
+    content: "";
+    position: absolute;
+    width: 143px;
+    height: 27px;
+    border-radius: 7px;
+    filter: blur(10px);
+    transform: translateX(-33px);
+    transform: translate(-10px, -5px);
+    border: solid 7px #4d05e3;
+} 
+

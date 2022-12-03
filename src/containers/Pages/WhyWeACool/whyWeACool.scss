@@ -1,0 +1,854 @@
+.whyWeACool {
+  background: url("./assets/главная.png");
+  background-size: cover;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+
+  background-position: bottom;
+
+  .anime-girl {
+    display: grid;
+    padding-top: 10px;
+
+    img {
+      width: 1358px;
+      margin-top: -143px;
+      margin-left: -472px;
+      position: absolute;
+      // object-position: -20px 200px;
+      // background-position: 25% -200%;
+      // height: 818px;
+    }
+  }
+  .eclipses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: px;
+    grid-row-gap: 0px;
+    margin-top: -1168px;
+    padding-left: 777px;
+
+    .eclipse-m {
+      grid-area: 2 / 3 / 3 / 4;
+      padding-top: 145px;
+    }
+    .eclipse-l {
+      grid-area: 3/2/3/1;
+    }
+  }
+  .butterflies {
+    display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: -903px;
+    padding-left: 363px;
+
+    .ba1 {
+      grid-area: 4 / 2 / 5 / 3;
+      margin-top: -665px;
+    }
+    .ba2 {
+      grid-area: 2 / 5 / 3 / 6;
+      border-style: dashed;
+    }
+    .ba3 {
+      grid-area: 1 / 1 / 2 / 2;
+      margin-left: -208px;
+    }
+    .ba4 {
+      grid-area: 4/4/5/5;
+      margin-top: -588px;
+      margin-left: 230px;
+    }
+    .ba5 {
+      grid-area: 3 / 5 / 4 / 6;
+      margin-left: -396px;
+    }
+  }
+  .cards-list {
+    position: relative;
+    padding-left: 196px;
+    top: 20px;
+    left: -76px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: initial;
+    // max-width: 1180px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    .card-item {
+      text-decoration: none;
+      position: relative;
+      font-family: "Montserrat";
+      color: white;
+      width: 500px;
+      height: 288px;
+      display: grid;
+      text-align: center;
+      position: relative;
+      border-radius: 15px;
+      transition: 1s;
+      // background: rgba(255, 255, 255, 0.192);
+      margin-bottom: 30px;
+      margin-right: 50px;
+      background: rgba(98, 70, 145, 1);
+
+      span {
+        padding-left: 40px;
+        font-size: 18px;
+        padding-top: 24px;
+        text-align: initial;
+        margin-bottom: 94px;
+        margin-right: 152px;
+        z-index: 9999;
+      }
+      .card-item-img {
+        display: contents;
+        img {
+          height: 90px;
+          width: 90px;
+          z-index: 9999;
+          padding-top: 19px;
+          padding-left: 25px;
+        }
+      }
+    }
+  }
+  .card-item::after {
+    position: absolute;
+    content: "";
+    background: inherit;
+    left: 40px;
+    right: 32px;
+    top: 28px;
+    bottom: 35px;
+    box-shadow: inset 0 0 0 3000px rgb(227 0 181 / 60%);
+    filter: blur(38px);
+    border-radius: 15px;
+  }
+  @media (max-width: 1845px) {
+    .cards-list .card-item {
+      width: 474px;
+      height: 248px;
+      span {
+        margin-right: 122px;
+      }
+    }
+  }
+
+  @media (max-width: 1772px) {
+    .cards-list .card-item {
+      width: 382px;
+      height: 240px;
+      span {
+        margin-right: 34px;
+      }
+    }
+  }
+
+  @media (max-width: 1492px) {
+    .cards-list .card-item {
+      width: 339px;
+      height: 246px;
+      span {
+        margin-right: 34px;
+        padding-top: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 1364px) {
+    .cards-list .card-item {
+      width: 250px;
+      height: 295px;
+      span {
+        margin-right: 34px;
+        padding-top: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 1090px) {
+    .whyWeACool .anime-girl {
+      display: grid;
+      padding-top: 118px;
+    }
+
+    .cards-list {
+      top: 20px;
+    }
+    .cards-list .card-item {
+      margin-right: 26px;
+      width: 246px;
+      height: 295px;
+      span {
+        margin-right: 34px;
+        padding-top: 10px;
+        font-size: 15px;
+      }
+    }
+  }
+
+  @media (max-width: 1012px) {
+    .cards-list {
+      top: 20px;
+      padding-left: 120px;
+    }
+  }
+
+  @media (max-width: 930px) {
+    .cards-list {
+      top: 20px;
+      padding-left: 120px;
+    }
+
+    .cards-list .card-item {
+      margin-right: 26px;
+      width: 218px;
+      height: 271px;
+      span {
+        margin-right: 34px;
+        padding-top: 10px;
+        font-size: 15px;
+        margin-right: 19px;
+      }
+    }
+  }
+
+  @media (max-width: 870px) {
+    .whyWeACool .anime-girl img {
+      width: 1182px;
+      margin-top: -240px;
+      margin-left: -472px;
+    }
+    .cards-list {
+      top: -547px;
+      padding-left: 120px;
+    }
+
+    .cards-list .card-item {
+      margin-right: 16px;
+      width: 167px;
+      height: 252px;
+      span {
+        padding-top: 1px;
+        font-size: 13px;
+        margin-right: 9px;
+        padding-left: 13px;
+      }
+    }
+  }
+
+  @media (max-width: 870px) {
+    
+    .whyWeACool .anime-girl img {
+      width: 1081px;
+      margin-top: -206px;
+      margin-left: -427px;
+    }
+    .cards-list {
+      top: 20px;
+      padding-left: 120px;
+    }
+
+    .cards-list .card-item {
+      margin-right: 16px;
+      width: 167px;
+      height: 252px;
+      span {
+        padding-top: 1px;
+        font-size: 13px;
+        margin-right: 9px;
+        padding-left: 13px;
+      }
+    }
+  }
+
+  @media (max-width: 726px) {
+    .whyWeACool {
+    }
+    .cards-list {
+      top: 20px;
+      padding-left: 120px;
+    }
+
+    .cards-list .card-item {
+      margin-right: 16px;
+      width: 167px;
+      height: 252px;
+      span {
+        padding-top: 1px;
+        font-size: 13px;
+        margin-right: 9px;
+        padding-left: 13px;
+      }
+    }
+  }
+
+  @media (max-width: 685px) {
+    .cards-list {
+      display: none;
+    }
+    .mobile-block {
+      display: block;
+    }
+    .whyWeACool .anime-girl {
+      display: none;
+    }
+  }
+
+  @media (max-width: 685px) {
+    .block {
+      height: 316px;
+      width: 394px;
+      margin-top: 12px;
+      margin-left: 144px;
+
+      .card-item {
+        text-decoration: none;
+        position: relative;
+        font-family: "Montserrat";
+        color: white;
+        width: 375px;
+        height: 271px;
+        display: grid;
+        text-align: center;
+        position: relative;
+        border-radius: 15px;
+        transition: 1s;
+        // background: rgba(255, 255, 255, 0.192);
+        margin-bottom: 30px;
+        margin-right: 50px;
+        background: rgba(98, 70, 145, 1);
+
+        span {
+          padding-left: 40px;
+          font-size: 15px;
+          padding-top: 24px;
+          text-align: initial;
+          margin-bottom: 94px;
+          margin-right: 17px;
+          z-index: 9999;
+        }
+        .card-item-img {
+          display: contents;
+          img {
+            height: 90px;
+            width: 90px;
+            z-index: 9999;
+            padding-top: 19px;
+            padding-left: 25px;
+          }
+        }
+
+        .card-item::after {
+          position: absolute;
+          content: "";
+          background: inherit;
+          left: 40px;
+          right: 32px;
+          top: 28px;
+          bottom: 0;
+          box-shadow: inset 0 0 0 3000px rgb(227 0 181 / 60%);
+          filter: blur(38px);
+          border-radius: 15px;
+        }
+      }
+
+      .carousel {
+        height: 400px;
+        width: 400px;
+        border-style: dashed;
+      }
+    }
+
+    .mobile-girl {
+      margin-left: -99px;
+      margin-top: -218px;
+      img {
+      }
+    }
+  }
+
+  @media (max-width: 556px) {
+    .anime-girl {
+    display: none;
+  
+      img {
+        width: 1358px;
+        margin-top: -143px;
+        margin-left: -472px;
+        position: fixed;
+        // object-position: -20px 200px;
+        // background-position: 25% -200%;
+        // height: 818px;
+      }
+    }
+    .block {
+      height: 316px;
+      width: 394px;
+      margin-top: 12px;
+      margin-left: 85px;
+
+      .card-item {
+        transition: 1s;
+        text-decoration: none;
+        position: relative;
+        font-family: "Montserrat";
+        color: white;
+        width: 375px;
+        height: 271px;
+        display: grid;
+        text-align: center;
+        position: relative;
+        border-radius: 15px;
+        transition: 1s;
+        // background: rgba(255, 255, 255, 0.192);
+        margin-bottom: 30px;
+        margin-right: 50px;
+        background: rgba(98, 70, 145, 1);
+
+        span {
+          padding-left: 40px;
+          font-size: 15px;
+          padding-top: 24px;
+          text-align: initial;
+          margin-bottom: 94px;
+          margin-right: 17px;
+          z-index: 9999;
+        }
+        .card-item-img {
+          display: contents;
+          img {
+            height: 90px;
+            width: 90px;
+            z-index: 9999;
+            padding-top: 19px;
+            padding-left: 25px;
+          }
+        }
+
+        .card-item::after {
+          position: absolute;
+          content: "";
+          background: inherit;
+          left: 40px;
+          right: 32px;
+          top: 28px;
+          bottom: 0;
+          box-shadow: inset 0 0 0 3000px rgb(227 0 181 / 60%);
+          filter: blur(38px);
+          border-radius: 15px;
+        }
+      }
+
+      .carousel {
+        height: 400px;
+        width: 400px;
+        border-style: dashed;
+      }
+    }
+
+    .mobile-girl {
+      transition: 1s;
+      margin-left: 4px;
+      margin-top: -7px;
+      img {
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    .block {
+      height: 316px;
+      width: 394px;
+      margin-top: 12px;
+      margin-left: 47px;
+
+      .card-item {
+        transition: 1s;
+        text-decoration: none;
+        position: relative;
+        font-family: "Montserrat";
+        color: white;
+        width: 375px;
+        height: 271px;
+        display: grid;
+        text-align: center;
+        position: relative;
+        border-radius: 15px;
+        transition: 1s;
+        // background: rgba(255, 255, 255, 0.192);
+        margin-bottom: 30px;
+        margin-right: 50px;
+        background: rgba(98, 70, 145, 1);
+
+        span {
+          padding-left: 40px;
+          font-size: 15px;
+          padding-top: 24px;
+          text-align: initial;
+          margin-bottom: 94px;
+          margin-right: 17px;
+          z-index: 9999;
+        }
+        .card-item-img {
+          display: contents;
+          img {
+            height: 90px;
+            width: 90px;
+            z-index: 9999;
+            padding-top: 19px;
+            padding-left: 25px;
+          }
+        }
+
+        .card-item::after {
+          position: absolute;
+          content: "";
+          background: inherit;
+          left: 40px;
+          right: 32px;
+          top: 28px;
+          bottom: 0;
+          box-shadow: inset 0 0 0 3000px rgb(227 0 181 / 60%);
+          filter: blur(38px);
+          border-radius: 15px;
+        }
+      }
+
+      .carousel {
+        height: 400px;
+        width: 400px;
+        border-style: dashed;
+      }
+    }
+
+    .mobile-girl {
+      transition: 1s;
+      margin-left: 4px;
+      margin-top: 22px;
+      img {
+      }
+    }
+  }
+
+  @media (max-width: 460px) {
+    .block {
+      height: 316px;
+      width: 394px;
+      margin-top: 12px;
+      margin-left: 49px;
+
+      .card-item {
+        text-decoration: none;
+        position: relative;
+        font-family: "Montserrat";
+        color: white;
+        width: 284px;
+        height: 271px;
+        display: grid;
+        text-align: center;
+        position: relative;
+        border-radius: 15px;
+        transition: 1s;
+        // background: rgba(255, 255, 255, 0.192);
+        margin-bottom: 30px;
+        margin-right: 50px;
+        background: rgba(98, 70, 145, 1);
+
+        span {
+          padding-left: 40px;
+          font-size: 15px;
+          padding-top: 24px;
+          text-align: initial;
+          margin-bottom: 94px;
+          margin-right: 17px;
+          z-index: 9999;
+        }
+        .card-item-img {
+          display: contents;
+          img {
+            height: 90px;
+            width: 90px;
+            z-index: 9999;
+            padding-top: 19px;
+            padding-left: 25px;
+          }
+        }
+
+        .card-item::after {
+          position: absolute;
+          content: "";
+          background: inherit;
+          left: 40px;
+          right: 32px;
+          top: 28px;
+          bottom: 0;
+          box-shadow: inset 0 0 0 3000px rgb(227 0 181 / 60%);
+          filter: blur(38px);
+          border-radius: 15px;
+        }
+      }
+
+      .carousel {
+        height: 400px;
+        width: 400px;
+        border-style: dashed;
+      }
+    }
+
+    .mobile-girl {
+      margin-left: -60px;
+      margin-top: 77px;
+      img {
+      }
+    }
+  }
+
+  @media (max-width: 415px) {
+    .whyWeACool-wrapper{
+      .header-block{
+        padding-top: 21px;
+      }
+    }
+    .block {
+      height: 316px;
+      width: 394px;
+      margin-top: 20px;
+      margin-left: 68px;
+
+      .card-item {
+        text-decoration: none;
+        position: relative;
+        font-family: "Montserrat";
+        color: white;
+        width: 284px;
+        height: 271px;
+        display: grid;
+        text-align: center;
+        position: relative;
+        border-radius: 15px;
+        transition: 1s;
+        // background: rgba(255, 255, 255, 0.192);
+        margin-bottom: 30px;
+        margin-right: 50px;
+        background: rgba(98, 70, 145, 1);
+
+        span {
+          padding-left: 40px;
+          font-size: 15px;
+          padding-top: 24px;
+          text-align: initial;
+          margin-bottom: 94px;
+          margin-right: 17px;
+          z-index: 9999;
+        }
+        .card-item-img {
+          display: contents;
+          img {
+            height: 90px;
+            width: 90px;
+            z-index: 9999;
+            padding-top: 19px;
+            padding-left: 25px;
+          }
+        }
+
+        .card-item::after {
+          position: absolute;
+          content: "";
+          background: inherit;
+          left: 40px;
+          right: 32px;
+          top: 28px;
+          bottom: 0;
+          box-shadow: inset 0 0 0 3000px rgb(227 0 181 / 60%);
+          filter: blur(38px);
+          border-radius: 15px;
+        }
+      }
+
+      .carousel {
+        height: 400px;
+        width: 400px;
+        border-style: dashed;
+      }
+    }
+
+    .mobile-girl {
+      margin-left: -25px;
+      margin-top: 5px;
+      img {
+      }
+    }
+  }
+  @media (max-width: 393px) {
+    .whyWeACool-wrapper{
+      .header-block{
+        padding-top: 21px;
+      }
+    }
+    .block {
+      height: 316px;
+      width: 394px;
+      margin-top: 20px;
+      margin-left: 57px;
+
+      .card-item {
+        text-decoration: none;
+        position: relative;
+        font-family: "Montserrat";
+        color: white;
+        width: 284px;
+        height: 271px;
+        display: grid;
+        text-align: center;
+        position: relative;
+        border-radius: 15px;
+        transition: 1s;
+        // background: rgba(255, 255, 255, 0.192);
+        margin-bottom: 30px;
+        margin-right: 50px;
+        background: rgba(98, 70, 145, 1);
+
+        span {
+          padding-left: 40px;
+          font-size: 15px;
+          padding-top: 24px;
+          text-align: initial;
+          margin-bottom: 94px;
+          margin-right: 17px;
+          z-index: 9999;
+        }
+        .card-item-img {
+          display: contents;
+          img {
+            height: 90px;
+            width: 90px;
+            z-index: 9999;
+            padding-top: 19px;
+            padding-left: 25px;
+          }
+        }
+
+        .card-item::after {
+          position: absolute;
+          content: "";
+          background: inherit;
+          left: 40px;
+          right: 32px;
+          top: 28px;
+          bottom: 0;
+          box-shadow: inset 0 0 0 3000px rgb(227 0 181 / 60%);
+          filter: blur(38px);
+          border-radius: 15px;
+        }
+      }
+
+      .carousel {
+        height: 400px;
+        width: 400px;
+        border-style: dashed;
+      }
+    }
+
+    .mobile-girl {
+      margin-left: -25px;
+      margin-top: 5px;
+      img {
+      }
+    }
+  }
+  @media (max-width: 360px) {
+    .whyWeACool-wrapper{
+      .header-block{
+        padding-top: 21px;
+        padding-left: 44px;
+      }
+    }
+    .block {
+      height: 316px;
+      width: 394px;
+      margin-top: 20px;
+      margin-left: 57px;
+
+      .card-item {
+        text-decoration: none;
+        position: relative;
+        font-family: "Montserrat";
+        color: white;
+        width: 284px;
+        height: 271px;
+        display: grid;
+        text-align: center;
+        position: relative;
+        border-radius: 15px;
+        transition: 1s;
+        // background: rgba(255, 255, 255, 0.192);
+        margin-bottom: 30px;
+        margin-right: 50px;
+        background: rgba(98, 70, 145, 1);
+
+        span {
+          padding-left: 40px;
+          font-size: 15px;
+          padding-top: 24px;
+          text-align: initial;
+          margin-bottom: 94px;
+          margin-right: 17px;
+          z-index: 9999;
+        }
+        .card-item-img {
+          display: contents;
+          img {
+            height: 90px;
+            width: 90px;
+            z-index: 9999;
+            padding-top: 19px;
+            padding-left: 25px;
+          }
+        }
+
+        .card-item::after {
+          position: absolute;
+          content: "";
+          background: inherit;
+          left: 40px;
+          right: 32px;
+          top: 28px;
+          bottom: 0;
+          box-shadow: inset 0 0 0 3000px rgb(227 0 181 / 60%);
+          filter: blur(38px);
+          border-radius: 15px;
+        }
+      }
+
+      .carousel {
+        height: 400px;
+        width: 400px;
+        border-style: dashed;
+      }
+    }
+
+    .mobile-girl {
+      margin-left: -25px;
+      margin-top: 5px;
+      img {
+      }
+    }
+  }
+}
+
+
+
+.mobile-block {
+  display: none;
+}
+

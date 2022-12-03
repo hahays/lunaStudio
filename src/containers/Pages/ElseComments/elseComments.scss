@@ -1,0 +1,116 @@
+.elseComments-block{
+  gap: 10px;
+  height: 90vh;
+  .swiper {
+    width: 100%;
+    height: 70%;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 500px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+      .elseComments-header {
+        font-family: "Montserrat", system-ui;
+        width: 1000px;
+        text-align: center;
+        /* display: grid; */
+        margin: 0 auto;
+      margin-bottom: 120px;
+        .elseComments-side-info {
+          color: white;
+          font-size: 20px;
+          font-family: "Montserrat", system-ui;
+          width: 35vw;
+          margin: 0 auto;
+          
+        }
+      }
+      .elseComments-block-main {
+       padding-bottom: 90px;
+        .elseComments-block-main-carousel {
+          --pink: rgb(235, 12, 168);
+          --white: #f9f9f9;
+          --black: #36383f;
+          --grey: #85888c;
+          --swiper-theme-color: #007aff;
+          -webkit-font-smoothing: antialiased;
+          font-family: "Poiret One", "sans-serif";
+          position: relative;
+          overflow: hidden;
+          list-style: none;
+          z-index: 1;
+          touch-action: pan-y;
+          width: 100%;
+        .swiper{
+          .swiper-wrapper{
+              .swiper-slide.swiper-slide-visible.swiper-slide-prev{
+                  width: 300px;
+                  height: 500px;
+          }
+          .swiper-slide.swiper-slide-visible.swiper-slide-active{
+              width: 300px;
+                  height: 500px;
+      }
+      .swiper-slide.swiper-slide-visible.swiper-slide-next{
+          width: 300px;
+              height: 500px;
+  }
+          
+  
+
+
+          .carousel-item {
+            background: rgba(255, 255, 255, 0.192);
+            backdrop-filter: blur(10px);
+            height: 100%;
+            width: 100%;
+            border-radius: 15px;
+            border: 1px solid rgba(43, 43, 43, 0.568);
+            .carousel-item-mid {
+                margin-bottom: 20px;
+              display: block;
+              p {
+                margin-block-end: 0.3em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                margin-block-start: 0.3em;
+              }
+              .header {
+                color: white;
+                font-size: 50px;
+                font-family: "Montserrat", system-ui;
+                display: flex;
+                justify-content: center;
+              }
+              .subHeader {
+                color: white;
+                display: flex;
+                justify-content: center;
+              }
+            }
+          }
+          .carousel-item-bot {
+            p{
+                margin-block-start: 0em;
+                margin-block-end: 0em;
+            }
+            font-size: 20px;
+            padding: 30px;
+            margin: 10 auto;
+            height: 50%;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
