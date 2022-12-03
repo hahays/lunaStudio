@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/lunaStudio/static/css/main.c46e3503.css",
+    "main.js": "/lunaStudio/static/js/main.8f41c408.js",
+    "static/media/bg.png": "/lunaStudio/static/media/bg.51493953cb0eef232e8f.png",
+    "static/media/animeGIrl2.svg": "/lunaStudio/static/media/animeGIrl2.edaa86bfc224a695dd1d4a99e3bcdb19.svg",
+    "static/media/главная.png": "/lunaStudio/static/media/главная.9fc8bfa1df4a22a5dfe5.png",
+    "static/media/card.png": "/lunaStudio/static/media/card.e86319e456a7083b1cdd.png",
+    "static/media/result1.png": "/lunaStudio/static/media/result1.eda36fb6b60d8f5c09b4.png",
+    "static/media/girl-s.png": "/lunaStudio/static/media/girl-s.82a824f01591b05434e5.png",
+    "static/media/card_three_m.png": "/lunaStudio/static/media/card_three_m.580bff7cb28f7573c0d2.png",
+    "static/media/card_one_m.png": "/lunaStudio/static/media/card_one_m.4f5db10e20043ac2e3a1.png",
+    "static/media/card_two_m.png": "/lunaStudio/static/media/card_two_m.0480963189325ba7693c.png",
+    "static/media/q2_1.png": "/lunaStudio/static/media/q2_1.980bea03512401c2b6a1.png",
+    "static/media/photo2.png": "/lunaStudio/static/media/photo2.635f6e1aa23fe4a8bf12.png",
+    "static/media/photo1.png": "/lunaStudio/static/media/photo1.9a373925b383cc7b83fe.png",
+    "static/media/photo3.png": "/lunaStudio/static/media/photo3.9844256cca3a8762353e.png",
+    "static/media/logo-headerNew.svg": "/lunaStudio/static/media/logo-headerNew.6a68ee58e8ba90893a38e4359caad5e8.svg",
+    "static/media/4.svg": "/lunaStudio/static/media/4.d17bca676c54a11840904d178ccd31d2.svg",
+    "static/media/1.svg": "/lunaStudio/static/media/1.05a9d5279189d98c3c4ced4d5fa3cae9.svg",
+    "static/media/6.svg": "/lunaStudio/static/media/6.8de2d07dbd5be6dedc6e9ed496d9fc7e.svg",
+    "static/media/3.svg": "/lunaStudio/static/media/3.feb8ff4ea8f33f89b9c27dc303e243d8.svg",
+    "static/media/5.svg": "/lunaStudio/static/media/5.def32fac84f4b50f76dfc26aff87213b.svg",
+    "static/media/2.svg": "/lunaStudio/static/media/2.8555a72ab458f8e949ce79c2196071df.svg",
+    "static/media/logoLuna.svg": "/lunaStudio/static/media/logoLuna.2946d02bc159e5f0a44c6f0ea7ea0c55.svg",
+    "static/media/vkNew.svg": "/lunaStudio/static/media/vkNew.4e8c01155511812af0c568bb9f1f9f82.svg",
+    "static/media/x.svg": "/lunaStudio/static/media/x.04364d9661c63813af7c24f708300b0f.svg",
+    "static/media/line.svg": "/lunaStudio/static/media/line.e395d2aa46ea31912e58a736b5003b20.svg",
+    "index.html": "/lunaStudio/index.html",
+    "static/media/telegram.svg": "/lunaStudio/static/media/telegram.70b1260146266629019b1aeb58c6d560.svg",
+    "static/media/play.svg": "/lunaStudio/static/media/play.9ff43eb4b1d58c3700384164d7cdf640.svg",
+    "static/media/youtube.svg": "/lunaStudio/static/media/youtube.df8b2da170c71bb3a8a65c7dc222582c.svg",
+    "main.c46e3503.css.map": "/lunaStudio/static/css/main.c46e3503.css.map",
+    "main.8f41c408.js.map": "/lunaStudio/static/js/main.8f41c408.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c46e3503.css",
+    "static/js/main.8f41c408.js"
+  ]
+}
