@@ -27,7 +27,7 @@ export const questions = [
         isDeath: false,
       },
       {
-        answerText: "Прингл",
+        answerText: "Принглз",
         isLover: false,
         isBoss: false,
         isVirgin: true,

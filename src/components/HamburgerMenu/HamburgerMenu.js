@@ -4,10 +4,13 @@ import "./hamburgerMenu.scss";
 import SocialNet from "../SocialNet/SocialNet";
 import Button from "../../containers/button/Button";
 import CityContainer from "../../containers/CityContainer/CityContainer";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function HamburgerMenu() {
   const [selectedScreen, setSelectedScreen] = useState(0);
   const [activeNav, setActiveNav] = useState("#");
+
   return (
     <div className="hamburger">
       <div className="hamburger-menu">
@@ -20,7 +23,8 @@ function HamburgerMenu() {
         <nav className="nav">
           <ul className="menu">
             <li>
-              <a
+              <Link to="/main">Главная</Link>
+              {/* <a
                 href="#"
                 onClick={() => setActiveNav("#")}
                 className={classNames("header-option", {
@@ -28,10 +32,11 @@ function HamburgerMenu() {
                 })}
               >
                 Главная
-              </a>
+              </a> */}
             </li>
             <li>
-              <a
+              <HashLink to="/#whyWeACool">Почему у нас круто</HashLink>
+              {/* <a
                 href="#whyWeACool"
                 onClick={() => setActiveNav("#whyWeACool")}
                 className={classNames("header-option", {
@@ -39,7 +44,7 @@ function HamburgerMenu() {
                 })}
               >
                 Почему у нас круто
-              </a>
+              </a> */}
             </li>
             <li>
               <a
@@ -115,41 +120,31 @@ function HamburgerMenu() {
                   active: selectedScreen === 3,
                 })}
               >
-                Ответы на вопросы
+                FAQ
               </a>
             </li>
             <li>
-              <a
+              <Link to="/vacancies">Вакансии и подарки</Link>
+              {/* <a
                 href="#vacancies"
                 onClick={() => setActiveNav("#vacancies")}
                 className={classNames("header-option", {
                   active: selectedScreen === 3,
                 })}
               >
-                Вакансии
-              </a>
+                Вакансии и подарки
+              </a> */}
             </li>
+
             <li>
-              <a
-                href="#gifts"
-                onClick={() => setActiveNav("#gifts")}
-                className={classNames("header-option", {
-                  active: selectedScreen === 3,
-                })}
-              >
-                Подарки
-              </a>
-            </li>
-            <li>
-              <a
+              <Link to="/test"> Тест: Какая ты госпожа</Link>
+              {/* <a
                 href="#testLuna"
                 onClick={() => setActiveNav("#testLuna")}
                 className={classNames("header-option", {
                   active: selectedScreen === 3,
                 })}
-              >
-                Тест: Какая ты госпожа
-              </a>
+              ></a> */}
             </li>
           </ul>
 

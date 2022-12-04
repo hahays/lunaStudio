@@ -12,18 +12,29 @@ import Comments from "./containers/Pages/Comments/Comments";
 import ElseComments from "./containers/Pages/ElseComments/ElseComments";
 import Calculator from "./containers/Pages/Calculator/Calculator";
 import TesLuna from "./containers/Pages/TestLuna/TesLuna";
+import Footer from "./containers/Pages/Footer/Footer";
+import { Route, Routes } from "react-router-dom";
+import FirstPage from "./containers/Pages/FirstPage";
+import SecondPage from "./containers/Pages/SecondPage";
+import ThirdPage from "./containers/Pages/ThirdPage";
 
 function App() {
   return (
     <div className="App">
       <Navibar />
-      <MainPage />
+      <Routes>
+        <Route path="/" element={<FirstPage />} />
+        <Route path="/main" element={<FirstPage />} />
+        <Route path="/vacancies" element={<SecondPage />} />
+        <Route path="/test" element={<ThirdPage />} />
+      </Routes>
+      {/* <WhyWeACool />
       <Calculator />
-      {/* <WhyWeACool /> */}
-      {/* <Team /> */}
-      {/* <MainPage />
-      <WhyWeACool /> */}
-      {/* <TesLuna /> */}
+      <Team />
+      <CotactUs />
+      <Comments />
+      <ElseComments /> */}
+      <Footer />
     </div>
   );
 }

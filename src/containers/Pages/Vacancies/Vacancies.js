@@ -22,85 +22,156 @@ function Vacancies() {
 
   return (
     <div id="vacancies" className="vacancies-block">
-      <Modal active={modalModel} setActive={setModalModel}>
-        <div className="x-button">
-          <img src={KREST} />
-        </div>
-        <div className="modal-open-window">
-          <header>
-            <p>Модель</p>
-          </header>
-          <div className="vacancies-block-main-info">
-            <div className="vacancies-block-main-info-line-1">
-              <img src={LINE} alt="line" />
-            </div>
-            <div className="vacancies-block-main-info-button">
-              <div className="modal-info">
-                <p>Вам от 18 лет</p>
+      <div className="modal-model">
+        <Modal active={modalModel} setActive={setModalModel}>
+          <div className="x-button">
+            <img src={KREST} />
+          </div>
+          <div className="modal-open-window">
+            <header>
+              <p>Модель</p>
+            </header>
+            <div className="vacancies-block-main-info">
+              <div className="vacancies-block-main-info-line-1">
+                <img src={LINE} alt="line" />
+              </div>
+              <div className="vacancies-block-main-info-button">
+                <div className="modal-info">
+                  <p>Вам от 18 лет</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="vacancies-block-main-info">
-            <div className="vacancies-block-main-info-line-2">
-              <img src={LINE} alt="line" />
-            </div>
-            <div className="vacancies-block-main-info-button">
-              <div className="modal-info">
-                <p>Опрятный внешний вид</p>
-                <h4>
-                  Чтобы стать топовой вебкам моделью не нужно иметь модельные
-                  параметры. В нашем коллективе все девушки уникальные, и у
-                  каждой есть свои поклонники среди посетителей онлайн-чатов.
-                </h4>
+            <div className="vacancies-block-main-info">
+              <div className="vacancies-block-main-info-line-2">
+                <img src={LINE} alt="line" />
+              </div>
+              <div className="vacancies-block-main-info-button">
+                <div className="modal-info">
+                  <p>Опрятный внешний вид</p>
+                  <h4>
+                    Чтобы стать топовой вебкам моделью не нужно иметь модельные
+                    параметры. В нашем коллективе все девушки уникальные, и у
+                    каждой есть свои поклонники среди посетителей онлайн-чатов.
+                  </h4>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="vacancies-block-main-info">
-            <div className="vacancies-block-main-info-line-3">
-              <img src={LINE} alt="line" />
-            </div>
-            <div className="vacancies-block-main-info-button">
-              <div className="modal-info">
-                <p>Харизма</p>
-                <h4>
-                  Общение - основа профессии. Если ты легко находишь подход к
-                  людям, умеешь расположить к себе, поддержать беседу, - то
-                  быстро найдешь свою аудиторию. Харизматичные девушки легко
-                  зарабатывают деньги в none-nude стримах.
-                </h4>
+            <div className="vacancies-block-main-info">
+              <div className="vacancies-block-main-info-line-3">
+                <img src={LINE} alt="line" />
+              </div>
+              <div className="vacancies-block-main-info-button">
+                <div className="modal-info">
+                  <p>Харизма</p>
+                  <h4>
+                    Общение - основа профессии. Если ты легко находишь подход к
+                    людям, умеешь расположить к себе, поддержать беседу, - то
+                    быстро найдешь свою аудиторию. Харизматичные девушки легко
+                    зарабатывают деньги в none-nude стримах.
+                  </h4>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="vacancies-block-main-info">
-            <div className="vacancies-block-main-info-line-4">
-              <img src={LINE} alt="line" />
-            </div>
-            <div className="vacancies-block-main-info-button">
-              <div className="modal-info">
-                <p>Дисциплинированность</p>
-                <h4>
-                  Моделинг - это серьёзная работа, требующая ответственности; не
-                  стоит относится к работе в студии легкомысленно.
-                </h4>
+            <div className="vacancies-block-main-info">
+              <div className="vacancies-block-main-info-line-4">
+                <img src={LINE} alt="line" />
+              </div>
+              <div className="vacancies-block-main-info-button">
+                <div className="modal-info">
+                  <p>Дисциплинированность</p>
+                  <h4>
+                    Моделинг - это серьёзная работа, требующая ответственности;
+                    не стоит относится к работе в студии легкомысленно.
+                  </h4>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="vacancies-block-main-info">
-            <div className="vacancies-block-main-info-line-5">
-              <img src={LINE} alt="line" />
-            </div>
-            <div className="vacancies-block-main-info-button">
-              <div className="modal-info">
-                <p>Нацеленность на высокий доход</p>
+            <div className="vacancies-block-main-info">
+              <div className="vacancies-block-main-info-line-5">
+                <img src={LINE} alt="line" />
+              </div>
+              <div className="vacancies-block-main-info-button">
+                <div className="modal-info">
+                  <p>Нацеленность на высокий доход</p>
+                </div>
               </div>
             </div>
+            <Button className="btn blue-l" text="Отправить анкету" />
           </div>
-          <Button className="btn blue-l" text="Отправить анкету" />
-        </div>
-      </Modal>
+        </Modal>
+      </div>
 
       <div className="modal-admin">
         <Modal active={modalAdmin} setActive={setModalAdmin}>
+          <div className="x-button">
+            <img src={KREST} />
+          </div>
+          <div className="modal-open-window">
+            <header>
+              <p>Модель</p>
+            </header>
+            <div className="vacancies-block-main-info">
+              <div className="vacancies-block-main-info-line-1">
+                <img src={LINE} alt="line" />
+              </div>
+              <div className="vacancies-block-main-info-button">
+                <div className="modal-info">
+                  <p>Вам dasdasdлет</p>
+                </div>
+              </div>
+            </div>
+            <div className="vacancies-block-main-info">
+              <div className="vacancies-block-main-info-line-2">
+                <img src={LINE} alt="line" />
+              </div>
+              <div className="vacancies-block-main-info-button">
+                <div className="modal-info">
+                  <p>Опрятный внешний вид</p>
+                  <h4>Чтобы сsadasdsadsadсетителей онлайн-чатов.</h4>
+                </div>
+              </div>
+            </div>
+            <div className="vacancies-block-main-info">
+              <div className="vacancies-block-main-info-line-3">
+                <img src={LINE} alt="line" />
+              </div>
+              <div className="vacancies-block-main-info-button">
+                <div className="modal-info">
+                  <p>Харизма</p>
+                  <h4>
+                    Общение asdasdsadasdаризматичные девушки легко зарабатывают
+                    деньги в none-nude стримах.
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div className="vacancies-block-main-info">
+              <div className="vacancies-block-main-info-line-4">
+                <img src={LINE} alt="line" />
+              </div>
+              <div className="vacancies-block-main-info-button">
+                <div className="modal-info">
+                  <p>Дисциплинированность</p>
+                  <h4>asdasdsadsadстудии легкомысленно.</h4>
+                </div>
+              </div>
+            </div>
+            <div className="vacancies-block-main-info">
+              <div className="vacancies-block-main-info-line-5">
+                <img src={LINE} alt="line" />
+              </div>
+              <div className="vacancies-block-main-info-button">
+                <div className="modal-info">
+                  <p>Нацеленность на высокий доход</p>
+                </div>
+              </div>
+            </div>
+            <Button className="btn blue-l" text="Отправить анкету" />
+          </div>
+        </Modal>
+      </div>
+      <div className="modal-agent">
+        <Modal active={modalAgent} setActive={setModalAgent}>
           <div className="x-button">
             <img src={KREST} />
           </div>
@@ -229,7 +300,7 @@ function Vacancies() {
               <img src={LINE} alt="line" />
             </div>
             <div className="vacancies-block-main-info-button">
-              <p>Подробнее</p>
+              <p onClick={() => setModalAgent(true)}>Подробнее</p>
             </div>
           </div>
         </div>

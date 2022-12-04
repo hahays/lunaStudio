@@ -2,6 +2,7 @@
   "name": "luna",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hahays.github.io/lunaStudio/",
   "dependencies": {
     "@expo-google-fonts/poiret-one": "^0.2.2",
     "@fontsource/montserrat": "^4.5.13",
@@ -20,10 +21,12 @@
     "classnames": "^2.3.2",
     "expo-app-loading": "^2.1.1",
     "expo-font": "^11.0.1",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.3",
+    "react-router-dom": "^6.4.4",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-spoiler": "^0.4.3",
     "rxjs": "^7.5.7",
@@ -35,7 +38,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [

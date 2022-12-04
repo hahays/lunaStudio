@@ -6,12 +6,18 @@ import { results } from "./results";
 import ScreenText from "./testScreens/ScreenText";
 import ScreenImage from "./testScreens/ScreenImage";
 import ResultScreen from "./ResultScreen";
+import StartScreen from "./StartScreen/StartScreen";
+
+import GIFT from "./assets/icon.png";
+import ARROW_NEXT from "./assets/arrowNext.svg";
+import ARROW_BACK from "./assets/arrowBack.svg";
 
 function TesLuna() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [selectedValues, setSelectedValues] = useState([]);
   const [showResult, setShowResult] = useState(false);
+  const [showTest, setShowTest] = useState(false);
 
   const handleSelect = (value) => {
     setSelectedValues((prev) => {
@@ -68,36 +74,64 @@ function TesLuna() {
         <Header header="Тест" subHeader="Тест: какая ты госпожа" />
       </header>
       <main className="test-container-main">
-        {showResult ? (
+        <iframe src="https://quiz.marquiz.ru/636fb25ac2e234004f99a4fc?mode=main_preview&name=test&email=test%40marquiz.ru&phone=%207-911-111-11-11#"></iframe>
+        {/* {!showTest ? (
+          <StartScreen
+            onStart={() => {
+              setShowTest(true);
+            }}
+          />
+        ) : showResult ? (
           renderResult()
         ) : (
-          <div className="quiz">
-            {questions.map((item, index) => (
-              <div key={item.questionText}>
-                {index === currentQuestion && renderCard(item)}
+          <div className="quiz-screen">
+            <div className="quiz-screen-header">
+              <div className="quiz-screen-header-right">
+                <img src={GIFT} />
               </div>
-            ))}
-            <button
-              disabled={!selectedValues[currentQuestion]}
-              onClick={() => {
-                selectedValues.length === 6
-                  ? setShowResult(true)
-                  : setCurrentQuestion((prev) => prev + 1);
-              }}
-            >
-              Далее
-            </button>
-            {currentQuestion !== 0 && (
-              <button
-                onClick={() => {
-                  setCurrentQuestion((prev) => prev - 1);
-                }}
-              >
-                Назад
-              </button>
-            )}
+              <div className="quiz-screen-header-left">
+                <p>
+                  Приглашаем к сотрудничеству девушек из СПб, заработок от 90
+                  000 в первый месяц
+                </p>
+              </div>
+            </div>
+            <div className="quiz-started">
+              {questions.map((item, index) => (
+                <div key={item.questionText}>
+                  {index === currentQuestion && renderCard(item)}
+                </div>
+              ))}
+            </div>
+            <div className="quiz-footer">
+              <div className="quiz-footer-left"></div>
+              <div className="quiz-footer-right">
+                <div className="button-back">
+                  {currentQuestion !== 0 && (
+                    <img
+                      onClick={() => {
+                        setCurrentQuestion((prev) => prev - 1);
+                      }}
+                      src={ARROW_BACK}
+                    />
+                  )}
+                </div>
+                <div className="button-next">
+                  <button
+                    disabled={!selectedValues[currentQuestion]}
+                    onClick={() => {
+                      selectedValues.length === 6
+                        ? setShowResult(true)
+                        : setCurrentQuestion((prev) => prev + 1);
+                    }}
+                  >
+                    <p>Далее</p> <img src={ARROW_NEXT} />
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-        )}
+        )} */}
       </main>
     </div>
   );
