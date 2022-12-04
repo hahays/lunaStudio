@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lunaStudio/static/css/main.c46e3503.css",
-    "main.js": "/lunaStudio/static/js/main.8f41c408.js",
-    "static/media/bg.png": "/lunaStudio/static/media/bg.51493953cb0eef232e8f.png",
+    "main.css": "/lunaStudio/static/css/main.4568ed1d.css",
+    "main.js": "/lunaStudio/static/js/main.3af3ae00.js",
+    "static/media/bg.png": "/lunaStudio/static/media/bg.97044e08faaff39ff12d.png",
     "static/media/animeGIrl2.svg": "/lunaStudio/static/media/animeGIrl2.edaa86bfc224a695dd1d4a99e3bcdb19.svg",
     "static/media/главная.png": "/lunaStudio/static/media/главная.9fc8bfa1df4a22a5dfe5.png",
     "static/media/card.png": "/lunaStudio/static/media/card.e86319e456a7083b1cdd.png",
@@ -23,6 +23,8 @@
     "static/media/5.svg": "/lunaStudio/static/media/5.def32fac84f4b50f76dfc26aff87213b.svg",
     "static/media/2.svg": "/lunaStudio/static/media/2.8555a72ab458f8e949ce79c2196071df.svg",
     "static/media/logoLuna.svg": "/lunaStudio/static/media/logoLuna.2946d02bc159e5f0a44c6f0ea7ea0c55.svg",
+    "static/media/arrowBack.svg": "/lunaStudio/static/media/arrowBack.25267af81143b217de663737aee242e4.svg",
+    "static/media/arrowNext.svg": "/lunaStudio/static/media/arrowNext.b6a97a2554da07b8704f40b74d88537c.svg",
     "static/media/vkNew.svg": "/lunaStudio/static/media/vkNew.4e8c01155511812af0c568bb9f1f9f82.svg",
     "static/media/x.svg": "/lunaStudio/static/media/x.04364d9661c63813af7c24f708300b0f.svg",
     "static/media/line.svg": "/lunaStudio/static/media/line.e395d2aa46ea31912e58a736b5003b20.svg",
@@ -30,11 +32,11 @@
     "static/media/telegram.svg": "/lunaStudio/static/media/telegram.70b1260146266629019b1aeb58c6d560.svg",
     "static/media/play.svg": "/lunaStudio/static/media/play.9ff43eb4b1d58c3700384164d7cdf640.svg",
     "static/media/youtube.svg": "/lunaStudio/static/media/youtube.df8b2da170c71bb3a8a65c7dc222582c.svg",
-    "main.c46e3503.css.map": "/lunaStudio/static/css/main.c46e3503.css.map",
-    "main.8f41c408.js.map": "/lunaStudio/static/js/main.8f41c408.js.map"
+    "main.4568ed1d.css.map": "/lunaStudio/static/css/main.4568ed1d.css.map",
+    "main.3af3ae00.js.map": "/lunaStudio/static/js/main.3af3ae00.js.map"
   },
   "entrypoints": [
-    "static/css/main.c46e3503.css",
-    "static/js/main.8f41c408.js"
+    "static/css/main.4568ed1d.css",
+    "static/js/main.3af3ae00.js"
   ]
 }
