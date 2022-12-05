@@ -190,15 +190,23 @@
           height: 320px;
           padding-left: 40px;
           .image-block-main{
+            .image-container{
+              img{
+                width: 70%;
+                height: 70%;
+              }
+            }
+            
             p{
+              font-size: 20px;
               padding-left: 10px;
             }
             position: relative;
             border: 2px solid rgba(107, 79, 152, 1);
             color: white;
-            display: inline-block;
+            display: table-caption;
             font-family: "Montserrat", system-ui;
-            font-size: 18px;
+            font-size: 17px;
             border-radius: 15px;
     // width: 63%;
     // width: 346px;
