@@ -314,7 +314,7 @@ function Vacancies() {
           <div className="vacancies-block-main-card-top">
             <div className="card-item">
               <div className="card-item-img">
-                <img src={CARD_1} alt="1" />
+                <img src={CARD_2} alt="1" />
               </div>
             </div>
           </div>
@@ -334,7 +334,7 @@ function Vacancies() {
           <div className="vacancies-block-main-card-top">
             <div className="card-item">
               <div className="card-item-img">
-                <img src={CARD_1} alt="1" />
+                <img src={CARD_3} alt="1" />
               </div>
             </div>
           </div>
