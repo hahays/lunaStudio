@@ -25,16 +25,9 @@ function App() {
       <Routes>
         <Route path="/contactUs" element={<FirstPage />} />
         <Route path="/" element={<FirstPage />} />
-        {/* <Route path="/main" element={<FirstPage />} /> */}
         <Route path="/vacancies" element={<SecondPage />} />
         <Route path="/test" element={<ThirdPage />} />
       </Routes>
-      {/* <WhyWeACool />
-      <Calculator />
-      <Team />
-      <CotactUs />
-      <Comments />
-      <ElseComments /> */}
       <Footer />
     </div>
   );

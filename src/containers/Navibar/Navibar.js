@@ -36,15 +36,17 @@ function Navibar() {
       <div className="wrapper"></div>
       <div className="navibar-block">
         <div className="navibar-block-left">
-          <a
+          <HashLink to="/#">
+            {" "}
+            <img className="logo-luna" src={LOGO} alt="logo" />
+          </HashLink>
+          {/* <a
             href="#"
             onClick={() => setActiveNav("#")}
             className={classNames("header-option", {
               active: selectedScreen === 0,
             })}
-          >
-            <img className="logo-luna" src={LOGO} alt="logo" />
-          </a>
+          ></a> */}
         </div>
         <div className="navibar-block-right">
           <div className="navibar-block-right-info">

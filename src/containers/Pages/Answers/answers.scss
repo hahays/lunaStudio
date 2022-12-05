@@ -1,14 +1,13 @@
 .answers-block{
-  height: 163vh;
+  // height: 163vh;
+  max-height:fit-content;
   background-image: url("./assets/bg.png");
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  object-position: 65px -15px;
+  margin-bottom: 30px;
   background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
+  background-position-x: 105px;
+  background-attachment:initial;
   .answers-block-main::before{
     content: "";
     content: "";

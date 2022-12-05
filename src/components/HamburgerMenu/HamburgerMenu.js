@@ -23,7 +23,8 @@ function HamburgerMenu() {
         <nav className="nav">
           <ul className="menu">
             <li>
-              <Link to="/main">Главная</Link>
+              <HashLink to="/#">Главная</HashLink>
+              {/* <Link to="/main"></Link> */}
               {/* <a
                 href="#"
                 onClick={() => setActiveNav("#")}
