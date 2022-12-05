@@ -2,6 +2,8 @@
  @media (max-width: 1920px) {
   z-index: 10000;
   position: sticky;
+
+   
   .navibar-block{
       position: fixed;
       display: flex;
@@ -27,11 +29,23 @@
           justify-content: end;
           /* margin-right: 100px; */
           align-items: center;
+       
       }
   
       .navibar-block-right-info{
           display: flex;
           gap: 40px;
+          .blue-l-navi{
+            transition: 1s;
+          }
+          .blue-l-navi:hover{
+            transition: all ease 1s;
+            transform: translateY(-1px);
+            text-shadow: #000000 1px 0 10px;
+            box-shadow: 2px 1px 20px 0px rgb(110, 4, 80);
+                
+         }
+     
       }
    
   }

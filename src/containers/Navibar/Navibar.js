@@ -51,7 +51,6 @@ function Navibar() {
             <CityContainer text="г. Санкт-Петербург" />
             <SocialNet />
             <HashLink to="/#contactUs">
-              {" "}
               <Button className="btn blue-l-navi" text="Связаться с нами" />
             </HashLink>
           </div>

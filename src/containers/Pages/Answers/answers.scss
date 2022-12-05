@@ -1,5 +1,5 @@
 .answers-block{
-  height: 143vh;
+  height: 163vh;
   background-image: url("./assets/bg.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -9,7 +9,24 @@
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
-
+  .answers-block-main::before{
+    content: "";
+    content: "";
+    background: indigo;
+    z-index: -1;
+    border-radius: 15px;
+    border: 1px solid rgba(43, 43, 43, 0.568);
+    -webkit-backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(453px
+px
+); */
+    position: absolute;
+    height: 100%;
+    filter: blur(233px);
+    width: 20%;
+    border-radius: 15px;
+    border: 1px solid rgba(43, 43, 43, 0.568);
+  }
     .spoiler {
         color: white;
         font-family: "Montserrat", system-ui;
@@ -24,13 +41,12 @@
     }
     .spoiler-line {
         width: 99%;
-        padding-top: 15px;
+        // padding-top: 15px;
         border-bottom: 1px solid #999999;
     }
 
     .spoiler input, .spoiler p  { 
 
-        // padding-left: 10px;
         font-size: 15px;
         color: antiquewhite;
         font-weight: lighter;
@@ -62,13 +78,13 @@
       /* Закрытый спойлер */
 .spoiler .spoiler-arrow::before {
     user-select: none;
-    content: '►'; 
+    content: url("./assets/up.svg"); 
     margin-right: 10px;
     user-select: none;
   }
   /* Открытый спойлер */
   .spoiler :checked + label::before {
-    content: '▼';
+    content: url("./assets/down.svg");
     user-select: none;
     
   }
@@ -103,7 +119,8 @@
         margin: 0 auto;
         position: relative;
         padding: 16px 0;
-        background: rgba(255, 255, 255, 0.192);
+        background: rgb(255 255 255 / 11%);
+        // background: rgba(255, 255, 255, 0.192);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         width: 70%;
@@ -119,5 +136,6 @@
             margin: 0 auto;
         }
     }
+   
 }
 
