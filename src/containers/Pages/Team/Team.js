@@ -4,8 +4,10 @@ import Header from "../../Header/Header";
 import "./team.scss";
 
 import GIRL from "./assets/card.png";
+import { useNavigate } from "react-router-dom";
 
 function Team() {
+  const navigate = useNavigate();
   return (
     <div id="team" className="team-block">
       <Header header="Коллектив" subHeader="Коллектив" />
@@ -20,7 +22,9 @@ function Team() {
             студия в городе.{" "}
           </div>
           <div className="team-button">
-            <Button className="btn blue-l" text="Заполнить анкету" />
+            <a href="#contactUs">
+              <Button className="btn blue-l" text="Заполнить анкету" />
+            </a>
           </div>
         </div>
         <div className="team-block-main-right">

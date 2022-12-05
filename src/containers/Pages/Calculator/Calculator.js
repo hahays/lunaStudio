@@ -28,6 +28,11 @@ function Calculator() {
     setCountDay(e.target.value);
   };
 
+  const space = (string) => {
+    let firstChar = string.split("")[0];
+    return firstChar + " " + string.slice(1);
+  };
+
   const arrEngValues = [
     {
       label: "Базовый",
@@ -196,7 +201,7 @@ function Calculator() {
             <div className="label-list-container">
               <div className="label-list-container-left">
                 <p>В год:</p>
-                <h1>{sumForYear * 4 * 12} 000 ₽</h1>
+                <h1>{space(String(sumForYear * 4 * 12))} 000 ₽</h1>
               </div>
               <div className="label-list-container-right">
                 <img src={LINE} alt="line" />

@@ -47,7 +47,8 @@ function HamburgerMenu() {
               </a> */}
             </li>
             <li>
-              <a
+              <HashLink to="/#calculator">Онлайн-калькулятор</HashLink>
+              {/* <a
                 href="#calculator"
                 onClick={() => setActiveNav("#calculator")}
                 className={classNames("header-option", {
@@ -55,10 +56,11 @@ function HamburgerMenu() {
                 })}
               >
                 Онлайн-калькулятор
-              </a>
+              </a> */}
             </li>
             <li>
-              <a
+              <HashLink to="/#contactUs">Запишись на собеседование</HashLink>
+              {/* <a
                 href="#contactUs"
                 onClick={() => setActiveNav("#contactUs")}
                 className={classNames("header-option", {
@@ -66,10 +68,11 @@ function HamburgerMenu() {
                 })}
               >
                 Запишись на собеседование
-              </a>
+              </a> */}
             </li>
             <li>
-              <a
+              <HashLink to="/#aboutUs">О нас</HashLink>
+              {/* <a
                 href="#aboutUs"
                 onClick={() => setActiveNav("#aboutUs")}
                 className={classNames("header-option", {
@@ -77,10 +80,11 @@ function HamburgerMenu() {
                 })}
               >
                 О нас
-              </a>
+              </a> */}
             </li>
             <li>
-              <a
+              <HashLink to="/#team">Коллектив</HashLink>
+              {/* <a
                 href="#team"
                 onClick={() => setActiveNav("#team")}
                 className={classNames("header-option", {
@@ -88,10 +92,11 @@ function HamburgerMenu() {
                 })}
               >
                 Коллектив
-              </a>
+              </a> */}
             </li>
             <li>
-              <a
+              <HashLink to="/#comments">Отзывы</HashLink>
+              {/* <a
                 href="#comments"
                 onClick={() => setActiveNav("#comments")}
                 className={classNames("header-option", {
@@ -99,10 +104,11 @@ function HamburgerMenu() {
                 })}
               >
                 Отзывы
-              </a>
+              </a> */}
             </li>
             <li>
-              <a
+              <HashLink to="/#elseComments">Еще отзывы</HashLink>
+              {/* <a
                 href="#elseComments"
                 onClick={() => setActiveNav("#elseComments")}
                 className={classNames("header-option", {
@@ -110,10 +116,11 @@ function HamburgerMenu() {
                 })}
               >
                 Еще отзывы
-              </a>
+              </a> */}
             </li>
             <li>
-              <a
+              <HashLink to="/#answers">FAQ</HashLink>
+              {/* <a
                 href="#answers"
                 onClick={() => setActiveNav("#answers")}
                 className={classNames("header-option", {
@@ -121,7 +128,7 @@ function HamburgerMenu() {
                 })}
               >
                 FAQ
-              </a>
+              </a> */}
             </li>
             <li>
               <Link to="/vacancies">Вакансии и подарки</Link>
@@ -151,7 +158,10 @@ function HamburgerMenu() {
           <div className="side-info">
             <SocialNet />
           </div>
-          <Button className="btn blue-l-navi" text="Связаться с нами" />
+          <HashLink to="/#contactUs">
+            {" "}
+            <Button className="btn blue-l-navi" text="Связаться с нами" />
+          </HashLink>
           <CityContainer text="г. Санкт-Петербург" />
         </nav>
       </div>

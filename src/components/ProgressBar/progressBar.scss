@@ -1,0 +1,46 @@
+.progress-bar-block{
+    color: white;
+    .progress-bar-title{
+        color: white;
+        font-size: 22px;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+    .progress-bar-main{
+        height: 8px;
+        width: 100%;
+        border-radius: 6px;
+        margin-top: 6px;
+        background: rgba(0,0, 0, 0.1);
+    }
+    .progress-bar-main-per-title{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 95%;
+        border-radius:6px;
+        background: rgba(199, 20, 148, 1);
+        animation: progress 0.4s ease-in-out forwards;
+        gap: 5px;
+    }
+   @keyframes progress {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+   }
+   .progress-bar-tooltip{
+    right: -14px;
+    top: -28px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--pink);
+        padding: 2px 6px;
+    border-radius: 3px;
+    z-index: 1;
+   }
+ 
+}

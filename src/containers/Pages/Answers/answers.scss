@@ -1,5 +1,14 @@
 .answers-block{
-
+  height: 143vh;
+  background-image: url("./assets/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  object-position: 65px -15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
 
     .spoiler {
         color: white;
@@ -90,6 +99,7 @@
         // height: 1000px;
         // width: 100%;
         // max-width: 1000px;
+  
         margin: 0 auto;
         position: relative;
         padding: 16px 0;
@@ -99,8 +109,8 @@
         width: 70%;
         border-radius: 15px;
         border: 1px solid rgba(43, 43, 43, 0.568);
-        overflow: scroll;
-        max-height: 530px;
+        // overflow: scroll;
+        // max-height: 530px;
     
 
         .main-itemList{

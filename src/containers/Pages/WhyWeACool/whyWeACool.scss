@@ -1,4 +1,5 @@
 .whyWeACool {
+ @media (max-width: 2300px) {
   background: url("./assets/главная.png");
   background-size: cover;
   height: 100vh;
@@ -132,6 +133,7 @@
     filter: blur(38px);
     border-radius: 15px;
   }
+ }
   @media (max-width: 1845px) {
     .cards-list .card-item {
       width: 474px;
@@ -767,6 +769,9 @@
     }
   }
   @media (max-width: 360px) {
+    .whyWeACool{
+      height: 139vh;
+    }
     .whyWeACool-wrapper{
       .header-block{
         padding-top: 21px;

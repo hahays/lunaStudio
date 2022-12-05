@@ -14,6 +14,7 @@ import LINE from "./assets/line.svg";
 import Modal from "../../../components/Modal/Modal";
 import Button from "../../button/Button";
 import KREST from "./assets/x.svg";
+import { HashLink } from "react-router-hash-link";
 
 function Vacancies() {
   const [modalModel, setModalModel] = useState(false);
@@ -25,7 +26,13 @@ function Vacancies() {
       <div className="modal-model">
         <Modal active={modalModel} setActive={setModalModel}>
           <div className="x-button">
-            <img src={KREST} />
+            <button
+              onClick={() => {
+                setModalModel(false);
+              }}
+            >
+              <img src={KREST} />
+            </button>
           </div>
           <div className="modal-open-window">
             <header>
@@ -96,7 +103,9 @@ function Vacancies() {
                 </div>
               </div>
             </div>
-            <Button className="btn blue-l" text="Отправить анкету" />
+            <HashLink to="/#contactUs">
+              <Button className="btn blue-l" text="Отправить анкету" />
+            </HashLink>
           </div>
         </Modal>
       </div>
@@ -104,11 +113,17 @@ function Vacancies() {
       <div className="modal-admin">
         <Modal active={modalAdmin} setActive={setModalAdmin}>
           <div className="x-button">
-            <img src={KREST} />
+            <button
+              onClick={() => {
+                setModalAdmin(false);
+              }}
+            >
+              <img src={KREST} />
+            </button>
           </div>
           <div className="modal-open-window">
             <header>
-              <p>Модель</p>
+              <p>Администратор</p>
             </header>
             <div className="vacancies-block-main-info">
               <div className="vacancies-block-main-info-line-1">
@@ -116,7 +131,7 @@ function Vacancies() {
               </div>
               <div className="vacancies-block-main-info-button">
                 <div className="modal-info">
-                  <p>Вам dasdasdлет</p>
+                  <p>Для девушек от 18 лет</p>
                 </div>
               </div>
             </div>
@@ -126,8 +141,11 @@ function Vacancies() {
               </div>
               <div className="vacancies-block-main-info-button">
                 <div className="modal-info">
-                  <p>Опрятный внешний вид</p>
-                  <h4>Чтобы сsadasdsadsadсетителей онлайн-чатов.</h4>
+                  <p>Опыт работы в сфере вебкам</p>
+                  <h4>
+                    Если ты уже работала в индустрии вебкам, тебе будет гораздо
+                    проще найти общий язык с моделями
+                  </h4>
                 </div>
               </div>
             </div>
@@ -137,10 +155,10 @@ function Vacancies() {
               </div>
               <div className="vacancies-block-main-info-button">
                 <div className="modal-info">
-                  <p>Харизма</p>
+                  <p>Стрессоустойчивость</p>
                   <h4>
-                    Общение asdasdsadasdаризматичные девушки легко зарабатывают
-                    деньги в none-nude стримах.
+                    Умение решать конфликтные ситуации с холодной головой -
+                    очень ценно в профессии руководителя
                   </h4>
                 </div>
               </div>
@@ -151,8 +169,12 @@ function Vacancies() {
               </div>
               <div className="vacancies-block-main-info-button">
                 <div className="modal-info">
-                  <p>Дисциплинированность</p>
-                  <h4>asdasdsadsadстудии легкомысленно.</h4>
+                  <p>Обучаемость</p>
+                  <h4>
+                    Перед тем, как взять администратора на работу, каждый админ
+                    проходит обучение, знакомиться с правилами и особенностями
+                    работы в нашей студии
+                  </h4>
                 </div>
               </div>
             </div>
@@ -162,22 +184,45 @@ function Vacancies() {
               </div>
               <div className="vacancies-block-main-info-button">
                 <div className="modal-info">
-                  <p>Нацеленность на высокий доход</p>
+                  <p>Знание английского языка</p>
+                  <h4>
+                    Так как общение в чатах проходит на английском языке,
+                    администратору важно хорошо понимать английский язык
+                  </h4>
                 </div>
               </div>
             </div>
-            <Button className="btn blue-l" text="Отправить анкету" />
+            <div className="vacancies-block-main-info">
+              <div className="vacancies-block-main-info-line-6">
+                <img src={LINE} alt="line" />
+              </div>
+              <div className="vacancies-block-main-info-button">
+                <div className="modal-info">
+                  <p>Коммуникабельность</p>
+                  <h4>и чувство юмора</h4>
+                </div>
+              </div>
+            </div>
+            <HashLink to="/#contactUs">
+              <Button className="btn blue-l" text="Отправить анкету" />
+            </HashLink>
           </div>
         </Modal>
       </div>
       <div className="modal-agent">
         <Modal active={modalAgent} setActive={setModalAgent}>
           <div className="x-button">
-            <img src={KREST} />
+            <button
+              onClick={() => {
+                setModalAgent(false);
+              }}
+            >
+              <img src={KREST} />
+            </button>
           </div>
           <div className="modal-open-window">
             <header>
-              <p>Модель</p>
+              <p>Агент по поиску моделей </p>
             </header>
             <div className="vacancies-block-main-info">
               <div className="vacancies-block-main-info-line-1">
@@ -185,7 +230,7 @@ function Vacancies() {
               </div>
               <div className="vacancies-block-main-info-button">
                 <div className="modal-info">
-                  <p>Вам dasdasdлет</p>
+                  <p>Вам от 18 лет</p>
                 </div>
               </div>
             </div>
@@ -195,8 +240,7 @@ function Vacancies() {
               </div>
               <div className="vacancies-block-main-info-button">
                 <div className="modal-info">
-                  <p>Опрятный внешний вид</p>
-                  <h4>Чтобы сsadasdsadsadсетителей онлайн-чатов.</h4>
+                  <p>Коммуникабельность</p>
                 </div>
               </div>
             </div>
@@ -206,36 +250,38 @@ function Vacancies() {
               </div>
               <div className="vacancies-block-main-info-button">
                 <div className="modal-info">
-                  <p>Харизма</p>
-                  <h4>
-                    Общение asdasdsadasdаризматичные девушки легко зарабатывают
-                    деньги в none-nude стримах.
-                  </h4>
+                  <p>Желание иметь дополнительный доход</p>
                 </div>
               </div>
             </div>
-            <div className="vacancies-block-main-info">
-              <div className="vacancies-block-main-info-line-4">
-                <img src={LINE} alt="line" />
+            <div className="vacancies-block-main-info-agent">
+              <div className="vacancies-block-main-info">
+                <div className="vacancies-block-main-info-button">
+                  <div className="modal-info-agent">
+                    <h4>
+                      Агент занимается поиском и подбором нового персонала. За
+                      каждую приведенную девушку студия выплачивает
+                      фиксированную сумму: <span>10 000р.</span>
+                    </h4>
+                  </div>
+                </div>
               </div>
-              <div className="vacancies-block-main-info-button">
-                <div className="modal-info">
-                  <p>Дисциплинированность</p>
-                  <h4>asdasdsadsadстудии легкомысленно.</h4>
+              <div className="vacancies-block-main-info">
+                <div className="vacancies-block-main-info-button">
+                  <div className="modal-info-agent">
+                    <h4>
+                      Главное условие, чтобы модель, которую вы привели,
+                      заработала от 10 000р за первые 5 смен. Условия в нашей
+                      студии легко позволяют сделать это. Своевременные выплаты
+                      агентских гарантированы.
+                    </h4>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="vacancies-block-main-info">
-              <div className="vacancies-block-main-info-line-5">
-                <img src={LINE} alt="line" />
-              </div>
-              <div className="vacancies-block-main-info-button">
-                <div className="modal-info">
-                  <p>Нацеленность на высокий доход</p>
-                </div>
-              </div>
-            </div>
-            <Button className="btn blue-l" text="Отправить анкету" />
+            <HashLink to="/#contactUs">
+              <Button className="btn blue-l" text="Отправить анкету" />
+            </HashLink>
           </div>
         </Modal>
       </div>

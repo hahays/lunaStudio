@@ -5,12 +5,25 @@ import Header from "../../Header/Header";
 import LOGO_1 from "./assets/1.svg";
 import LOGO_2 from "./assets/2.svg";
 import LOGO_3 from "./assets/3.svg";
+import BUTTON_PLAY from "./assets/buttonPlay.svg";
+import ButtonPlay from "./ButtonPlay";
+import ButtonPlays from "./buttonPlays/ButtonPlays";
 
 function AboutUs() {
   return (
     <div id="aboutUs" className="aboutUs-block">
       <Header header="История студии" subHeader="О нас" />
       <div className="aboutUs-block-main">
+        <div className="button-play">
+          {/* <ButtonPlays /> */}
+          <a
+            target="_blank"
+            href="https://www.youtube.com/watch?v=MTnNtSlOfSg&t=2s&ab_channel=LunaStudio%7CWork%26Cosplay"
+          >
+            {" "}
+            <img src={BUTTON_PLAY} />
+          </a>
+        </div>
         <div className="main-top">
           <div className="main-top-text">
             <p>
@@ -68,6 +81,9 @@ function AboutUs() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mobile-girl">
+        <img src={BUTTON_PLAY} alt="button" />
       </div>
     </div>
   );

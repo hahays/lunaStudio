@@ -66,7 +66,7 @@ function Gifts() {
         <div className="gifts-block-video-button">
           {/* &#10148; */}
           <span className="button-play">
-            <a>
+            <a href="https://www.youtube.com/watch?v=MTnNtSlOfSg">
               <Play />
             </a>
           </span>

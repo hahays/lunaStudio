@@ -39,7 +39,7 @@
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 65%;
-                        width: 40%;
+                        width: 170%;
                         font-size:22px;
                     }
                 }
@@ -105,7 +105,7 @@
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 65%;
-                        width: 40%;
+                        width: 170%;
                         font-size:22px;
                     }
                 }
@@ -172,7 +172,7 @@
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 65%;
-                        width: 40%;
+                        width: 160%;
                         font-size:22px;
                     }
                 }
@@ -242,7 +242,7 @@
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 50%;
-                        width: 30%;
+                        width: 170%;
                         font-size: 16px;
                     }
                 }
@@ -319,7 +319,7 @@
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 50%;
-                        width: 40%;
+                        width: 170%;
                         font-size: 16px;
                     }
                     .blue-l::before{
@@ -391,7 +391,7 @@
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 50%;
-                        width: 55%;
+                        width: 170%;
                         font-size: 16px;
                     }
                     .blue-l::before{
@@ -464,7 +464,7 @@
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 50%;
-                        width: 55%;
+                        width: 170%;
                         font-size: 16px;
                     }
                     .blue-l::before{
@@ -537,7 +537,7 @@
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 50%;
-                        width: 55%;
+                        width: 170%;
                         font-size: 16px;
                     }
                     .blue-l::before{
@@ -610,7 +610,7 @@
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 50%;
-                        width: 55%;
+                        width: 170%;
                         font-size: 16px;
                     }
                     .blue-l::before{
@@ -644,7 +644,7 @@
     }
     @media (max-width: 653px) { 
         background: url("./assets/bg.png");
-        height: 100vh;  
+        height: 140vh;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 55% -210%;
@@ -678,12 +678,12 @@
                     height: 25%;
                     display: flex;
                     width: 100%;
-                    padding-top: 41px;
+                    padding-top: 0px;
                     padding-left: 71px;
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 50%;
-                        width: 55%;
+                        width: 170%;
                         font-size: 16px;
                         position: relative;
                         top: 564px;
@@ -702,8 +702,8 @@
                 transform: 1s;
                 height: 100%;
                 width: 50%;
-                padding-left: 85px;
-                bottom: 120px;
+                padding-left: 110px;
+                bottom: 245px;
                 position: relative;
                 .team-card {
                     img {
@@ -719,7 +719,7 @@
     }
     @media (max-width: 568px) { 
         background: url("./assets/bg.png");
-        height: 100vh;  
+        height: 128vh;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 55% -210%;
@@ -753,12 +753,12 @@
                     height: 25%;
                     display: flex;
                     width: 100%;
-                    padding-top: 41px;
+                    padding-top: -10px;
                     padding-left: 8px;
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 50%;
-                        width: 80%;
+                        width: 190%;
                         font-size: 16px;
                         position: relative;
                         top: 564px;
@@ -778,7 +778,7 @@
                 height: 100%;
                 width: 50%;
                 padding-left: 55px;
-                bottom: 120px;
+                bottom: 212px;
                 position: relative;
                 .team-card {
                     img {
@@ -875,7 +875,7 @@
             padding-top: 27px;
         }
         background: url("./assets/bg.png");
-        height: 100vh;  
+        height: 111vh; 
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 55% -210%;
@@ -914,10 +914,10 @@
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 50%;
-                        width: 90%;
+                        width: 170%;
                         font-size: 16px;
                         position: relative;
-                        top: 467px;
+                        top: 435px;
                         left: 42px;
                     }
                     .blue-l::before{
@@ -934,7 +934,7 @@
                 height: 100%;
                 width: 50%;
                 padding-left: 55px;
-                bottom: 169px;
+                bottom: 192px;
                 position: relative;
                 .team-card {
                     img {
@@ -953,7 +953,7 @@
             padding-top: 27px;
         }
         background: url("./assets/bg.png");
-        height: 100vh;  
+        height: 125vh;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 55% -210%;
@@ -976,7 +976,7 @@
                     font-family: "Montserrat", system-ui;
                     height: 60%;
                     width: 100%;
-                    padding-left: 43px;
+                    padding-left: 30px;
                     padding-top: 3px;
                     display: flex;
                     justify-content: start;
@@ -992,7 +992,7 @@
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 50%;
-                        width: 90%;
+                        width: 170%;
                         font-size: 16px;
                         position: relative;
                         top: 467px;
@@ -1011,8 +1011,8 @@
                 transform: 1s;
                 height: 100%;
                 width: 50%;
-                padding-left: 55px;
-                bottom: 134px;
+                padding-left: 50px;
+                bottom: 184px;
                 position: relative;
                 .team-card {
                     img {
@@ -1031,7 +1031,7 @@
             padding-top: 27px;
         }
         background: url("./assets/bg.png");
-        height: 100vh;  
+        height: 119vh;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 55% -210%;
@@ -1109,7 +1109,7 @@
             padding-top: 27px;
         }
         background: url("./assets/bg.png");
-        height: 100vh;  
+        height: 127vh;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 55% -210%;
@@ -1123,7 +1123,7 @@
             .team-block-main-left{
                 height: 70%;
                 width: 80%;
-                padding-left: 10px;
+                padding-left: 1px;
                 padding-top: 20px;
                 .team-text{
                     transition: 1s;
@@ -1148,10 +1148,10 @@
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 50%;
-                        width: 90%;
+                        width: 170%;
                         font-size: 16px;
                         position: relative;
-                        top: 387px;
+                        top: 370px;
                         left: 47px;
                     }
                     .blue-l::before{
@@ -1167,8 +1167,8 @@
                 transform: 1s;
                 height: 100%;
                 width: 50%;
-                padding-left: 54px;
-                bottom: 75px;
+                padding-left: 48px;
+                bottom: 130px;
                 position: relative;
                 .team-card {
                     img {
@@ -1187,7 +1187,7 @@
             padding-top: 27px;
         }
         background: url("./assets/bg.png");
-        height: 100vh;  
+        height: 131vh;  
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 55% -210%;
@@ -1226,7 +1226,7 @@
                     .blue-l{
                         font-family: "Montserrat", system-ui;
                         height: 50%;
-                        width: 90%;
+                        width: 160%;
                         font-size: 16px;
                         position: relative;
                         top: 415px;
@@ -1246,7 +1246,7 @@
                 height: 100%;
                 width: 50%;
                 padding-left: 42px;
-                bottom: 75px;
+                bottom: 124px;
                 position: relative;
                 .team-card {
                     img {

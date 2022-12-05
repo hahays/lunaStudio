@@ -154,6 +154,7 @@ function CotactUs() {
 
                 <div className="checkBox-form">
                   <input
+                    className="custom-checkbox"
                     required
                     type="checkbox"
                     name="_optin"
@@ -161,16 +162,15 @@ function CotactUs() {
                     id="message"
                     value={checked}
                   />
-                  <p>
-                    Согласие на обработку{" "}
-                    <a
-                      href="https://sun9-east.userapi.com/sun9-41/s/v1/ig2/lJqRTfNS3dgdIJTWCLIiPuZGRscgAa8K3i37Gh6znyNEaTxcm7mssqYUAD_3XdyXY483x9zi7yiGQdtZXbK8ArTf.jpg?size=1920x1920&quality=96&type=album"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      персональных данных.
-                    </a>
-                  </p>
+                  <label for="_optin"></label>
+                  Согласие на обработку{" "}
+                  <a
+                    href="https://sun9-east.userapi.com/sun9-41/s/v1/ig2/lJqRTfNS3dgdIJTWCLIiPuZGRscgAa8K3i37Gh6znyNEaTxcm7mssqYUAD_3XdyXY483x9zi7yiGQdtZXbK8ArTf.jpg?size=1920x1920&quality=96&type=album"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    персональных данных.
+                  </a>
                   <ValidationError
                     prefix="Optin"
                     field="_optin"

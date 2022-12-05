@@ -17,11 +17,19 @@ import { Instagram } from "react-content-loader";
 function SocialNet() {
   return (
     <div className="header-social">
-      <a rel="noopenar noreferrer" href="https://vk.com/ghoukie">
+      <a
+        target="_blank"
+        rel="noopenar noreferrer"
+        href="https://www.youtube.com/@lunastudio_spb"
+      >
         <FontAwesomeIcon className="social-icon" icon={faYoutube} />
       </a>
 
-      <a rel="noopenar noreferrer" href="https://vk.com/ghoukie">
+      <a
+        target="_blank"
+        rel="noopenar noreferrer"
+        href="tg://resolve?domain=lunnayprizma"
+      >
         <svg
           width="35"
           height="35"
@@ -34,7 +42,11 @@ function SocialNet() {
           </g>
         </svg>
       </a>
-      <a rel="noopenar noreferrer" href="https://vk.com/ghoukie">
+      <a
+        target="_blank"
+        rel="noopenar noreferrer"
+        href="https://vk.com/id424684027"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 96 96"

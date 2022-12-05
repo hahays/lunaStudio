@@ -5,12 +5,13 @@ import { questions } from "./questionSS";
 import { results } from "./results";
 import ScreenText from "./testScreens/ScreenText";
 import ScreenImage from "./testScreens/ScreenImage";
-import ResultScreen from "./ResultScreen";
+import ResultScreen from "./ResultScreen/ResultScreen";
 import StartScreen from "./StartScreen/StartScreen";
 
 import GIFT from "./assets/icon.png";
 import ARROW_NEXT from "./assets/arrowNext.svg";
 import ARROW_BACK from "./assets/arrowBack.svg";
+import ProgressBar from "../../../components/ProgressBar/ProgressBar";
 
 function TesLuna() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -18,6 +19,13 @@ function TesLuna() {
   const [selectedValues, setSelectedValues] = useState([]);
   const [showResult, setShowResult] = useState(false);
   const [showTest, setShowTest] = useState(false);
+
+  const handleStartAgain = () => {
+    setShowResult(false);
+    setShowTest(false);
+    setCurrentQuestion(0);
+    setSelectedValues([]);
+  };
 
   const handleSelect = (value) => {
     setSelectedValues((prev) => {
@@ -36,12 +44,16 @@ function TesLuna() {
         acc[el - 1] = { key: el, value: (acc[el - 1]?.value || 0) + 1 };
         return acc;
       }, [])
-      .find((i) => i.value >= 3);
+      .sort((a, b) => b.value - a.value)[0];
     return (
-      <ResultScreen result={results.find((i) => i.value === result.key)} />
+      <ResultScreen
+        onClick={() => {
+          handleStartAgain();
+        }}
+        result={results.find((i) => i.value === result.key)}
+      />
     );
   };
-
   const renderCard = (item) => {
     if (item.type === "text") {
       return (
@@ -70,12 +82,8 @@ function TesLuna() {
   };
   return (
     <div id="testLuna" className="test-container">
-      <header className="test-container-header">
-        <Header header="Тест" subHeader="Тест: какая ты госпожа" />
-      </header>
       <main className="test-container-main">
-        <iframe src="https://quiz.marquiz.ru/636fb25ac2e234004f99a4fc?mode=main_preview&name=test&email=test%40marquiz.ru&phone=%207-911-111-11-11#"></iframe>
-        {/* {!showTest ? (
+        {!showTest ? (
           <StartScreen
             onStart={() => {
               setShowTest(true);
@@ -104,7 +112,9 @@ function TesLuna() {
               ))}
             </div>
             <div className="quiz-footer">
-              <div className="quiz-footer-left"></div>
+              <div className="quiz-footer-left">
+                <ProgressBar question={currentQuestion} />
+              </div>
               <div className="quiz-footer-right">
                 <div className="button-back">
                   {currentQuestion !== 0 && (
@@ -131,7 +141,7 @@ function TesLuna() {
               </div>
             </div>
           </div>
-        )} */}
+        )}
       </main>
     </div>
   );

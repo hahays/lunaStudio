@@ -9,6 +9,7 @@ import Button from "../button/Button";
 import HamburgerMenu from "../../components/HamburgerMenu/HamburgerMenu";
 import CityContainer from "../CityContainer/CityContainer";
 import classNames from "classnames";
+import { HashLink } from "react-router-hash-link";
 
 function Navibar() {
   const [selectedScreen, setSelectedScreen] = useState(0);
@@ -49,7 +50,10 @@ function Navibar() {
           <div className="navibar-block-right-info">
             <CityContainer text="г. Санкт-Петербург" />
             <SocialNet />
-            <Button className="btn blue-l" text="Связаться с нами" />
+            <HashLink to="/#contactUs">
+              {" "}
+              <Button className="btn blue-l-navi" text="Связаться с нами" />
+            </HashLink>
           </div>
           <HamburgerMenu />
         </div>
