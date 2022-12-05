@@ -1,567 +1,527 @@
-.vacancies-block{
-    .modal-model {
-        .modal__content.active{
-            margin-top: 70px;
-            height: 80vh;
-            .x-button{
-                display: flex;
-                justify-content: end;
-                button{
-                  background-color: inherit;
-                  border: none;
-                }
-                img {
-                    padding-top: 10px;
-                   width: 60px;
-                   height: 60px;
-                   cursor: pointer;
-                }
+.vacancies-block {
+  .modal-model {
+    .modal__content.active {
+      margin-top: 70px;
+      height: 80vh;
+      .x-button {
+        display: flex;
+        justify-content: end;
+        button {
+          background-color: inherit;
+          border: none;
         }
-        .modal-open-window{
-            padding-left: 20px;
-      
-                  
-            }
-            header{
-                display: flex;
-                justify-content: center;
-                font-family: "Montserrat";
-                color: white;
-                font-size: 40px;
-                font-weight: bold;
-                z-index: 1;
-                p{
-                    display: block;
-                    margin-block-start: 0em;
-                    margin-block-end: 1em;
-                    margin-inline-start: 0px;
-                    margin-inline-end: 0px;
-                }
-            }
-            
-            .blue-l {
-     
-                border-radius: 31px;
-                height: 70px;
-                width: 300px;
-                margin-top: 50px;
-                margin-left: 315px;
-                font-size: 22px;
-                z-index: 1;
-                position: relative;
-            }
-            .vacancies-block-main-info{
-                display: flex;
-                align-items: center;
-                padding-left: 30px;
-                padding-top: 17px;
-                z-index: 1;
-                gap: 15px;
-                .vacancies-block-main-info-line-1{
-                    position: relative;
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-line-2{
-                    position: relative;
-                    bottom: 37px;
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-line-3{
-                    position: relative;
-                    bottom: 47px;
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-line-4{
-                    position: relative;
-                    bottom: 24px;
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-line-5{
-                    position: relative;
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-button{
-    
-                    .modal-info{
-                        padding-left: 20px;
-                      p{
-                        color: white;
-                        font-size: 22px;
-                        text-shadow: 0 0 20px #ff00ec;
-                        font-family: "Montserrat", system-ui;
-                        display: block;
-                        margin-block-start: 0em;
-                        margin-block-end: 0em;
-                        margin-inline-start: 0px;
-                        margin-inline-end: 0px;
-                      }
-                      h4{
-                        width: 700px;
-                        color: white;
-                        font-family: "Montserrat", system-ui;
-                        display: block;
-                        font-size: 20px;
-                        margin-block-start: 0em;
-                        margin-block-end: 0em;
-                        margin-inline-start: 0px;
-                        margin-inline-end: 0px;
-                        font-weight:100;
-                      }
-                    }
-                }
-    
-            }
-    }
-    }
-    .modal-admin {
-        .modal__content.active{
-            margin-top: 70px;
-            height: 80vh;
-            .x-button{
-                display: flex;
-                justify-content: end;
-                button{
-                  background-color: inherit;
-                  border: none;
-                }
-                img {
-                    padding-top: 10px;
-                   width: 60px;
-                   height: 60px;
-                   cursor: pointer;
-                }
+        img {
+          padding-top: 10px;
+          width: 60px;
+          height: 60px;
+          cursor: pointer;
         }
-        .modal-open-window{
-            padding-left: 20px;
-      
-                  
-            }
-            header{
-                display: flex;
-                justify-content: center;
-                font-family: "Montserrat";
-                color: white;
-                font-size: 40px;
-                font-weight: bold;
-                z-index: 1;
-                p{
-                    display: block;
-                    margin-block-start: 0em;
-                    margin-block-end: 1em;
-                    margin-inline-start: 0px;
-                    margin-inline-end: 0px;
-                }
-            }
-            
-            .blue-l {
-     
-                border-radius: 31px;
-                height: 70px;
-                width: 300px;
-                margin-top: 10px;
-                margin-left: 315px;
-                font-size: 22px;
-                z-index: 1;
-                position: relative;
-            }
-            .vacancies-block-main-info{
-                display: flex;
-                align-items: center;
-                padding-left: 30px;
-                padding-top: 17px;
-                z-index: 1;
-                gap: 15px;
-                .vacancies-block-main-info-line-1{
-                    position: relative;
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-line-2{
-                    position: relative;
-                    bottom: 25px;
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-line-3{
-                    position: relative;
-                    bottom: 25px;
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-line-4{
-                    position: relative;
-                    bottom: 36px;
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-line-5{
-                    position: relative;
-                    bottom: 26px;
+      }
+      .modal-open-window {
+        padding-left: 20px;
+      }
+      header {
+        display: flex;
+        justify-content: center;
+        font-family: "Montserrat";
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        z-index: 1;
+        p {
+          display: block;
+          margin-block-start: 0em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }
+      }
 
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-line-6{
-                    position: relative;
-                    bottom: 6px;
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-agent{
-                    display: none;
-                    position: relative;
-                    bottom: 36px;
-                }
-                .vacancies-block-main-info-button{
-    
-                    .modal-info{
-                        padding-left: 20px;
-                      p{
-                        color: white;
-                        font-size: 22px;
-                        text-shadow: 0 0 20px #ff00ec;
-                        font-family: "Montserrat", system-ui;
-                        display: block;
-                        margin-block-start: 0em;
-                        margin-block-end: 0em;
-                        margin-inline-start: 0px;
-                        margin-inline-end: 0px;
-                      }
-                      h4{
-                        width: 700px;
-                        color: white;
-                        font-family: "Montserrat", system-ui;
-                        display: block;
-                        font-size: 20px;
-                        margin-block-start: 0em;
-                        margin-block-end: 0em;
-                        margin-inline-start: 0px;
-                        margin-inline-end: 0px;
-                        font-weight:100;
-                      }
-                    }
-                    .modal-info-agent{
-                        padding-left: 20px;
-                      p{
-                        color: white;
-                        font-size: 22px;
-                        text-shadow: 0 0 20px #ff00ec;
-                        font-family: "Montserrat", system-ui;
-                        display: block;
-                        margin-block-start: 0em;
-                        margin-block-end: 0em;
-                        margin-inline-start: 0px;
-                        margin-inline-end: 0px;
-                      }
-                      h4{
-                        width: 700px;
-                        color: white;
-                        font-family: "Montserrat", system-ui;
-                        display: block;
-                        font-size: 20px;
-                        margin-block-start: 0em;
-                        margin-block-end: 0em;
-                        margin-inline-start: 0px;
-                        margin-inline-end: 0px;
-                        font-weight:100;
-                      }
-                    }
-                
-                }
-    
-            }
-    }
-    }
-     .modal-agent {
-        .modal__content.active{
-            margin-top: 70px;
-            height: 80vh;
-            .x-button{
-                display: flex;
-                justify-content: end;
-                button{
-                  background-color: inherit;
-                  border: none;
-                }
-                img {
-                    padding-top: 10px;
-                   width: 60px;
-                   height: 60px;
-                   cursor: pointer;
-                }
+      .blue-l {
+        border-radius: 31px;
+        height: 70px;
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 315px;
+        font-size: 22px;
+        z-index: 1;
+        position: relative;
+      }
+      .vacancies-block-main-info {
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        padding-top: 17px;
+        z-index: 1;
+        gap: 15px;
+        .vacancies-block-main-info-line-1 {
+          position: relative;
+          img {
+            width: 45px;
+          }
         }
-        .modal-open-window{
+        .vacancies-block-main-info-line-2 {
+          position: relative;
+          bottom: 37px;
+          img {
+            width: 45px;
+          }
+        }
+        .vacancies-block-main-info-line-3 {
+          position: relative;
+          bottom: 47px;
+          img {
+            width: 45px;
+          }
+        }
+        .vacancies-block-main-info-line-4 {
+          position: relative;
+          bottom: 24px;
+          img {
+            width: 45px;
+          }
+        }
+        .vacancies-block-main-info-line-5 {
+          position: relative;
+          img {
+            width: 45px;
+          }
+        }
+        .vacancies-block-main-info-button {
+          .modal-info {
             padding-left: 20px;
-      
-                  
+            p {
+              color: white;
+              font-size: 22px;
+              text-shadow: 0 0 20px #ff00ec;
+              font-family: "Montserrat", system-ui;
+              display: block;
+              margin-block-start: 0em;
+              margin-block-end: 0em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
             }
-            header{
-                display: flex;
-                justify-content: center;
-                font-family: "Montserrat";
-                color: white;
-                font-size: 40px;
-                font-weight: bold;
-                z-index: 1;
-                p{
-                    display: block;
-                    margin-block-start: 0em;
-                    margin-block-end: 1em;
-                    margin-inline-start: 0px;
-                    margin-inline-end: 0px;
-                }
+            h4 {
+              width: 700px;
+              color: white;
+              font-family: "Montserrat", system-ui;
+              display: block;
+              font-size: 20px;
+              margin-block-start: 0em;
+              margin-block-end: 0em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
+              font-weight: 100;
             }
-            
-            .blue-l {
-     
-                border-radius: 31px;
-                height: 70px;
-                width: 300px;
-                margin-top: 50px;
-                margin-left: 315px;
-                font-size: 22px;
-                z-index: 1;
-                position: relative;
-            }
-            .vacancies-block-main-info{
-                display: flex;
-                align-items: center;
-                padding-left: 30px;
-                padding-top: 17px;
-                z-index: 1;
-                gap: 15px;
-                .vacancies-block-main-info-line-1{
-                    position: relative;
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-line-2{
-                    position: relative;
-                    bottom: 0px;
-                    img {
-                        width: 47px;
-                    }
-                }
-                .vacancies-block-main-info-line-3{
-                    position: relative;
-                    bottom: 0px;
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-line-4{
-                    position: relative;
-                    bottom: 24px;
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-line-5{
-                    position: relative;
-                    img {
-                        width: 45px;
-                    }
-                }
-                .vacancies-block-main-info-button{
-    
-                    .modal-info{
-                        padding-left: 20px;
-                      p{
-                        color: white;
-                        font-size: 22px;
-                        text-shadow: 0 0 20px #ff00ec;
-                        font-family: "Montserrat", system-ui;
-                        display: block;
-                        margin-block-start: 0em;
-                        margin-block-end: 0em;
-                        margin-inline-start: 0px;
-                        margin-inline-end: 0px;
-                      }
-                      h4{
-                        width: 700px;
-                        color: white;
-                        font-family: "Montserrat", system-ui;
-                        display: block;
-                        font-size: 20px;
-                        margin-block-start: 0em;
-                        margin-block-end: 0em;
-                        margin-inline-start: 0px;
-                        margin-inline-end: 0px;
-                        font-weight:100;
-                      }
-                    }
-                    .modal-info-agent{
-                        padding-left: 80px;
-                      p, span{
-                        color: white;
-                        font-size: 22px;
-                        text-shadow: 0 0 20px #ff00ec;
-                        font-family: "Montserrat", system-ui;
-                        margin-block-start: 0em;
-                        margin-block-end: 0em;
-                        margin-inline-start: 0px;
-                        margin-inline-end: 0px;
-                      }
-                      h4{
-                        width: 700px;
-                        color: white;
-                        font-family: "Montserrat", system-ui;
-                        display: block;
-                        font-size: 20px;
-                        margin-block-start: 0em;
-                        margin-block-end: 0em;
-                        margin-inline-start: 0px;
-                        margin-inline-end: 0px;
-                        font-weight:100;
-                      }
-                    }
-                }
-    
-            }
+          }
+        }
+      }
     }
+  }
+  .modal-admin {
+    .modal__content.active {
+      margin-top: 70px;
+      height: 80vh;
+      .x-button {
+        display: flex;
+        justify-content: end;
+        button {
+          background-color: inherit;
+          border: none;
+        }
+        img {
+          padding-top: 10px;
+          width: 60px;
+          height: 60px;
+          cursor: pointer;
+        }
+      }
+      .modal-open-window {
+        padding-left: 20px;
+      }
+      header {
+        display: flex;
+        justify-content: center;
+        font-family: "Montserrat";
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        z-index: 1;
+        p {
+          display: block;
+          margin-block-start: 0em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }
+      }
+
+      .blue-l {
+        border-radius: 31px;
+        height: 70px;
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 315px;
+        font-size: 22px;
+        z-index: 1;
+        position: relative;
+      }
+      .vacancies-block-main-info {
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        padding-top: 17px;
+        z-index: 1;
+        gap: 15px;
+        .vacancies-block-main-info-line-1 {
+          position: relative;
+          img {
+            width: 45px;
+          }
+        }
+        .vacancies-block-main-info-line-2 {
+          position: relative;
+          bottom: 25px;
+          img {
+            width: 45px;
+          }
+        }
+        .vacancies-block-main-info-line-3 {
+          position: relative;
+          bottom: 25px;
+          img {
+            width: 45px;
+          }
+        }
+        .vacancies-block-main-info-line-4 {
+          position: relative;
+          bottom: 36px;
+          img {
+            width: 45px;
+          }
+        }
+        .vacancies-block-main-info-line-5 {
+          position: relative;
+          bottom: 26px;
+
+          img {
+            width: 45px;
+          }
+        }
+        .vacancies-block-main-info-line-6 {
+          position: relative;
+          bottom: 6px;
+          img {
+            width: 45px;
+          }
+        }
+        .vacancies-block-main-info-agent {
+          display: none;
+          position: relative;
+          bottom: 36px;
+        }
+        .vacancies-block-main-info-button {
+          .modal-info {
+            padding-left: 20px;
+            p {
+              color: white;
+              font-size: 22px;
+              text-shadow: 0 0 20px #ff00ec;
+              font-family: "Montserrat", system-ui;
+              display: block;
+              margin-block-start: 0em;
+              margin-block-end: 0em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
+            }
+            h4 {
+              width: 700px;
+              color: white;
+              font-family: "Montserrat", system-ui;
+              display: block;
+              font-size: 20px;
+              margin-block-start: 0em;
+              margin-block-end: 0em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
+              font-weight: 100;
+            }
+          }
+          .modal-info-agent {
+            padding-left: 20px;
+            p {
+              color: white;
+              font-size: 22px;
+              text-shadow: 0 0 20px #ff00ec;
+              font-family: "Montserrat", system-ui;
+              display: block;
+              margin-block-start: 0em;
+              margin-block-end: 0em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
+            }
+            h4 {
+              width: 700px;
+              color: white;
+              font-family: "Montserrat", system-ui;
+              display: block;
+              font-size: 20px;
+              margin-block-start: 0em;
+              margin-block-end: 0em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
+              font-weight: 100;
+            }
+          }
+        }
+      }
     }
+  }
+  .modal-agent {
+    .modal__content.active {
+      margin-top: 70px;
+      height: 80vh;
+      .x-button {
+        display: flex;
+        justify-content: end;
+        button {
+          background-color: inherit;
+          border: none;
+        }
+        img {
+          padding-top: 10px;
+          width: 60px;
+          height: 60px;
+          cursor: pointer;
+        }
+      }
+      .modal-open-window {
+        padding-left: 20px;
+      }
+      header {
+        display: flex;
+        justify-content: center;
+        font-family: "Montserrat";
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        z-index: 1;
+        p {
+          display: block;
+          margin-block-start: 0em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }
+      }
+
+      .blue-l {
+        border-radius: 31px;
+        height: 70px;
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 315px;
+        font-size: 22px;
+        z-index: 1;
+        position: relative;
+      }
+      .vacancies-block-main-info {
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        padding-top: 17px;
+        z-index: 1;
+        gap: 15px;
+        .vacancies-block-main-info-line-1 {
+          position: relative;
+          img {
+            width: 45px;
+          }
+        }
+        .vacancies-block-main-info-line-2 {
+          position: relative;
+          bottom: 0px;
+          img {
+            width: 47px;
+          }
+        }
+        .vacancies-block-main-info-line-3 {
+          position: relative;
+          bottom: 0px;
+          img {
+            width: 45px;
+          }
+        }
+        .vacancies-block-main-info-line-4 {
+          position: relative;
+          bottom: 24px;
+          img {
+            width: 45px;
+          }
+        }
+        .vacancies-block-main-info-line-5 {
+          position: relative;
+          img {
+            width: 45px;
+          }
+        }
+        .vacancies-block-main-info-button {
+          .modal-info {
+            padding-left: 20px;
+            p {
+              color: white;
+              font-size: 22px;
+              text-shadow: 0 0 20px #ff00ec;
+              font-family: "Montserrat", system-ui;
+              display: block;
+              margin-block-start: 0em;
+              margin-block-end: 0em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
+            }
+            h4 {
+              width: 700px;
+              color: white;
+              font-family: "Montserrat", system-ui;
+              display: block;
+              font-size: 20px;
+              margin-block-start: 0em;
+              margin-block-end: 0em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
+              font-weight: 100;
+            }
+          }
+          .modal-info-agent {
+            padding-left: 80px;
+            p,
+            span {
+              color: white;
+              font-size: 22px;
+              text-shadow: 0 0 20px #ff00ec;
+              font-family: "Montserrat", system-ui;
+              margin-block-start: 0em;
+              margin-block-end: 0em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
+            }
+            h4 {
+              width: 700px;
+              color: white;
+              font-family: "Montserrat", system-ui;
+              display: block;
+              font-size: 20px;
+              margin-block-start: 0em;
+              margin-block-end: 0em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
+              font-weight: 100;
+            }
+          }
+        }
+      }
+    }
+  }
 }
-.vacancies-block-main{
-    height: 70vh;
-    width: 90%;
-    font-size: 20px;
+.vacancies-block-main {
+  height: 70vh;
+  width: 90%;
+  font-size: 20px;
+  margin: 0 auto;
+  // border-style: dashed;
+  display: flex;
+
+  .vacancies-block-main-card {
     margin: 0 auto;
     // border-style: dashed;
-    display: flex;
+    max-width: 500px;
 
-   
-
-  
-    .vacancies-block-main-card{
-        margin: 0 auto;
-        // border-style: dashed;
-        max-width: 500px;
-
-    
-        .vacancies-block-main-card-top{
-            padding-top: 100px;
-            .card-item{
-           transition: 1s;
-           cursor: pointer;
-                z-index: 9999;
-                width: 447px;
-                height: 400px;
-                border-radius: 15px;
-                background: rgba(255, 255, 255, 0.192);
-                .card-item-img{
-                    display: flex;
-        justify-content: center;
-        padding: 0 auto;
-        padding-top: 115px;
-    img{
-        // z-index: 1;
+    .vacancies-block-main-card-top {
+      padding-top: 100px;
+      .card-item {
+        transition: 1s;
+        cursor: pointer;
+        z-index: 9999;
+        width: 447px;
+        height: 400px;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.192);
+        .card-item-img {
+          display: flex;
+          justify-content: center;
+          padding: 0 auto;
+          padding-top: 115px;
+          img {
+            // z-index: 1;
+          }
+        }
+      }
+      .card-item:hover {
+        transition: all ease 1s;
+        transform: translateY(-1px);
+        box-shadow: #000000 1px 0 10px;
+        transition: 1s;
+        z-index: 9999;
+        width: 447px;
+        height: 400px;
+        border-radius: 15px;
+        background: rgba(155, 152, 152, 0.473);
+        .card-item-img {
+          display: flex;
+          justify-content: center;
+          padding: 0 auto;
+          padding-top: 115px;
+        }
+      }
     }
-                }
-            }
-            .card-item:hover{
-                transition: all ease 1s;
-                transform: translateY(-1px);
-                box-shadow: #000000 1px 0 10px;
-           transition: 1s;
-                z-index: 9999;
-                width: 447px;
-                height: 400px;
-                border-radius: 15px;
-                background: rgba(155, 152, 152, 0.473);
-                .card-item-img{
-                    display: flex;
-        justify-content: center;
-        padding: 0 auto;
-        padding-top: 115px;
-    // img{
-    //     z-index: 1;
-    // }
-                }
-            }
-       
-            // .card-item::before {
-            //     content: "";
-            //     position: absolute;
-            //     width: 353px;
-            //     padding-left: 49px px;
-            //     height: 322px;
-            //     /* padding-left: 26px; */
-            //     margin-left: 49px;
-            //     margin-top: 34px;
-            //     border-radius: 7px;
-            //     filter: blur(26px);
-            //     background: rgba(227, 0, 181, 0.6);
-            //     z-index: 9999;
-            //   }
-        }
 
- 
-        .vacancies-block-main-text{
-            color: white;
-            font-size: 30px;
-            padding-left: 9px;
-            p{
-                margin-block-start: 1em;
-    margin-block-end: 10px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-            }
-        }
-        .vacancies-block-main-info{
-            gap: 10px;
-            display: flex;
-        justify-content: start;
-        width: 50%;
-        height: 40px;
-            .vacancies-block-main-info-line{
-                align-items: end;
-                display: flex;
-                padding-bottom: 3px;
-            }
-            .vacancies-block-main-info-button{
-                
-                color: white;
-                cursor: pointer;
-                display: contents;
-                p{
-                    transition: 1s;
-                    font-size: 25px;
-                    font-family: "Montserrat", system-ui;
-                    display: flex;
-                    align-items: center;
-                    text-align: center;
-                    margin-block-start: 0px;
-                    margin-block-end: 0px;
-                }
-                p:hover{
-                        color: rgb(228, 139, 208);
-                text-shadow: rgba(227, 0, 181, 0.6);;
-                    transition: all ease 1s;
-                }
-                p:active{
-                    transform: translateY(-1px);
-                    color: rgba(227, 0, 181, 0.6);
-                    box-shadow: 0 5px 10px rgba(112, 4, 89, 0.2);
-                }
-            }
-        }
+    .vacancies-block-main-text {
+      color: white;
+      font-size: 30px;
+      padding-left: 9px;
+      p {
+        margin-block-start: 1em;
+        margin-block-end: 10px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+      }
     }
-   
+    .vacancies-block-main-info {
+      gap: 10px;
+      display: flex;
+      justify-content: start;
+      width: 50%;
+      height: 40px;
+      .vacancies-block-main-info-line {
+        align-items: end;
+        display: flex;
+        padding-bottom: 3px;
+      }
+      .vacancies-block-main-info-button {
+        color: white;
+        cursor: pointer;
+        display: contents;
+        p {
+          transition: 1s;
+          font-size: 25px;
+          font-family: "Montserrat", system-ui;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          margin-block-start: 0px;
+          margin-block-end: 0px;
+        }
+        p:hover {
+          color: rgb(228, 139, 208);
+          text-shadow: rgba(227, 0, 181, 0.6);
+          transition: all ease 1s;
+        }
+        p:active {
+          transform: translateY(-1px);
+          color: rgba(227, 0, 181, 0.6);
+          box-shadow: 0 5px 10px rgba(112, 4, 89, 0.2);
+        }
+      }
+    }
+  }
 }
