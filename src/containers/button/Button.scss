@@ -2,6 +2,7 @@
     border-radius: 18px;
 }
 .blue-l-navi{
+    transition: 1s;
     z-index: 9999;
     width: 193px;
     height: 42px;
@@ -9,7 +10,7 @@
     background-color: #4D05E3;
     color: white;
     font-family: "Montserrat", system-ui;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 100;
     cursor: pointer;
         border-radius: 18px;
@@ -17,17 +18,10 @@
 }
 a{
     .blue-l-navi:hover{
-        z-index: 9999;
-        width: 193px;
-        height: 42px;
-        border: none;
-        background-color: #4D05E3;
-        color: white;
-        font-family: "Montserrat", system-ui;
-        font-size: 18px;
-        font-weight: 100;
-        cursor: pointer;
-            border-radius: 18px;
+        transition: all ease 1s;
+        transform: translateY(-1px);
+        text-shadow: #000000 1px 0 10px;
+        box-shadow: 2px 1px 20px 0px rgb(110, 4, 80);
             
     }
 }
