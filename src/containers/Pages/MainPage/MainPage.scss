@@ -149,15 +149,13 @@ section .text:hover{
 .main-page {
   height: 100vh;
   background-image: url("./assets/bg.png");
-  background-position: center;
+  // background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
-  object-position: 65px -15px;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
-  object-position: 65px -15px;
   // background-position: 55% -100%;
   // background-size: 1920px 950px;
 
