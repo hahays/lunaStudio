@@ -5,6 +5,7 @@ import "./calculator.scss";
 import LINE from "./assets/line.svg";
 import Button from "../../button/Button";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function Calculator() {
   const [eng, setEng] = useState("3");
@@ -214,9 +215,9 @@ function Calculator() {
           </div>
         </div>
         <div className="calculator-block-button">
-          <Link to="/contactUs">
+          <HashLink to="#contactUs">
             <Button className="btn blue-l" text="Начни зарабатывать" />
-          </Link>
+          </HashLink>
         </div>
       </div>
     </div>

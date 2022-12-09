@@ -7,6 +7,7 @@ import Play from "../Gifts/assets/Play";
 import ButtonPlay from "../AboutUs/ButtonPlay";
 import Modal from "../../../components/Modal/Modal";
 import KREST from "./assets/x.svg";
+import { HashLink } from "react-router-hash-link";
 // import VIDEO_BUTTON from "./assets/video-button.svg";
 // import ARROW_BUTTON from "./assets/arrow-button.svg";
 // import Modal from "../../../components/Modal/Modal";
@@ -70,9 +71,9 @@ function MainPage() {
           </div>
           <div className="button-arrow">
             <button className="button-arrow-model">
-              <a href="#contactUs">
+              <HashLink to="/#contactUs">
                 <span> &#8595;</span>
-              </a>
+              </HashLink>
             </button>
             <span className="button-arrow-text"> Стать моделью</span>
           </div>

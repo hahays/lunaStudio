@@ -5,6 +5,7 @@ import "./team.scss";
 
 import GIRL from "./assets/card.png";
 import { useNavigate } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function Team() {
   const navigate = useNavigate();
@@ -22,9 +23,9 @@ function Team() {
             студия в городе.{" "}
           </div>
           <div className="team-button">
-            <a href="#contactUs">
+            <HashLink to="/#contactUs">
               <Button className="btn blue-l" text="Заполнить анкету" />
-            </a>
+            </HashLink>
           </div>
         </div>
         <div className="team-block-main-right">
