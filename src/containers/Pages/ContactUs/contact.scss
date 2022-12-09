@@ -805,7 +805,7 @@
          }
          .text-about-subHeader{
             margin-top: -5px;
-            padding-left: 77px;
+            padding-left: 30px;
             h2{
                 font-size: 15px;
             }
@@ -836,7 +836,7 @@
             font-size: 20px;
         }
       height: fit-content;
-      padding: 39px 0px;
+      padding: 96px 0px;
       background: url("./assets/anime-girl.png");
       background-repeat: no-repeat;
       background-position: 97px 162px;
@@ -873,6 +873,7 @@
         .header-block{
             padding-top: 0px;
             h1{
+                display: none;
                 font-size: 30px;
             }
             h2{
@@ -886,7 +887,7 @@
       .text-about{
         margin-left: 1px;
         .text-about-header{
-            padding-left: 0px;
+            margin-left: 0px;
             width: 70%;
             text-align: inherit;
            h2{
@@ -895,15 +896,15 @@
         }
         .text-about-number{
             margin-top: 16px;
-            margin-left: -17px;
+            margin-left: 30px;
             h1{
-               margin-left: 88px;
+               margin-left: 0px;
              font-size: 20px;
             }
          }
          .text-about-subHeader{
             margin-top: -5px;
-            padding-left: 2px;
+            margin-left: 0px;
             h2{
                 font-size: 15px;
             }
@@ -961,7 +962,7 @@
                     }
                 }
                 .back-form{
-                    margin-left: 17px;
+                    margin-left: 13px;
                     .back-form-top{
                         gap: 28px;
                     }
@@ -974,11 +975,7 @@
         .header-block{
             padding-top: 20px;
             h1{
-                font-size: 30px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
+                display: none;
             }
             h2{
                font-size: 53px;
@@ -991,24 +988,27 @@
       .text-about{
         margin-left: 1px;
         .text-about-header{
-            padding-left: 0px;
+            margin-left: 0px;
+
             width: 70%;
             text-align: inherit;
            h2{
+            width: 100%;
             font-size: 15px;
            }
         }
         .text-about-number{
             margin-top: 16px;
-            margin-left: 0px;
+            margin-left: 37px;
             h1{
-               margin-left: 88px;
+               
              font-size: 18px;
+             padding-left: -16px;
             }
          }
          .text-about-subHeader{
             margin-top: -5px;
-            padding-left: 2px;
+            margin-left: 7px;
             h2{
                 font-size: 15px;
             }

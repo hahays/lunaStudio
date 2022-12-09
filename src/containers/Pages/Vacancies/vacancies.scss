@@ -1667,9 +1667,10 @@
     }
   }
 
-  @media (max-width: 416px) {
+  @media (max-width: 425px) {
     .vacancies-mobile-block {
       display: block;
+      padding-top: 20px;
     }
     .vacancies-block .modal-model .modal__content.active {
       margin-top: 70px;
@@ -2044,10 +2045,11 @@ font-weight: 100;
           padding-top: 33px;
 
           h1{
-  
+            display: none;
           }
           h2{
-  
+            font-size: 45px;
+            margin-top: 5px;
           }
         }
       }
@@ -2070,6 +2072,7 @@ font-weight: 100;
         bottom: -4px;
         left: 0;
         width: 100%;
+        padding-bottom: 10px;
      
     }
       .vacancies-block-main-text{
@@ -2162,7 +2165,7 @@ font-weight: 100;
         }
         .mobile-carousel{
           .carousel {
-            height: 65vh;
+            height: fit-content;
             width: 361px;
           }
         }

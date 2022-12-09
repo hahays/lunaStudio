@@ -175,8 +175,13 @@
   margin: 0 auto;
   .header-block{
     padding-top: 20px;
+
+    h1{
+      display: none;
+    }
     h2{
-      font-size: 40px;
+      margin-top: -31px;
+      font-size: 60px;
     }
   }
   .comments-block-side-info {

@@ -226,8 +226,13 @@
     height: max-content;
     .elseComments-header{
       .header-block{
-        padding-top: 20px;
+        padding-top: 147px;
+        h1{
+          display: none;
+        }
         h2{
+          font-size: 65px;
+    width: 100%;
           width: fit-content;
         }
       }

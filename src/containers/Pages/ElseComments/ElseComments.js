@@ -25,7 +25,7 @@ function ElseComments() {
   return (
     <div id="elseComments" className="elseComments-block">
       <header className="elseComments-header">
-        <Header header="Отзывы" subHeader="А вот еще отзывы о работе в Luna" />
+        <Header header="Модели о Луне" subHeader="Работа в Luna" />
         <div className="elseComments-side-info"></div>
       </header>
 

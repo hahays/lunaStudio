@@ -152,7 +152,8 @@ section .text:hover{
 // }
 
 .main-page {
-  height: 100vh;
+
+  min-height: 100vh;
   background-image: url("./assets/bg.png");
   // background-position: center;
   background-repeat: no-repeat;
@@ -161,8 +162,8 @@ section .text:hover{
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
-  background-position: 55% -100%;
-  background-size: 1920px 950px;
+  // background-position: 55% -100%;
+  // background-size: 1920px 950px;
   .modal__content.active{
     width: 70%;
     height: 70%;
@@ -1817,9 +1818,12 @@ section .text {
 // }
 @media (max-width: 420px) { 
 .main-page{
+  display: flex;
+  padding: 0;
+  align-items: center;
   background-size: cover;
   background-position-x: -907px;
-  background-position-y: 87px;
+  background-position-y: -21px;
 }
   .main-page .main-page-block .main-page-block-right .button-play {
     position: absolute;

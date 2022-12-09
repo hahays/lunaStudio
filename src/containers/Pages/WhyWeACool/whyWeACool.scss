@@ -650,7 +650,7 @@
     }
   }
 
-  @media (max-width: 415px) {
+  @media (max-width: 425px) {
     .whyWeACool {
      
   }
@@ -667,6 +667,9 @@
     .whyWeACool-wrapper{
       .header-block{
         padding-top: 21px;
+        h1{
+          display: none;
+        }
       }
     }
     .block {
@@ -738,16 +741,25 @@
     }
   }
   @media (max-width: 393px) {
+    .mobile-block .card-item::before {
+      position: absolute;
+      content: "";
+      width: 237px;
+ 
+  }
     .whyWeACool-wrapper{
       .header-block{
         padding-top: 21px;
       }
+      h2{
+        font-size: 45px;
+      }
     }
     .block {
       height: 316px;
-      width: 394px;
-      margin-top: 20px;
-      margin-left: 57px;
+      width: 100%;
+      margin-top: 31px;
+      margin-left: 0px;
 
       .card-item {
         text-decoration: none;
@@ -762,9 +774,13 @@
         border-radius: 15px;
         transition: 1s;
         // background: rgba(255, 255, 255, 0.192);
-        margin-bottom: 30px;
-        margin-right: 50px;
+        margin-bottom: 0px;
+        margin-right: 0px;
         background: rgba(98, 70, 145, 1);
+
+        .card-item::before{
+          width: 240px;
+        }
 
         span {
           padding-left: 40px;

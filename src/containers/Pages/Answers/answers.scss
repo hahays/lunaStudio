@@ -291,6 +291,11 @@
 
 @media (max-width: 440px){
   .answers-block{
+    .answers-block-item-card{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
     // height: 163vh;
     max-height:fit-content;
     background-image: url("./assets/bg.png");
@@ -366,7 +371,7 @@
           display: flex;
           justify-content: flex-end;
           // margin-bottom: 10px;
-          position: relative;
+          position:static;
           top: -33px;
           left: 47px;
           .spoiler1{
@@ -403,6 +408,7 @@
           ;
         }
           h1{
+            display: none;
               padding-top: 0px;
               font-size: 50px;
           }
@@ -414,10 +420,14 @@
             padding-top: 0px;
           }
           .answers-block-header-side-info{
-              
-              color: white;
-              font-size: 20px;
-              font-family: "Montserrat", system-ui;
+            padding-top: 20px;
+            text-align: initial;
+            padding-left: 25px;
+            text-shadow: 1px 1px 0px #ff00ec;
+            color: white;
+    font-size: 15px;
+    font-family: "Montserrat", system-ui;
+    width: 80%;
           }
       }
       .answers-block-main::-webkit-scrollbar {
