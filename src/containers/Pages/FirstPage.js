@@ -22,7 +22,7 @@ function FirstPage() {
       <Team />
       <Comments />
       <ElseComments />
-      {/* <Answers /> */}
+      <Answers />
     </>
   );
 }
