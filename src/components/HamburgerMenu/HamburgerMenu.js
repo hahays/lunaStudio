@@ -10,66 +10,46 @@ import { HashLink } from "react-router-hash-link";
 function HamburgerMenu() {
   const [selectedScreen, setSelectedScreen] = useState(0);
   const [activeNav, setActiveNav] = useState("#");
+  const [showNavibar, setShowNavibar] = useState(false);
 
   return (
     <div className="hamburger">
       <div className="hamburger-menu">
-        <input className="side-menu" type="checkbox" id="side-menu"></input>
-        <label className="hamb" for="side-menu">
+        <input
+          className="side-menu"
+          type="checkbox"
+          checked={showNavibar}
+          id="side-menu"
+        ></input>
+        <label
+          onClick={() => {
+            setShowNavibar(!showNavibar);
+          }}
+          className="hamb"
+          for="side-menu"
+        >
           <div className="hamb-new"></div>
           <div className="hamb-line"></div>
         </label>
         <div className="wrapper-nav"></div>
         <nav className="nav">
-          <ul className="menu">
+          <ul
+            onClick={() => {
+              setShowNavibar(false);
+            }}
+            className="menu"
+          >
             <li>
               <HashLink to="/#">Главная</HashLink>
-              {/* <Link to="/main"></Link> */}
-              {/* <a
-                href="#"
-                onClick={() => setActiveNav("#")}
-                className={classNames("header-option", {
-                  active: selectedScreen === 0,
-                })}
-              >
-                Главная
-              </a> */}
             </li>
             <li>
               <HashLink to="/#whyWeACool">Почему у нас круто</HashLink>
-              {/* <a
-                href="#whyWeACool"
-                onClick={() => setActiveNav("#whyWeACool")}
-                className={classNames("header-option", {
-                  active: selectedScreen === 1,
-                })}
-              >
-                Почему у нас круто
-              </a> */}
             </li>
             <li>
               <HashLink to="/#calculator">Онлайн-калькулятор</HashLink>
-              {/* <a
-                href="#calculator"
-                onClick={() => setActiveNav("#calculator")}
-                className={classNames("header-option", {
-                  active: selectedScreen === 2,
-                })}
-              >
-                Онлайн-калькулятор
-              </a> */}
             </li>
             <li>
               <HashLink to="/#contactUs">Запишись на собеседование</HashLink>
-              {/* <a
-                href="#contactUs"
-                onClick={() => setActiveNav("#contactUs")}
-                className={classNames("header-option", {
-                  active: selectedScreen === 3,
-                })}
-              >
-                Запишись на собеседование
-              </a> */}
             </li>
             <li>
               <HashLink to="/#aboutUs">О нас</HashLink>

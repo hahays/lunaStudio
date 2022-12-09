@@ -1,28 +1,52 @@
-import React from "react";
+import React, { useState } from "react";
 import "./AboutUs.scss";
 import Header from "../../Header/Header";
 
 import LOGO_1 from "./assets/1.svg";
 import LOGO_2 from "./assets/2.svg";
 import LOGO_3 from "./assets/3.svg";
-import BUTTON_PLAY from "./assets/buttonPlay.svg";
+import BUTTON_PLAY from "./assets/video.png";
 import ButtonPlay from "./ButtonPlay";
 import ButtonPlays from "./buttonPlays/ButtonPlays";
+import Modal from "../../../components/Modal/Modal";
 
 function AboutUs() {
+  const [modalActive, setModalActive] = useState(false);
   return (
     <div id="aboutUs" className="aboutUs-block">
+      <Modal active={modalActive} setActive={setModalActive}>
+        <div className="aboutUs-page-modal">
+          <div className="aboutUs-page-modal-x">
+            <button
+              onClick={() => {
+                setModalActive(false);
+              }}
+            >
+              {/* <img src={KREST} /> */}
+            </button>
+          </div>
+          <div className="aboutUs-page-modal-video">
+            <iframe
+              width=" -webkit-fill-available;"
+              height="315"
+              src="https://www.youtube.com/embed/jjKkEYtatHg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </Modal>
       <Header header="История студии" subHeader="О нас" />
       <div className="aboutUs-block-main">
         <div className="button-play">
           {/* <ButtonPlays /> */}
-          <a
-            target="_blank"
-            href="https://www.youtube.com/watch?v=MTnNtSlOfSg&t=2s&ab_channel=LunaStudio%7CWork%26Cosplay"
-          >
-            {" "}
-            <img src={BUTTON_PLAY} />
-          </a>
+          <button
+            onClick={() => {
+              setModalActive(true);
+            }}
+          ></button>
         </div>
         <div className="main-top">
           <div className="main-top-text">
@@ -83,7 +107,11 @@ function AboutUs() {
         </div>
       </div>
       <div className="mobile-girl">
-        <img src={BUTTON_PLAY} alt="button" />
+        <button
+          onClick={() => {
+            setModalActive(true);
+          }}
+        ></button>
       </div>
     </div>
   );

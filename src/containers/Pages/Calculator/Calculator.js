@@ -4,6 +4,7 @@ import "./calculator.scss";
 
 import LINE from "./assets/line.svg";
 import Button from "../../button/Button";
+import { Link } from "react-router-dom";
 
 function Calculator() {
   const [eng, setEng] = useState("3");
@@ -211,6 +212,11 @@ function Calculator() {
           <div className="calculator-block-container-button">
             <Button className="btn blue-l" text="Начни зарабатывать" />
           </div>
+        </div>
+        <div className="calculator-block-button">
+          <Link to="/contactUs">
+            <Button className="btn blue-l" text="Начни зарабатывать" />
+          </Link>
         </div>
       </div>
     </div>

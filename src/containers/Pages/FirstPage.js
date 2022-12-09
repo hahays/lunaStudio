@@ -17,12 +17,12 @@ function FirstPage() {
       <MainPage />
       <WhyWeACool />
       <Calculator />
-      <AboutUs />
       <CotactUs />
+      <AboutUs />
       <Team />
       <Comments />
       <ElseComments />
-      <Answers />
+      {/* <Answers /> */}
     </>
   );
 }

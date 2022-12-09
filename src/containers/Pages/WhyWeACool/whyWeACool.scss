@@ -1,4 +1,8 @@
 .whyWeACool {
+  .mobile-block {
+    display: none;
+  }
+  
  @media (max-width: 2300px) {
   background: url("./assets/главная.png");
   background-size: cover;
@@ -71,7 +75,7 @@
   }
   .cards-list {
     position: relative;
-    padding-left: 196px;
+    padding-left: 164px;
     top: 20px;
     left: -76px;
     height: 70px;
@@ -200,7 +204,8 @@
   @media (max-width: 1012px) {
     .cards-list {
       top: 20px;
-      padding-left: 120px;
+      padding-left: 115px;
+
     }
   }
 
@@ -308,9 +313,13 @@
   @media (max-width: 685px) {
     .block {
       height: 316px;
-      width: 394px;
-      margin-top: 12px;
-      margin-left: 144px;
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
       .card-item {
         text-decoration: none;
@@ -326,7 +335,7 @@
         transition: 1s;
         // background: rgba(255, 255, 255, 0.192);
         margin-bottom: 30px;
-        margin-right: 50px;
+        margin-right: 0px;
         background: rgba(98, 70, 145, 1);
 
         span {
@@ -394,9 +403,13 @@
     }
     .block {
       height: 316px;
-      width: 394px;
-      margin-top: 12px;
-      margin-left: 85px;
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
       .card-item {
         transition: 1s;
@@ -413,7 +426,7 @@
         transition: 1s;
         // background: rgba(255, 255, 255, 0.192);
         margin-bottom: 30px;
-        margin-right: 50px;
+        margin-right: 0px;
         background: rgba(98, 70, 145, 1);
 
         span {
@@ -467,11 +480,22 @@
   }
 
   @media (max-width: 500px) {
+    height: max-content;
+    background: inherit;
+    .header-block{
+      h1{
+        font-size: 40px;
+      }
+    }
     .block {
       height: 316px;
-      width: 394px;
-      margin-top: 12px;
-      margin-left: 47px;
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
       .card-item {
         transition: 1s;
@@ -488,7 +512,7 @@
         transition: 1s;
         // background: rgba(255, 255, 255, 0.192);
         margin-bottom: 30px;
-        margin-right: 50px;
+        margin-right: 0px;
         background: rgba(98, 70, 145, 1);
 
         span {
@@ -544,9 +568,13 @@
   @media (max-width: 460px) {
     .block {
       height: 316px;
-      width: 394px;
+      width: 100%;
       margin-top: 12px;
-      margin-left: 49px;
+      margin-left: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
 
       .card-item {
         text-decoration: none;
@@ -562,7 +590,7 @@
         transition: 1s;
         // background: rgba(255, 255, 255, 0.192);
         margin-bottom: 30px;
-        margin-right: 50px;
+        margin-right: 0px;
         background: rgba(98, 70, 145, 1);
 
         span {
@@ -615,6 +643,19 @@
   }
 
   @media (max-width: 415px) {
+    .whyWeACool {
+     
+  }
+    .whyWeACool-wrapper{
+      .mobile-block{
+        .carousel {
+          height: auto;
+          width: auto;
+          padding: 0 30px;
+        }
+      }
+    }
+  
     .whyWeACool-wrapper{
       .header-block{
         padding-top: 21px;
@@ -622,26 +663,26 @@
     }
     .block {
       height: 316px;
-      width: 394px;
+      width: fit-content;
       margin-top: 20px;
-      margin-left: 68px;
+      margin-left: 0px;
 
       .card-item {
         text-decoration: none;
         position: relative;
         font-family: "Montserrat";
         color: white;
-        width: 284px;
+        width: fit-content;
         height: 271px;
         display: grid;
         text-align: center;
         position: relative;
         border-radius: 15px;
         transition: 1s;
-        // background: rgba(255, 255, 255, 0.192);
-        margin-bottom: 30px;
-        margin-right: 50px;
-        background: rgba(98, 70, 145, 1);
+        margin-bottom: 0px;
+        margin-right: 0px;
+        background: rgb(98, 70, 145);
+        margin: 0px;
 
         span {
           padding-left: 40px;
@@ -677,11 +718,7 @@
         }
       }
 
-      .carousel {
-        height: 400px;
-        width: 400px;
-        border-style: dashed;
-      }
+     
     }
 
     .mobile-girl {
@@ -853,7 +890,4 @@
 
 
 
-.mobile-block {
-  display: none;
-}
 

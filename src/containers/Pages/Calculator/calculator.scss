@@ -1,4 +1,5 @@
 .calculator-block {
+  height: max-content;
     @media (max-width: 1920px) {
         .calculator-block-container-button{
             display: none;
@@ -13,14 +14,17 @@
         background-size: cover;
         background-position: 125% -100%;
         background-size: 1820px 1024px;
+        height: max-content;
         .calculator-block-main {
           background: rgba(127, 133, 158, 0.192);
+          -webkit-backdrop-filter: blur(19px);
           backdrop-filter: blur(19px);
-          margin: 50px auto;
-          height: 70vh;
-          width: 80vw;
+          margin: 17px auto;
+          /* height: 70vh; */
+          height: max-content;
+          width: 80%;
+          /* height: min-content; */
           border-radius: 15px;
-          // border: 1px solid rgba(43, 43, 43, 0.568);
           display: block;
           p {
             display: block;
@@ -28,6 +32,27 @@
             margin-block-end: 0em;
             margin-inline-start: 0px;
             margin-inline-end: 0px;
+          }
+          .calculator-block-button{
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            a{
+              width: 30%;
+              .blue-l{
+                width: 100%;
+                height: 79px;
+                font-size: 25px;
+                border-radius: 30px;
+              }
+              .blue-l:hover{
+                background-color: rgb(255, 0, 183);
+              }
+              .blue-l::before{
+                display: none;
+              }
+            }
+     
           }
           .calculator-block-main-header {
             color: white;
@@ -190,11 +215,17 @@
     .calculator-block-main {
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
-      margin: 9px auto;
-      height: 70vh;
-      width: 80vw;
+      margin: 45px auto;
+      height: auto;
+      width: fit-content;
       border-radius: 15px;
       // border: 1px solid rgba(43, 43, 43, 0.568);
+      display: block;
+      margin: 45px auto;
+      height: auto;
+      width: -moz-fit-content;
+      width: 90%;
+      border-radius: 15px;
       display: block;
       p {
         display: block;
@@ -209,7 +240,7 @@
         font-size: 25px;
         margin: auto;
         display: flex;
-        width: 48vw;
+        width: inherit;
         text-shadow: 0 0 20px #ff00ec;
       }
   
@@ -268,7 +299,7 @@
               display: contents;
               align-items: center;
               img {
-                padding-top: 10px;
+                padding-top: 39px;
                 align-items: center;
               }
             }
@@ -297,13 +328,11 @@
         .selector-item {
           width: 100%;
           height: 50%;
-          border-style: dashed;
           display: contents;
           .selector-item_radio {
             justify-content: center;
             appearance: none;
             display: none;
-            border-style: dotted;
             justify-content: space-around;
             background-color: initial;
             cursor: pointer;
@@ -363,9 +392,10 @@
     .calculator-block-main {
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
-      margin: 9px auto;
-      height: 70vh;
-      width: 80vw;
+      margin: 45px auto;
+      height: auto;
+      width: -moz-fit-content;
+      width: 90%;
       border-radius: 15px;
       // border: 1px solid rgba(43, 43, 43, 0.568);
       display: block;
@@ -537,8 +567,9 @@
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
       margin: 9px auto;
-      height: 70vh;
-      width: 80vw;
+      height: auto;
+      width: -moz-fit-content;
+      width: 90%;
       border-radius: 15px;
       // border: 1px solid rgba(43, 43, 43, 0.568);
       display: block;
@@ -714,8 +745,9 @@
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
       margin: 9px auto;
-      height: 70vh;
-      width: 80vw;
+      height: auto;
+      width: -moz-fit-content;
+      width: 90%;
       border-radius: 15px;
       // border: 1px solid rgba(43, 43, 43, 0.568);
       display: block;
@@ -891,8 +923,9 @@
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
       margin: 9px auto;
-      height: 70vh;
-      width: 80vw;
+      height: auto;
+      width: -moz-fit-content;
+      width: 90%;
       border-radius: 15px;
       // border: 1px solid rgba(43, 43, 43, 0.568);
       display: block;
@@ -1071,8 +1104,9 @@
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
       margin: 9px auto;
-      height: 70vh;
-      width: 80vw;
+      height: auto;
+      width: -moz-fit-content;
+      width: 90%;
       border-radius: 15px;
       // border: 1px solid rgba(43, 43, 43, 0.568);
       display: block;
@@ -1166,6 +1200,7 @@
   }
   @media (max-width: 953px) {
 
+    
     background-image: url("./assets/bg.png");
 
     background-repeat: no-repeat;
@@ -1179,11 +1214,20 @@
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
       margin: 9px auto;
-      height: 70vh;
-      width: 80vw;
+      height: auto;
+      width: -moz-fit-content;
+      width: 90%;
       border-radius: 15px;
       // border: 1px solid rgba(43, 43, 43, 0.568);
       display: block;
+      .calculator-block-button{
+        a{
+          .blue-l{
+            font-size: 17px;
+          }
+        }
+      
+      }
       p {
         display: block;
         margin-block-start: 1em;
@@ -1342,6 +1386,9 @@
         }
       }
     }
+    .blue-l{
+      font-size: 20px;
+    }
   }
   @media (max-width: 889px) {
 
@@ -1352,17 +1399,27 @@
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 125% -100%;
+    background-position: 91% 14%;
     background-size: 1820px 1024px;
     .calculator-block-main {
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
       margin: 9px auto;
-      height: 100vh;
-      width: 80vw;
+      height: auto;
+      width: -moz-fit-content;
+      width: 90%;
       border-radius: 15px;
       // border: 1px solid rgba(43, 43, 43, 0.568);
       display: block;
+      .calculator-block-button{
+        a{
+          .blue-l{
+            display: none;
+            font-size: 17px;
+          }
+        }
+      
+      }
       p {
         display: block;
         margin-block-start: 1em;
@@ -1376,16 +1433,31 @@
         font-size: 23px;
         margin: auto;
         display: flex;
-        position: fixed;
-        top: -136px;
-            width: 83vw;
+        top: 76px;
+        width: 88vw;
+        width: inherit;
         text-shadow: 0 0 20px #ff00ec;
       }
   
       .calculator-block-container {
+        .calculator-block-container-button{
+          display: flex;
+          justify-content: center;
+          .blue-l{
+            width: 50%;
+            height: 60px;
+            border-radius: 30px;
+          }
+          .blue-l::before{
+            display: none;
+          }
+          .blue-l:hover{
+            background-color: rgb(255, 0, 183);
+          }
+        }
         display: flex;
         flex-direction: column;
-        margin-top: 131px;
+        margin-top: 0px;
         p {
           color: white;
           font-family: "Montserrat", system-ui;
@@ -1398,8 +1470,8 @@
         justify-content: center;
         height: 73%;
         .calculator-block-container-radioList {
-            margin-top: 288px;
-            padding-left: 48px;
+          padding-left: 48px;
+          margin-top: 13px;
           width: 50%;
           .selector {
             .selecotr-item {
@@ -1535,14 +1607,15 @@
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 125% -100%;
+    background-position: 91% 14%;
     background-size: 1820px 1024px;
     .calculator-block-main {
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
       margin: 9px auto;
-      height: 100vh;
-      width: 80vw;
+      height: auto;
+      width: -moz-fit-content;
+      width: 90%;
       border-radius: 15px;
       // border: 1px solid rgba(43, 43, 43, 0.568);
       display: block;
@@ -1559,16 +1632,14 @@
         font-size: 23px;
         margin: auto;
         display: flex;
-        position: fixed;
-        top: -136px;
-            width: 83vw;
+        width: inherit;
         text-shadow: 0 0 20px #ff00ec;
       }
   
       .calculator-block-container {
         display: flex;
         flex-direction: column;
-        margin-top: 131px;
+        margin-top: 0px;
         p {
           color: white;
           font-family: "Montserrat", system-ui;
@@ -1581,7 +1652,7 @@
         justify-content: center;
         height: 73%;
         .calculator-block-container-radioList {
-            margin-top: 288px;
+          margin-top: 0px;
             padding-left: 48px;
           width: 50%;
           .selector {
@@ -1712,20 +1783,20 @@
   @media (max-width: 556px) {
 
     background-image: url("./assets/bg.png");
-
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 125% -100%;
+    background-position: 91% 14%;
     background-size: 1820px 1024px;
     .calculator-block-main {
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
-      margin: 9px auto;
-      height: 100vh;
-      width: 80vw;
+      margin: 37px auto;
+      height: auto;
+      width: -moz-fit-content;
+      width: 90%;
       border-radius: 15px;
       // border: 1px solid rgba(43, 43, 43, 0.568);
       display: block;
@@ -1742,16 +1813,13 @@
         font-size: 23px;
         margin: auto;
         display: flex;
-        position: fixed;
-        top: -136px;
-            width: 83vw;
+            width: inherit;
         text-shadow: 0 0 20px #ff00ec;
       }
   
       .calculator-block-container {
         display: flex;
         flex-direction: column;
-        margin-top: 131px;
         p {
           color: white;
           font-family: "Montserrat", system-ui;
@@ -1764,197 +1832,6 @@
         justify-content: center;
         height: 73%;
         .calculator-block-container-radioList {
-            margin-top: 288px;
-            padding-left: 48px;
-          width: 50%;
-          .selector {
-            .selecotr-item {
-            }
-          }
-        }
-        .calculator-block-container-labelList {
-          display: block;
-          align-items: center;
-          width: 100%;
-          margin-bottom: 30px;
-          margin-top: 13px;
-          .labelList-header {
-            p {
-              padding-left: 40px;
-              font-size: 26px;
-            }
-          }
-          .label-list-container {
-            display: flex;
-            // gap: 100px;
-            .label-list-container-left {
-              padding-left: 40px;
-              width: 100%;
-              color: white;
-              font-family: "Montserrat", system-ui;
-              font-size: 14px;
-              p {
-                display: block;
-                margin-block-end: 0em;
-                margin-inline-start: 0px;
-                margin-inline-end: 0px;
-                padding-bottom: 0px;
-              }
-            }
-            .label-list-container-right {
-                padding-top: 31px;
-                display: flex;
-                margin-top: -25px;
-              align-items: center;
-              img {
-                width: 70%;
-                padding-top: 0px;
-                align-items: center;
-              }
-            }
-          }
-        }
-      }
-      .container {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .selector {
-        position: relative;
-        width: 180%;
-        background-color: var(--smoke-white);
-        height: 53px;
-        margin-top: 35px;
-        margin-left: -33px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        border-radius: 9999px;
-        box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
-        background-color: rgba(87, 64, 132, 1);
-        .selector-item {
-          width: 100%;
-          height: 50%;
-          border-style: dashed;
-          display: contents;
-          .selector-item_radio {
-            justify-content: center;
-            appearance: none;
-            display: none;
-            border-style: dotted;
-            justify-content: space-around;
-            background-color: initial;
-            cursor: pointer;
-            appearance: auto;
-            box-sizing: border-box;
-            margin: 0px 0px 0px 0px;
-            padding: initial;
-            border: initial;
-          }
-        }
-  
-        .selector-item_label {
-          cursor: pointer;
-          margin-left: 00px;
-          color: white;
-          font-size: 14px;
-          height: 18px;
-          position: relative;
-          text-align: center;
-          border-radius: 9999px;
-          transition-duration: 0.5s;
-          transition-property: transform, color, box-shadow;
-          transform: none;
-          display: flex;
-          justify-content: space-around;
-          font-family: "Montserrat";
-          padding: 7px 1px;
-          width: -moz-fit-content;
-          width: fit-content;
-          min-width: 86px;
-        }
-        .selector-item_radio:checked + .selector-item_label {
-          // padding: 10px 20px;
-          background-color: blue;
-          color: var(--white);
-          width: -moz-fit-content;
-          background-color: blue;
-          color: var(--white);
-          position: relative;
-          z-index: 1;
-          box-shadow: 0 0 4px rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.5);
-          transform: translateY(-2px);
-        }
-      }
-    }
-  }
-  @media (max-width: 520px) {
-    .header-block{
-        padding-top: 13px;
-        h2{
-            margin-top: -112px;
-            font-size: 35px;
-        }
-    }
-    background-image: url("./assets/bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 125% -100%;
-    background-size: 1820px 1024px;
-    .calculator-block-main {
-      background: rgba(127, 133, 158, 0.192);
-      backdrop-filter: blur(19px);
-      margin: 9px auto;
-      height: 88vh;
-      width: 80vw;
-      border-radius: 15px;
-      // border: 1px solid rgba(43, 43, 43, 0.568);
-      display: block;
-      p {
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 0em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-      }
-      .calculator-block-main-header {
-        color: white;
-        font-family: "Montserrat", system-ui;
-        font-size: 20px;
-        margin: auto;
-        display: flex;
-        position: fixed;
-        text-align: center;
-        top: -136px;
-            width: 83vw;
-        text-shadow: 0 0 20px #ff00ec;
-      }
-  
-      .calculator-block-container {
-        display: flex;
-        flex-direction: column;
-        margin-top: 131px;
-        p {
-            margin-left: -22px;
-          color: white;
-          font-family: "Montserrat", system-ui;
-          font-size: 16px;
-          margin-block-end: 1em;
-        }
-  
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        height: 73%;
-        .calculator-block-container-radioList {
-            margin-top: 255px;
             padding-left: 48px;
           width: 50%;
           .selector {
@@ -2096,14 +1973,15 @@
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 125% -100%;
+    background-position: 91% 14%;
     background-size: 1820px 1024px;
     .calculator-block-main {
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
       margin: 9px auto;
-      height: 82vh;
-      width: 80vw;
+      height: auto;
+      width: -moz-fit-content;
+      width: 90%;
       border-radius: 15px;
       // border: 1px solid rgba(43, 43, 43, 0.568);
       display: block;
@@ -2120,17 +1998,21 @@
         font-size: 17px;
         margin: auto;
         display: flex;
-        position: fixed;
         text-align: center;
-        top: -136px;
-            width: 83vw;
+            width: inherit;
         text-shadow: 0 0 20px #ff00ec;
       }
   
       .calculator-block-container {
         display: flex;
         flex-direction: column;
-        margin-top: 131px;
+        .calculator-block-container-button{
+       
+            .blue-l{
+              width: 70%;
+            }
+        
+        }
         p {
             margin-left: -22px;
           color: white;
@@ -2144,7 +2026,6 @@
         justify-content: center;
         height: 73%;
         .calculator-block-container-radioList {
-            margin-top: 208px;
             padding-left: 48px;
           width: 50%;
           .selector {
@@ -2293,8 +2174,9 @@
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
       margin: 9px auto;
-      height: 111vh;
-      width: 80vw;
+      height: auto;
+      width: -moz-fit-content;
+      width: 90%;
       border-radius: 15px;
       // border: 1px solid rgba(43, 43, 43, 0.568);
       display: block;
@@ -2311,17 +2193,14 @@
         font-size: 17px;
         margin: auto;
         display: flex;
-        position: fixed;
         text-align: center;
-        top: -136px;
-            width: 83vw;
+            width: inherit;
         text-shadow: 0 0 20px #ff00ec;
       }
   
       .calculator-block-container {
         display: flex;
         flex-direction: column;
-        margin-top: 131px;
         p {
             margin-left: -22px;
           color: white;
@@ -2329,8 +2208,6 @@
           font-size: 15px;
           margin-block-end: 1em;
         }
-
-    
   
         display: flex;
         width: 100%;
@@ -2338,23 +2215,22 @@
         height: 73%;
 
         .calculator-block-container-button{
-            display: flex;
-
-            .blue-l{
-                position: absolute;
-    cursor: pointer;
-    /* top: 214px; */
-    bottom: 12px;
-    left: 23px;
-    width: 238px;
+       
+          .blue-l{
+            font-size: 15px;
+            width: 70%;
+            button{
+            
             }
+          }
+      
+
             .blue-l::before{
                 display: none;
             }
         }
        
         .calculator-block-container-radioList {
-            margin-top: 183px;
             padding-left: 48px;
           width: 50%;
           .selector {

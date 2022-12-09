@@ -2,8 +2,9 @@
 
   .hamburger {
     
-    width: 10%;
- 
+    width: max-content;
+    padding: 0 85px;
+
     // -webkit-backdrop-filter: blue(15px);
     // backdrop-filter: blue(15px);
     color: #000;
@@ -101,8 +102,6 @@
               backdrop-filter: blur(10px);
               border-radius: 15px;
             }
-  
-  /* Nav menu */
   .nav {
     width: 100%;
     height: 100%;
@@ -624,7 +623,7 @@ transition: max-height 0.5s ease-out;
 
   .navibar-block .navibar-block-right {
     transition: 1s;
-    padding-right: 100px;
+    // padding-right: 100px;
 
 }
 
@@ -671,7 +670,7 @@ transition: max-height 0.5s ease-out;
 
     .hamburger{
       transition: 1s;
-      margin-left: 37px;
+      // margin-left: 37px;
     }
 }
 
@@ -709,7 +708,7 @@ transition: max-height 0.5s ease-out;
 }
   .navibar-block .navibar-block-right {
     transition: 1s;
-       padding-right: 25px;
+       padding-right: 0px;
 
        .menu {
         padding-top: 102px;
@@ -765,7 +764,7 @@ transition: max-height 0.5s ease-out;
 }
   .navibar-block .navibar-block-right {
     transition: 1s;
-       padding-right: 25px;
+       padding-right: 0px;
 
        .menu {
         padding-top: 79px;
@@ -825,7 +824,7 @@ transition: max-height 0.5s ease-out;
 }
   .navibar-block .navibar-block-right {
     transition: 1s;
-       padding-right: 25px;
+       padding-right: 0px;
 
        .menu {
         padding-top: 32px;
@@ -863,6 +862,7 @@ transition: max-height 0.5s ease-out;
 
 @media (max-width: 374px) { 
 
+  
   .navibar-block {
     position: fixed;
     display: flex;
@@ -883,9 +883,26 @@ transition: max-height 0.5s ease-out;
     }
 
 }
+.navibar-block-right-info{
+  .hamburger {
+    width: max-content;
+    padding: 0 25px;
+    color: #000;
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 100;
+    /* gap: 0.8rem; */
+    height: 3rem;
+    justify-content: space-between;
+    top: 0;
+    z-index: 2;
+    z-index: 6;
+}
+}
   .navibar-block .navibar-block-right {
+    
     transition: 1s;
-       padding-right: 25px;
+       padding-right: 0px;
 
        .menu {
         padding-top: 32px;

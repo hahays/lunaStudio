@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../../Header/Header";
 import "./gifts.scss";
 
@@ -7,10 +7,36 @@ import CARD_TWO from "./assets/card_two_m.png";
 import CARD_THREE from "./assets/card_three_m.png";
 import PLAY from "./assets/play.svg";
 import Play from "./assets/Play";
+import Modal from "../../../components/Modal/Modal";
 
 function Gifts() {
+  const [modalActive, setModalActive] = useState(false);
   return (
     <div id="gifts" className="gifts-block">
+      <Modal active={modalActive} setActive={setModalActive}>
+        <div className="gifts-page-modal">
+          <div className="gifts-page-modal-x">
+            <button
+              onClick={() => {
+                setModalActive(false);
+              }}
+            >
+              {/* <img src={KREST} /> */}
+            </button>
+          </div>
+          <div className="aboutUs-page-modal-video">
+            <iframe
+              width="455"
+              height="809"
+              src="https://www.youtube.com/embed/5s3SJwcli6s"
+              title="Какой подарок от руководства понравится каждой сотруднице? #shorts #model #modelagency"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </Modal>
       <header className="answers-block-header">
         <Header header="С любовью" subHeader="Подарки" />
         <div className="answers-block-header-side-info">
@@ -59,14 +85,18 @@ function Gifts() {
       <div className="gifts-block-video">
         <div className="gifts-block-video-text">
           <p>
-            А подарки мы любим оформлять{" "}
-            <h4 className="shadow-word"> стильно</h4>
+            А подарки мы любим оформлять
+            <span className="shadow-word"> стильно!</span>
           </p>
         </div>
         <div className="gifts-block-video-button">
           {/* &#10148; */}
           <span className="button-play">
-            <a href="https://www.youtube.com/watch?v=MTnNtSlOfSg">
+            <a
+              onClick={() => {
+                setModalActive(true);
+              }}
+            >
               <Play />
             </a>
           </span>

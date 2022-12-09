@@ -62,15 +62,16 @@ export const questions = [
         answerText: "Мне диадему, пожалуйста",
         value: 5,
       },
-      {
-        src: Q2_4,
-        answerText: "Кольцо! ничто не может быть лучше ювелирки",
-        value: 2,
-      },
+
       {
         src: Q2_2,
         answerText: "Серьги-кольца на все случаи жизни",
         value: 3,
+      },
+      {
+        src: Q2_4,
+        answerText: "Кольцо! ничто не может быть лучше ювелирки",
+        value: 2,
       },
     ],
   },
@@ -78,11 +79,6 @@ export const questions = [
     type: "image",
     questionText: "Выбери верх наряда!",
     answerOptions: [
-      {
-        src: Q3_4,
-        answerText: "Что-то дерзкое из кожи",
-        value: 4,
-      },
       {
         src: Q3_1,
         answerText: "Базовая водолазка",
@@ -102,6 +98,11 @@ export const questions = [
         src: Q3_3,
         answerText: "Долой футболки, носите топы",
         value: 3,
+      },
+      {
+        src: Q3_4,
+        answerText: "Что-то дерзкое из кожи",
+        value: 4,
       },
     ],
   },

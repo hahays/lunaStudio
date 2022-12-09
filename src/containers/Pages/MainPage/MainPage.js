@@ -5,6 +5,8 @@ import "./MainPage.scss";
 import LOGO from "./assets/logo-headerNew.svg";
 import Play from "../Gifts/assets/Play";
 import ButtonPlay from "../AboutUs/ButtonPlay";
+import Modal from "../../../components/Modal/Modal";
+import KREST from "./assets/x.svg";
 // import VIDEO_BUTTON from "./assets/video-button.svg";
 // import ARROW_BUTTON from "./assets/arrow-button.svg";
 // import Modal from "../../../components/Modal/Modal";
@@ -17,6 +19,31 @@ function MainPage() {
   const [modalActive, setModalActive] = useState(false);
   return (
     <div id="#" className="main-page">
+      <Modal active={modalActive} setActive={setModalActive}>
+        <div className="main-page-modal">
+          <div className="main-page-modal-x">
+            <button
+              onClick={() => {
+                setModalActive(false);
+              }}
+            >
+              {/* <img src={KREST} /> */}
+            </button>
+          </div>
+          <div className="main-page-modal-video">
+            <iframe
+              border="1px solid pink"
+              width=" -webkit-fill-available;"
+              height="315"
+              src="https://www.youtube.com/embed/wzrqTNLDi8c"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </Modal>
       <div className="main-page-block">
         <div className="main-page-block-left">
           <div className="main-page-header">
@@ -33,8 +60,13 @@ function MainPage() {
           </div>
         </div>
         <div className="main-page-block-right">
-          <div className="button-video">
-            <ButtonPlay />
+          <div className="button-play">
+            {/* <ButtonPlay /> */}
+            <button
+              onClick={() => {
+                setModalActive(true);
+              }}
+            ></button>
           </div>
           <div className="button-arrow">
             <button className="button-arrow-model">

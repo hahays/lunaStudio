@@ -20,6 +20,87 @@ function Vacancies() {
   const [modalModel, setModalModel] = useState(false);
   const [modalAdmin, setModalAdmin] = useState(false);
   const [modalAgent, setModalAgent] = useState(false);
+  const example = (
+    <div key="projects">
+      <Swiper
+        className="swiper-card-s"
+        modules={[Pagination]}
+        spaceBetween={40}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+      >
+        <SwiperSlide>
+          <div className="block">
+            <div className="card-item">
+              <div className="card-item-img">
+                <img src={CARD_1} alt="1" />
+              </div>
+            </div>
+            <div className="vacancies-block-main-text">
+              <p> Модель</p>
+            </div>
+            <div className="vacancies-block-main-info">
+              <div className="vacancies-block-main-info-line">
+                <img src={LINE} alt="line" />
+              </div>
+              <div className="vacancies-block-main-info-button">
+                <p onClick={() => setModalModel(true)}>Подробнее</p>
+              </div>
+              <div className="vacancies-block-main-info-line">
+                <img src={LINE} alt="line" />
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="block">
+            <div className="card-item">
+              <div className="card-item-img">
+                <img src={CARD_2} alt="2" />
+              </div>
+            </div>
+            <div className="vacancies-block-main-text">
+              <p>Администратор</p>
+            </div>
+            <div className="vacancies-block-main-info">
+              <div className="vacancies-block-main-info-line">
+                <img src={LINE} alt="line" />
+              </div>
+              <div className="vacancies-block-main-info-button">
+                <p onClick={() => setModalAdmin(true)}>Подробнее</p>
+              </div>
+              <div className="vacancies-block-main-info-line">
+                <img src={LINE} alt="line" />
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="block">
+            <div className="card-item">
+              <div className="card-item-img">
+                <img src={CARD_3} alt="3" />
+              </div>
+            </div>
+            <div className="vacancies-block-main-text">
+              <p>Агент по поиску моделей</p>
+            </div>
+            <div className="vacancies-block-main-info">
+              <div className="vacancies-block-main-info-line">
+                <img src={LINE} alt="line" />
+              </div>
+              <div className="vacancies-block-main-info-button">
+                <p onClick={() => setModalAgent(true)}>Подробнее</p>
+              </div>
+              <div className="vacancies-block-main-info-line">
+                <img src={LINE} alt="line" />
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+      </Swiper>
+    </div>
+  );
 
   return (
     <div id="vacancies" className="vacancies-block">
@@ -285,7 +366,6 @@ function Vacancies() {
           </div>
         </Modal>
       </div>
-
       <header className="vacancies-header">
         <Header header="Вакансии" subHeader="Вакансии" />
       </header>
@@ -348,6 +428,14 @@ function Vacancies() {
             <div className="vacancies-block-main-info-button">
               <p onClick={() => setModalAgent(true)}>Подробнее</p>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="vacancies-mobile-block">
+        <div className="mobile-block">
+          <div className="mobile-carousel">
+            <div className="carousel">{example}</div>
+            <div></div>
           </div>
         </div>
       </div>

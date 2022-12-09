@@ -12,16 +12,20 @@
     font-family: "Montserrat", system-ui;
     font-size: 16px;
     font-weight: 100;
+    box-shadow: 2px 1px 10px 0px rgb(20, 4, 110);
     cursor: pointer;
         border-radius: 18px;
         
 }
 a{
     .blue-l-navi:hover{
+        transition: 1s all;
+        color: white;
         transition: all ease 1s;
         transform: translateY(-1px);
         text-shadow: #000000 1px 0 10px;
-        box-shadow: 2px 1px 20px 0px rgb(110, 4, 80);
+        background-color: rgba(255, 0, 183, 1);
+
             
     }
 }
@@ -60,6 +64,7 @@ a{
 .blue-b:hover {
     transition: all ease 1s;
     transform: translateY(-1px);
+    
     text-shadow: #000000 1px 0 10px;
     box-shadow: 2px 1px 20px 0px rgb(110, 4, 80);
 

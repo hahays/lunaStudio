@@ -31,7 +31,11 @@ function Footer() {
             </a>
           </div>
           <div className="footer-block-right-number">
-            <p className="footer-block-right-number-text">+7 (911) 139 49 85</p>
+            <a href="tg://resolve?domain=lunnayprizma" target="_blank">
+              <p className="footer-block-right-number-text">
+                +7 (911) 139 49 85
+              </p>
+            </a>
           </div>
         </div>
       </div>
