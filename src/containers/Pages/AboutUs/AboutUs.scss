@@ -1,58 +1,11 @@
 .shadow-word {
     color: rgb(245, 131, 245);
     text-shadow: 1px 1px 0px #ff00ec;
-    
 }
 
 .aboutUs-block{
     height: fit-content;
-    .modal__content.active{
-        width: 70%;
-        height: 60%;
-      }
-    .aboutUs-page-modal{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        height: 100%;
-        .aboutUs-page-modal-x{
-          display: flex;
-          justify-content: end;
-          transition: 1s;
-          button{
-            transition: 1s;
-            background: url("./assets/close.png");
-            height: 25px;
-            object-fit: unset;
-            background-size: cover;
-            width: 25px;
-            border: none;
-            background-repeat: no-repeat;
-            cursor: pointer;
-          }
-          button:hover{
-            transition: 1s;
-            background: url("./assets/close_hover.png");
-            height: 25px;
-            object-fit: unset;
-            background-size: cover;
-            width: 25px;
-            border: none;
-            background-repeat: no-repeat;
-            cursor: pointer;
-          }
-        }
-        .aboutUs-page-modal-video{
-          height: inherit;
-        }
-        iframe{
-          width: -webkit-fill-available;
-          height: -webkit-fill-available;;
-          .ytp-chrome-top-buttons{
-            display: none;
-          }
-        }
-      }
+  
    @media (max-width: 2400px) {
     .mobile-girl{
         display: none;
@@ -1440,6 +1393,7 @@ height: fit-content;
            background-size: cover;
            background-position: 10px;
            button{
+            display: none;
             cursor: pointer;
             transition: 1s;
             background: url('./assets/video.png');
@@ -1469,13 +1423,14 @@ height: fit-content;
            }
         }
         .header-block{
-            padding-top: 20px;
+            padding-top: 2px;
             h1{
-                padding-top: 9px;
-                font-size: 25px;
+                display: none;
             }
             h2{
-                margin-top: -236px;
+                padding-top: 30px;
+                font-size: 40px;
+                margin-top: 0px;
             }
         }
     
@@ -1515,7 +1470,7 @@ height: fit-content;
         
         }
         .header-block{
-                height: 200px;
+               height: auto;
          
     
             h1{
@@ -1535,16 +1490,16 @@ height: fit-content;
             margin-top: 0px;
             display: flex;
             flex-direction: column;
-            padding: 20px 8px;
+            padding: 20px 35px;
             
             .main-top{
                 padding-top: 10px;
                 width: 100%;
                 height: 50%;
-    padding-left: 24px;
+                padding-left: 0px;
                 .main-top-text{
                     height: 40%;;
-                    padding-right: 36px;
+                    padding-right: 0px;
                     color: white;
                     font-weight: lighter;
                 }

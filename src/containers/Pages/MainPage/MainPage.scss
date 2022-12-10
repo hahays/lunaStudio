@@ -37,21 +37,6 @@ section .text:hover{
 
 
 
-
-
-// .button-play{
-//   transition: 1s;
-//   font-size: 20px;
-//   color: white;
-//   transform: rotate(79deg);
-//   padding-bottom: 10x;
-//   padding-left: 8px;
-//   cursor: pointer;
-//   svg{
-//    height: 60px;
-//    width: 60px;
-//   }
-// }
 .text {
   border-style: solid  rgb(88, 55, 10);
   transition: 1s;
@@ -264,7 +249,7 @@ section .text:hover{
         position: absolute;
         padding-top: 50px;
         transition: 1s;
-        top: 220px;
+        top: 160px;
         right: 200px;
         button{
           cursor: pointer;
@@ -298,7 +283,7 @@ section .text:hover{
         position: absolute;
         transition: 1s;
         height: 20%;
-        bottom: 120px;
+        bottom: 40px;
         right: 170px;
 
         .button-arrow-model {
@@ -449,7 +434,7 @@ section .text:hover{
     position: absolute;
     transition: 1s;
     height: 20%;
-    bottom: 120px;
+    bottom: 140px;
     right: 170px;
 
     .button-arrow-model {
@@ -683,16 +668,18 @@ section .text span {
   transform-origin: 0 80px;
 }
 
-.button-play {
-  transition: 1s;
-  font-size: 70px;
-  padding-right: 25px;
-  padding-bottom: 20px;
-  svg{
-    width: 40px;
-    height: 40px;
+.main-page{
+  .button-play {
+    transition: 1s;
+    font-size: 70px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    svg{
+      width: 40px;
+      height: 40px;
+    }
+  
   }
-
 }
 
 }
@@ -1829,10 +1816,13 @@ section .text {
     position: absolute;
     padding-top: 0px;
     transition: 1s;
-    top: 112px;
-    right: 21px;
+    top: 133px;
+    right: 50px;
     button{
       background-size: 196px 194px;
+      width: 108px;
+      height: 108px;
+      border-radius: 50%;
     }
     button:hover {
       transition: 1s;
@@ -1840,8 +1830,9 @@ section .text {
       border: none;
       background-position: center;
       transition: 1s;
-      height: 210px;
-      width: 210px;
+      width: 108px;
+      height: 108px;
+      border-radius: 50%;
       text-align: center;
       outline: #000;
       color: #fff;
@@ -1897,7 +1888,7 @@ section .text {
     padding-right: 0px;
     padding-bottom: 0px;
     top: 133px;
-    right: 0px;
+        right: 39px;
     svg{
       width: 30px;
       height: 30px;
@@ -1935,7 +1926,7 @@ span {
       display: flex;
       padding-top: 0px;
       padding-left: 0px;
-      bottom: 20px;
+      bottom: 180px;
       right: 47px;
       align-items: center;
       justify-content: end;
@@ -1990,179 +1981,540 @@ section .text {
 
 
 }
+
 @media (max-width: 375px) { 
   .main-page{
+    display: flex;
+    padding: 0;
+    align-items: center;
     background-size: cover;
-    background-position-x: -681px;
-    background-position-y: 55px;
-
+    background-position-x: -790px;
+    background-position-y: 58px;
+    background-size: 1920 600px;
+    background-size: 1424px 692px;
   }
-
-  .main-page .main-page-block .main-page-block-right .button-play {
-    position: absolute;
-    padding-top: 0px;
-    transition: 1s;
-    top: 112px;
-    right: 21px;
-    button{
-      background-size: 196px 194px;
+    .main-page .main-page-block .main-page-block-right .button-play {
+      position: absolute;
+      padding-top: 0px;
+      transition: 1s;
+      top: 112px;
+      right: 21px;
+      button{
+        background-size: 196px 194px;
+        width: 108px;
+        height: 108px;
+        border-radius: 50%;
+      }
+      button:hover {
+        transition: 1s;
+        background: url("./assets/video_hover.png");
+        border: none;
+        background-position: center;
+        transition: 1s;
+        width: 108px;
+      height: 108px;
+      border-radius: 50%;
+        text-align: center;
+        outline: #000;
+        color: #fff;
+        font-size: 15px;
+        background-size: 196px 194px;
     }
-    button:hover {
-      transition: 1s;
-      background: url("./assets/video_hover.png");
-      border: none;
-      background-position: center;
-      transition: 1s;
-      height: 210px;
-      width: 210px;
-      text-align: center;
-      outline: #000;
-      color: #fff;
-      font-size: 15px;
-      background-size: 196px 194px;
   }
-}
-  .main-page .main-page-block .main-page-block-left {
+    .main-page .main-page-block .main-page-block-left {
+      transition: 1s;
+      align-items: baseline;
+      display: block;
+      width: 100%;
+      height: inherit;
+      padding-top: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  
+  
+      .main-page-header {
+        transition: 1s;
+        padding-left: 27px;
+        font-family: "Poiret One";
+        font-size: 10px;
+        font-weight: 100;
+        padding-bottom: 1px;
+    }
+   .main-page-logo img {
+    width: 347px;
+    height: 142px;
+    padding-left: 0px;
+  }
+  }
+  
+  
+  
+  .main-page .main-page-block .main-page-block-right {
+  
+    width: 50%;
+    padding-top: 1px;
+    
+  }
+  .main-page .main-page-block .main-page-block-right {
+    display: contents;
+    width: 100%;
+    padding-top: 1px;
+    position: absolute;
+  
+    .button-play {
+      transition: 1s;
+      font-size: 70px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      top: 119px;
+      right: 28px;
+      svg{
+        width: 30px;
+        height: 30px;
+      }
+    
+    }
+  }
+  .main-page .main-page-block .main-page-block-right .button-arrow .button-arrow-model {
+  
+    width: 80px;
+    height: 80px;
+  
+  
+  
+  span {
+    font-size: 40px;
+  
+  }
+  }
+  
+  .main-page .main-page-block .main-page-block-right .button-arrow .button-arrow-text {
+    transition: 1s;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 17px;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  
+    .main-page .main-page-block .main-page-block-right  {
+      .button-arrow { transition: 1s;
+        transition: 1s;
+        height: auto;
+        width: 30%;
+        display: flex;
+        padding-top: 0px;
+        padding-left: 0px;
+        bottom: 112px;
+        right: 23px;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+      }
+  }
+  .main-page-subHeader {
+    transition: 1s;
+    grid-area: 3/1/4/5;
+    font-size: 14px;
+    color: white;
+    padding-left: 28px;
+    padding-top: 17px;
+    width: 60%;
+    font-weight: normal;
+    font-family: "Montserrat";
+  }
+  .main-page .main-page-block .main-page-block-right .button-video {
     transition: 1s;
     align-items: baseline;
-    display: block;
-    width: 100%;
-    height: auto;
-    padding-top: 71px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-
-
-    .main-page-header {
-      transition: 1s;
-      padding-left: 27px;
-      font-family: "Poiret One";
-      font-size: 10px;
-      font-weight: 100;
-      padding-bottom: 1px;
-  }
- .main-page-logo img {
-  transition: 1s;
-  width: 351px;
-  height: 179px;
-  padding-left: 16px;
-}
-}
-
-
-
-.main-page .main-page-block .main-page-block-right {
-
-  width: 50%;
-  padding-top: 1px;
   
-}
-.main-page .main-page-block .main-page-block-right {
-  display: contents;
-  width: 100%;
-  padding-top: 1px;
-  position: absolute;
-
+  }
+  
+  section .text span {
+    cursor: pointer;
+    display: inline-block;
+    transform-origin: 0 50px;
+  }
+  section .text {
+    position: relative;
+    top: 16px;
+    /* bottom: 32px; */
+    left: 35px;
+    font-size: 10px;
+    color: #e9e9e9;
+    text-align: center;
+    -webkit-user-select: none;
+    user-select: none;
+    font-family: "Poiret One";
+  }
+  
   .button-play {
     transition: 1s;
-    font-size: 70px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    top: 54px;
-    right: 0px;
-    svg{
-      width: 30px;
-      height: 30px;
-    }
+    font-size: 25px;
+    padding-right: 19px;
+    padding-bottom: 27px;
+    font-size: 60px;
   
   }
-}
-.main-page .main-page-block .main-page-block-right .button-arrow .button-arrow-model {
-
-  width: 80px;
-  height: 80px;
-
-
-
-span {
-  font-size: 40px;
-
-}
-}
-
-.main-page .main-page-block .main-page-block-right .button-arrow .button-arrow-text {
-  transition: 1s;
-  -webkit-user-select: none;
-  user-select: none;
-  font-size: 17px;
-  padding-left: 0px;
-  margin-left: 0px;
-}
-
-  .main-page .main-page-block .main-page-block-right  {
-    .button-arrow { transition: 1s;
-      transition: 1s;
-      height: 100%;
-      width: 30%;
+  
+  
+  
+  }
+  @media (max-width: 360px) { 
+    .main-page{
       display: flex;
-      padding-top: 0px;
-      padding-left: 0px;
-      bottom: 32px;
-      right: 49px;
+      padding: 0;
       align-items: center;
-      justify-content: end;
-      flex-direction: column;
+      background-size: cover;
+      background-position-x: -790px;
+      background-position-y: 58px;
+      background-size: 1920 600px;
+      background-size: 1424px 692px;
     }
-}
-.main-page-subHeader {
-  transition: 1s;
-  grid-area: 3/1/4/5;
-  font-size: 14px;
-  color: white;
-  padding-left: 28px;
-  padding-top: 17px;
-  width: 60%;
-  font-weight: normal;
-  font-family: "Montserrat";
-}
-.main-page .main-page-block .main-page-block-right .button-video {
-  transition: 1s;
-  align-items: baseline;
-  justify-content: center;
+      .main-page .main-page-block .main-page-block-right .button-play {
+        position: absolute;
+        padding-top: 0px;
+        transition: 1s;
+        top: 112px;
+        right: 21px;
+        button{
+          background-size: 196px 194px;
+          width: 108px;
+          height: 108px;
+          border-radius: 50%;
+        }
+        button:hover {
+          transition: 1s;
+          background: url("./assets/video_hover.png");
+          border: none;
+          background-position: center;
+          transition: 1s;
+          width: 108px;
+        height: 108px;
+        border-radius: 50%;
+          text-align: center;
+          outline: #000;
+          color: #fff;
+          font-size: 15px;
+          background-size: 196px 194px;
+      }
+    }
+      .main-page .main-page-block .main-page-block-left {
+        transition: 1s;
+        align-items: baseline;
+        display: block;
+        width: 100%;
+        height: inherit;
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    
+        .main-page-header {
+          transition: 1s;
+          padding-left: 27px;
+          font-family: "Poiret One";
+          font-size: 10px;
+          font-weight: 100;
+          padding-bottom: 1px;
+      }
+     .main-page-logo img {
+      width: 347px;
+      height: 142px;
+      padding-left: 0px;
+    }
+    }
+    
+    
+    
+    .main-page .main-page-block .main-page-block-right {
+    
+      width: 50%;
+      padding-top: 1px;
+      
+    }
+    .main-page .main-page-block .main-page-block-right {
+      display: contents;
+      width: 100%;
+      padding-top: 1px;
+      position: absolute;
+    
+      .button-play {
+        transition: 1s;
+        font-size: 70px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        top: 119px;
+        right: 28px;
+        svg{
+          width: 30px;
+          height: 30px;
+        }
+      
+      }
+    }
+    .main-page .main-page-block .main-page-block-right .button-arrow .button-arrow-model {
+    
+      width: 80px;
+      height: 80px;
+    
+    
+    
+    span {
+      font-size: 40px;
+    
+    }
+    }
+    
+    .main-page .main-page-block .main-page-block-right .button-arrow .button-arrow-text {
+      transition: 1s;
+      -webkit-user-select: none;
+      user-select: none;
+      font-size: 17px;
+      padding-left: 0px;
+      margin-left: 0px;
+    }
+    
+      .main-page .main-page-block .main-page-block-right  {
+        .button-arrow { transition: 1s;
+          transition: 1s;
+          height: auto;
+          width: 30%;
+          display: flex;
+          padding-top: 0px;
+          padding-left: 0px;
+          bottom: 112px;
+          right: 47px;
+          align-items: center;
+          justify-content: end;
+          flex-direction: column;
+        }
+    }
+    .main-page-subHeader {
+      transition: 1s;
+      grid-area: 3/1/4/5;
+      font-size: 14px;
+      color: white;
+      padding-left: 28px;
+      padding-top: 17px;
+      width: 60%;
+      font-weight: normal;
+      font-family: "Montserrat";
+    }
+    .main-page .main-page-block .main-page-block-right .button-video {
+      transition: 1s;
+      align-items: baseline;
+      justify-content: center;
+    
+    }
+    
+    section .text span {
+      cursor: pointer;
+      display: inline-block;
+      transform-origin: 0 50px;
+    }
+    section .text {
+      position: relative;
+      top: 16px;
+      /* bottom: 32px; */
+      left: 35px;
+      font-size: 10px;
+      color: #e9e9e9;
+      text-align: center;
+      -webkit-user-select: none;
+      user-select: none;
+      font-family: "Poiret One";
+    }
+    
+    .button-play {
+      transition: 1s;
+      font-size: 25px;
+      padding-right: 19px;
+      padding-bottom: 27px;
+      font-size: 60px;
+    
+    }
+    
+    
+    
+    }
+// @media (max-width: 360px) { 
+//   .main-page{
+//     background-position-x: -659px;
+//     background-position-y: 78px;
+//     background-size: 1272px 714px;
 
-}
+//   }
 
-section .text span {
-  cursor: pointer;
-  display: inline-block;
-  transform-origin: 0 50px;
-}
-section .text {
-  position: relative;
-  top: 16px;
-  /* bottom: 32px; */
-  left: 35px;
-  font-size: 10px;
-  color: #e9e9e9;
-  text-align: center;
-  -webkit-user-select: none;
-  user-select: none;
-  font-family: "Poiret One";
-}
+//   .main-page .main-page-block .main-page-block-right .button-play {
+//     position: absolute;
+//     padding-top: 0px;
+//     transition: 1s;
+//     top: 112px;
+//     right: 21px;
+//     button{
+//       background-size: 196px 194px;
+//       width: 120px;
+//       height: 82px;
+//     }
+//     button:hover {
+//       transition: 1s;
+//       background: url("./assets/video_hover.png");
+//       border: none;
+//       background-position: center;
+//       transition: 1s;
+//       height: 210px;
+//       width: 210px;
+//       text-align: center;
+//       outline: #000;
+//       color: #fff;
+//       font-size: 15px;
+//       background-size: 196px 194px;
+//   }
+// }
+//   .main-page .main-page-block .main-page-block-left {
+//     transition: 1s;
+//     align-items: baseline;
+//     display: block;
+//     width: 100%;
+//     height: auto;
+//     padding-top: 71px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
 
-.button-play {
-  transition: 1s;
-  font-size: 25px;
-  padding-right: 19px;
-  padding-bottom: 27px;
-  font-size: 60px;
 
-}
+//     .main-page-header {
+//       transition: 1s;
+//       padding-left: 27px;
+//       font-family: "Poiret One";
+//       font-size: 10px;
+//       font-weight: 100;
+//       padding-bottom: 1px;
+//   }
+//  .main-page-logo img {
+//   transition: 1s;
+//   width: 327px;
+//   height: 179px;
+//   padding-left: 16px;
+// }
+// }
 
 
 
-}
+// .main-page .main-page-block .main-page-block-right {
+
+//   width: 50%;
+//   padding-top: 1px;
+  
+// }
+// .main-page .main-page-block .main-page-block-right {
+//   display: contents;
+//   width: 100%;
+//   padding-top: 1px;
+//   position: absolute;
+
+//   .button-play {
+//     transition: 1s;
+//     font-size: 70px;
+//     padding-right: 0px;
+//     padding-bottom: 0px;
+//     top: 54px;
+//     right: 0px;
+//     svg{
+//       width: 30px;
+//       height: 30px;
+//     }
+  
+//   }
+// }
+// .main-page .main-page-block .main-page-block-right .button-arrow .button-arrow-model {
+
+//   width: 80px;
+//   height: 80px;
+
+
+
+// span {
+//   font-size: 40px;
+
+// }
+// }
+
+// .main-page .main-page-block .main-page-block-right .button-arrow .button-arrow-text {
+//   transition: 1s;
+//   -webkit-user-select: none;
+//   user-select: none;
+//   font-size: 17px;
+//   padding-left: 0px;
+//   margin-left: 0px;
+// }
+
+//   .main-page .main-page-block .main-page-block-right  {
+//     .button-arrow { transition: 1s;
+//       transition: 1s;
+//       height: 100%;
+//       width: 30%;
+//       display: flex;
+//       padding-top: 0px;
+//       padding-left: 0px;
+//       bottom: 32px;
+//       right: 49px;
+//       align-items: center;
+//       justify-content: end;
+//       flex-direction: column;
+//     }
+// }
+// .main-page-subHeader {
+//   transition: 1s;
+//   grid-area: 3/1/4/5;
+//   font-size: 14px;
+//   color: white;
+//   padding-left: 28px;
+//   padding-top: 17px;
+//   width: 60%;
+//   font-weight: normal;
+//   font-family: "Montserrat";
+// }
+// .main-page .main-page-block .main-page-block-right .button-video {
+//   transition: 1s;
+//   align-items: baseline;
+//   justify-content: center;
+
+// }
+
+// section .text span {
+//   cursor: pointer;
+//   display: inline-block;
+//   transform-origin: 0 50px;
+// }
+// section .text {
+//   position: relative;
+//   top: 16px;
+//   /* bottom: 32px; */
+//   left: 35px;
+//   font-size: 10px;
+//   color: #e9e9e9;
+//   text-align: center;
+//   -webkit-user-select: none;
+//   user-select: none;
+//   font-family: "Poiret One";
+// }
+
+// .button-play {
+//   transition: 1s;
+//   font-size: 25px;
+//   padding-right: 19px;
+//   padding-bottom: 27px;
+//   font-size: 60px;
+
+// }
+
+
+
+// }
 
 
 

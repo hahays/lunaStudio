@@ -18,8 +18,9 @@ import SCREEN_8 from "./assets/screen_8.jpg";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-import { EffectCoverflow, Pagination } from "swiper";
+import { EffectCoverflow, Pagination, Navigation } from "swiper";
 
 function Comments() {
   return (
@@ -50,7 +51,8 @@ function Comments() {
                 slideShadows: true,
               }}
               pagination={true}
-              modules={[EffectCoverflow, Pagination]}
+              navigation={true}
+              modules={[EffectCoverflow, Pagination, Navigation]}
               className="mySwiper"
               initialSlide={3}
             >

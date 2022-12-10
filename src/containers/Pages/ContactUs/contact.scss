@@ -857,9 +857,23 @@
                     }
                 }
                 .back-form{
-                    margin-left: 17px;
+                    margin: 0 auto;
                     .back-form-top{
                         gap: 28px;
+                        .name-form{
+                            display: flex;
+                        }
+                        .phone-form{
+                            display: flex;
+                        }
+                    }
+                    .back-form-bottom{
+                        .email-form{
+                            display: flex;
+                        }
+                        .textArea-form{
+                            display: flex;
+                        }
                     }
                 }
                 .send-btn{
@@ -962,7 +976,111 @@
                     }
                 }
                 .back-form{
-                    margin-left: 13px;
+                    margin: 0 auto;
+                    .back-form-top{
+                        gap: 28px;
+                    }
+                }
+            }
+        }
+        background: url("./assets/anime-girl.png");
+      background-repeat: no-repeat;
+      background-position: 97px 162px;
+        .header-block{
+            padding-top: 20px;
+            h1{
+                display: none;
+            }
+            h2{
+               font-size: 53px;
+               margin-top: -89px;
+                padding-left: 0xpx;
+            }
+           
+        }
+      }
+      .text-about{
+        margin-left: 1px;
+        .text-about-header{
+            margin-left: 0px;
+
+            width: 70%;
+            text-align: inherit;
+           h2{
+            width: 100%;
+            font-size: 15px;
+           }
+        }
+        .text-about-number{
+            margin-top: 16px;
+            margin-left: 37px;
+            h1{
+               
+             font-size: 18px;
+             padding-left: -16px;
+            }
+         }
+         .text-about-subHeader{
+            margin-top: -5px;
+            margin-left: 7px;
+            h2{
+                font-size: 15px;
+            }
+         }
+    }
+    .contact-us-block .header-block h2 {
+        transition: 1s;
+        font-size: 35px;
+        text-align: center;
+        margin-top: -101px;
+        width: auto;
+        padding-left:0px;
+    }
+    .contact-us-block .header-block h2 {
+        transition: 1s;
+        font-size: 40px;
+        text-align: center;
+        margin-top: -92px;
+        width: auto;
+        padding-left: 0px;
+
+    }
+}
+@media (max-width: 360px) {
+    .contact-us-block{
+        .custom-checkbox {
+            position: absolute;
+            z-index: 1;
+            opacity: 0;
+            left: 2;
+            margin-top: 13px;
+            margin-left: 10px;
+        }
+        
+        .custom-checkbox + label {
+            font-size: 20px;
+        }
+        height: fit-content;
+        padding: 39px 0px;
+        .contact-us-block-main{
+            flex-direction: column;
+            margin-top: 60px;
+            margin-left: 0px;
+            .main-left{
+                margin-left: -24px;
+                width: 100%;
+            }
+            .main-right{
+                margin-top: 44px;
+                width: 100%;
+                .central-form{
+                    .checkBox-form{
+                        align-items: center;
+                        font-size: 11px;
+                    }
+                }
+                .back-form{
+                    margin: 0 auto;
                     .back-form-top{
                         gap: 28px;
                     }

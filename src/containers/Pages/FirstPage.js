@@ -18,8 +18,8 @@ function FirstPage() {
       <WhyWeACool />
       <Calculator />
       <CotactUs />
-      {/* <AboutUs />
-      <Team /> */}
+      <AboutUs />
+      <Team />
       <Comments />
       <ElseComments />
       <Answers />

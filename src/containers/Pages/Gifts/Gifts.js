@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import Header from "../../Header/Header";
 import "./gifts.scss";
-
 import CARD_ONE from "./assets/card_one_m.png";
 import CARD_TWO from "./assets/card_two_m.png";
 import CARD_THREE from "./assets/card_three_m.png";
-import PLAY from "./assets/play.svg";
 import Play from "./assets/Play";
 import Modal from "../../../components/Modal/Modal";
 
@@ -20,15 +18,15 @@ function Gifts() {
               onClick={() => {
                 setModalActive(false);
               }}
-            >
-              {/* <img src={KREST} /> */}
-            </button>
+            ></button>
           </div>
           <div className="aboutUs-page-modal-video">
             <iframe
               width="455"
               height="809"
-              src="https://www.youtube.com/embed/5s3SJwcli6s"
+              src={
+                modalActive ? "https://www.youtube.com/embed/5s3SJwcli6s" : ""
+              }
               title="Какой подарок от руководства понравится каждой сотруднице? #shorts #model #modelagency"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

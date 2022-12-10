@@ -10,10 +10,92 @@
         background-size: 1400px 950px;
         position: inherit;
         z-index: 99999;
+        .modal__content.active{
+            width: 70%;
+            height: 60%;
+          }
+        .team-page-modal{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            height: 100%;
+            .team-page-modal-x{
+              display: flex;
+              justify-content: end;
+              transition: 1s;
+              button{
+                transition: 1s;
+                background: url("./assets/close.png");
+                height: 25px;
+                object-fit: unset;
+                background-size: cover;
+                width: 25px;
+                border: none;
+                background-repeat: no-repeat;
+                cursor: pointer;
+              }
+              button:hover{
+                transition: 1s;
+                background: url("./assets/close_hover.png");
+                height: 25px;
+                object-fit: unset;
+                background-size: cover;
+                width: 25px;
+                border: none;
+                background-repeat: no-repeat;
+                cursor: pointer;
+              }
+            }
+            .team-page-modal-video{
+              height: inherit;
+            }
+            iframe{
+              width: -webkit-fill-available;
+              height: -webkit-fill-available;;
+              .ytp-chrome-top-buttons{
+                display: none;
+              }
+            }
+          }
         .team-block-main{
             padding-top: 20px;
             display: flex;
             height: 60%;
+
+            .button-play{
+                display: flex;
+                justify-content: center;
+                button{
+   
+                    cursor: pointer;
+                    background: url("./assets/video.png");
+                    border: none;
+                    background-position: center;
+                    transition: 1s;
+                    height: 210px;
+                    width: 210px;
+                    text-align: center;
+                    outline: #000;
+                    color: #fff;
+                    font-size: 15px;
+                }
+            }
+           
+            .button-play{
+                    button:hover {
+                        transition: 1s;
+                        background: url("./assets/video_hover.png");
+                        border: none;
+                        background-position: center;
+                        transition: 1s;
+                        height: 210px;
+                        width: 210px;
+                        text-align: center;
+                        outline: #000;
+                        color: #fff;
+                        font-size: 15px;
+                    }
+            }
             .team-block-main-left{
                 height: 70%;
                 width: 50%;
@@ -70,73 +152,7 @@
             }
         }
     }
-    // @media (max-width: 1729px) { 
-    //     background: url("./assets/bg.png");
-    //     height: 100vh;  
-    //     background-size: cover;
-    //     background-repeat: no-repeat;
-    //     background-position: 55% -210%;
-    //     background-size: 1400px 950px;
-    //     position: inherit;
-    //     z-index: 99999;
-    //     .team-block-main{
-    //         padding-top: 20px;
-    //         display: flex;
-    //         height: 60%;
-    //         .team-block-main-left{
-    //             height: 70%;
-    //             width: 50%;
-    //             padding-left: 10px;
-    //             padding-top: 20px;
-    //             .team-text{
-    //                 color: white;
-    //                 font-size: 20px;
-    //                 font-family: "Montserrat", system-ui;
-    //                 width: 60%;
-    //                 padding-left:350px;
-    //                 padding-top: 90px;
-    //                 display: flex;
-    //                 justify-content: start;
-    //             }
-    //             .team-button{
-    //                 color: white;
-    //                 height: 25%;
-    //                 display: flex;
-    //                 width: 100%;
-    //                 padding-left: 350px;
-    //                 .blue-l{
-    //                     font-family: "Montserrat", system-ui;
-    //                     height: 65%;
-    //                     width: 170%;
-    //                     font-size:22px;
-    //                 }
-    //             }
-    //         }
-    //         .team-block-main-right{
-    //             height: 100%;
-    //             width: 50%;
-    //             padding-left: 130px;
-    //             padding-top: 20px;
-    //             .team-card {
-    //                 img {
-    //                     border-radius: 15px;
-    //                     width: 400px;
-    //                     height: 600px;
-    //                 }
-    
-    //             }
-    //         }
-    //     }
-     
-
-    //     .team-button{
-    //         z-index: 1;
-    //         .blue-l::before{
-    //             display: none;
-    //         }
-    //     }
-    // }
-
+ 
     @media (max-width: 1550px) { 
         background: url("./assets/bg.png");
       height: fit-content;
@@ -955,6 +971,13 @@
     @media (max-width: 395px) { 
         .header-block {
             padding-top: 27px;
+            h1{
+                display: none;
+            }
+            h2{
+                font-size: 40px;
+            }
+            
         }
         background: url("./assets/bg.png");
         height: fit-content;
@@ -1003,6 +1026,87 @@
                         position: relative;
                         top: 467px;
                         left: 42px;
+                    }
+                    .blue-l::before{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 40%;
+                        font-size: 16px;
+                        display: none;
+                    }
+                }
+            }
+            .team-block-main-right{
+                height: 100%;
+                width: 100%;
+                padding-left: 0px;
+                bottom: 85px;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                .team-card {
+                    img {
+                        border-radius: 15px;
+                        width: 291px;
+                        height: 397px;
+                    }
+    
+                }
+            }
+        }
+
+    }
+    @media (max-width: 360px) { 
+        .header-block {
+            padding-top: 27px;
+        }
+        background: none;
+        height: fit-content;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 55% -210%;
+        background-size: 1400px 950px;
+        position: inherit;
+        z-index: 99999;
+        .team-block-main{
+            padding-top: 20px;
+            display: block;
+            height: 60%;
+            .team-block-main-left{
+                height: 70%;
+                width: 80%;
+                padding-left: 10px;
+                padding-top: 20px;
+                .team-text{
+                    transition: 1s;
+                    color: white;
+                    font-size: 15px;
+                    font-family: "Montserrat", system-ui;
+                    height: 60%;
+                    width: 100%;
+                    padding-left: 30px;
+                    padding-top: 3px;
+                    display: flex;
+                    justify-content: start;
+                }
+                .team-button{
+                    transition: 1s;
+                    color: white;
+                    display: flex;
+                    width: 100%;
+                    padding-top: 0px;
+                    padding-left: 0px;
+                    position: relative;
+                    bottom: -14px;
+                    left: 2px;
+                    .blue-l{
+                        font-family: "Montserrat", system-ui;
+                        height: 50%;
+                        width: 170%;
+                        font-size: 16px;
+                        position: relative;
+                        top: 467px;
+                        left: 30px;
                     }
                     .blue-l::before{
                         font-family: "Montserrat", system-ui;

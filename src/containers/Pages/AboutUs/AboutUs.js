@@ -14,40 +14,8 @@ function AboutUs() {
   const [modalActive, setModalActive] = useState(false);
   return (
     <div id="aboutUs" className="aboutUs-block">
-      <Modal active={modalActive} setActive={setModalActive}>
-        <div className="aboutUs-page-modal">
-          <div className="aboutUs-page-modal-x">
-            <button
-              onClick={() => {
-                setModalActive(false);
-              }}
-            >
-              {/* <img src={KREST} /> */}
-            </button>
-          </div>
-          <div className="aboutUs-page-modal-video">
-            <iframe
-              width=" -webkit-fill-available;"
-              height="315"
-              src="https://www.youtube.com/embed/jjKkEYtatHg"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-      </Modal>
-      <Header header="История студии" subHeader="О нас" />
+      <Header header="Это для тебя, если" subHeader="Студия Luna" />
       <div className="aboutUs-block-main">
-        <div className="button-play">
-          {/* <ButtonPlays /> */}
-          <button
-            onClick={() => {
-              setModalActive(true);
-            }}
-          ></button>
-        </div>
         <div className="main-top">
           <div className="main-top-text">
             <p>
@@ -74,9 +42,9 @@ function AboutUs() {
             <div className="text">
               <p>
                 Важнее всего для нас, чтобы ты чувствовала себя комфортно и
-                имела доход, о котором всегда мечтала. Поэтому в наш коллектив
-                попадают не все, а команда наших администраторов -{" "}
-                <span className="shadow-word">одна из сильнейших в СПБ</span>.
+                имела доход, о котором всегда мечтала. Поэтому наша команда
+                администраторов -{" "}
+                <span className="shadow-word">одна из сильнейших в СПБ.</span>.
               </p>
             </div>
           </div>

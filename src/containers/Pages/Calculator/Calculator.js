@@ -211,7 +211,9 @@ function Calculator() {
             </div>
           </div>
           <div className="calculator-block-container-button">
-            <Button className="btn blue-l" text="Начни зарабатывать" />
+            <HashLink to="#contactUs">
+              <Button className="btn blue-l" text="Начни зарабатывать" />
+            </HashLink>
           </div>
         </div>
         <div className="calculator-block-button">

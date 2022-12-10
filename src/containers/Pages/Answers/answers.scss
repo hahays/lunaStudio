@@ -371,9 +371,10 @@
           display: flex;
           justify-content: flex-end;
           // margin-bottom: 10px;
-          position:static;
-          top: -33px;
+          position: relative;
+          top: -49px;
           left: 47px;
+          height: 30px;
           .spoiler1{
             top: -33px;
             left: 47px;

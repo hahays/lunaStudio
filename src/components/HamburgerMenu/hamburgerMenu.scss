@@ -937,4 +937,83 @@ transition: max-height 0.5s ease-out;
 }
 
 }
+@media (max-width: 360px) { 
+
+  .hamburger{
+    padding: 0 65px;
+  }
+  .navibar-block {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+  .wrapper {
+    height: 83px;
+    width: 100%;
+}
+  .navibar-block .navibar-block-left {
+    transition: 1s;
+    padding-left: 15px;
+    .logo-luna{
+      transition: 1s;
+      height: 80px;
+    }
+
+}
+.navibar-block-right-info{
+  .hamburger {
+    width: max-content;
+    padding: 0 25px;
+    color: #000;
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 100;
+    /* gap: 0.8rem; */
+    height: 3rem;
+    justify-content: space-between;
+    top: 0;
+    z-index: 2;
+    z-index: 6;
+}
+}
+  .navibar-block .navibar-block-right {
+    
+    transition: 1s;
+       padding-right: 0px;
+
+       .menu {
+        padding-top: 32px;
+        padding-left: 255px;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: baseline;
+
+        a{
+   
+
+            font-size: 15px;
+            transition: 1s;
+        }
+    }
+    .nav .side-info {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      padding-left: 300px;
+  }
+  .nav .blue-l-navi {
+    margin-left: 260px;
+}
+.nav .city {
+  transition: 1s;
+  margin-top: 29px;
+  justify-content: end;
+  padding-right: 185px;
+}
+}
+
+}
 

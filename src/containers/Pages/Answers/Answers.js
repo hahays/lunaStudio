@@ -26,7 +26,7 @@ function Answers() {
             <div className="main-item-right">
               <div class="spoiler">
                 <label for="spoiler1">
-                  Со скольких лет к вам можно устроиться?
+                  Мне меньше 18, я могу стать моделью?
                 </label>
                 <input type="checkbox" id="spoiler1" />
                 <label
@@ -156,7 +156,7 @@ function Answers() {
             <div className="main-item-right">
               <div class="spoiler">
                 <label for="spoiler9">
-                  Если у меня не ельная внешность, смогу-ли я работать?
+                  Если у меня не модельная внешность, смогу-ли я работать?
                 </label>
                 <input type="checkbox" id="spoiler9" />
                 <label

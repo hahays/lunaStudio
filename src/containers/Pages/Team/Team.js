@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../../button/Button";
 import Header from "../../Header/Header";
 import "./team.scss";
@@ -6,11 +6,39 @@ import "./team.scss";
 import GIRL from "./assets/card.png";
 import { useNavigate } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import Modal from "../../../components/Modal/Modal";
 
 function Team() {
+  const [modalActive, setModalActive] = useState(false);
   const navigate = useNavigate();
   return (
     <div id="team" className="team-block">
+      <Modal active={modalActive} setActive={setModalActive}>
+        <div className="team-page-modal">
+          <div className="team-page-modal-x">
+            <button
+              onClick={() => {
+                setModalActive(false);
+              }}
+            >
+              {/* <img src={KREST} /> */}
+            </button>
+          </div>
+          <div className="team-page-modal-video">
+            <iframe
+              width=" -webkit-fill-available;"
+              height="315"
+              src={
+                modalActive ? "https://www.youtube.com/embed/jjKkEYtatHg" : ""
+              }
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </Modal>
       <Header header="Коллектив" subHeader="Коллектив" />
       <div className="team-block-main">
         <div className="team-block-main-left">
