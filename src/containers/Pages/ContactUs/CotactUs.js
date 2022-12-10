@@ -64,7 +64,9 @@ function CotactUs() {
               </h2>
             </div>
             <div className="text-about-number">
-              <h1>+7 (911) 139 49 85</h1>
+              <a href="https://t.me/lunnayprizma" target="_blank">
+                <h1>+7 (911) 139 49 85</h1>
+              </a>
             </div>
             <div className="text-about-subHeader">
               <h2>г. Санкт-Петербург, м. Садовая</h2>
