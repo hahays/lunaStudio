@@ -326,6 +326,7 @@ transition: max-height 0.5s ease-out;
         a{
           font-family: 'Poiret One';
           z-index: 9999;
+          display: block;
         }
       }
     
@@ -684,9 +685,11 @@ transition: max-height 0.5s ease-out;
 }
 
 @media (max-width: 770px) { 
+  .hamburger{
+    padding: 0px;
+  }
   .navibar-block .navibar-block-left {
     transition: 1s;
-    padding-left: 60px;
 
 }
   .navibar-block-right-info {
@@ -745,6 +748,11 @@ transition: max-height 0.5s ease-out;
 }
 
 @media (max-width: 431px) { 
+  .hamburger{
+    padding: 0 3px;
+    justify-content: end;
+    align-items: flex-end;
+  }
   .navibar-block .navibar-block-left {
     transition: 1s;
     padding-left: 15px;
@@ -940,7 +948,7 @@ transition: max-height 0.5s ease-out;
 @media (max-width: 360px) { 
 
   .hamburger{
-    padding: 0 65px;
+    padding: 0 0px;
   }
   .navibar-block {
     position: fixed;

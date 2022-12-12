@@ -4,9 +4,6 @@ import "./comments.scss";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import PHOTO_ONE from "./assets/photo1.png";
-import PHOTO_TWO from "./assets/photo2.png";
-import PHOTO_THREE from "./assets/photo3.png";
 import SCREEN_1 from "./assets/screen_1.jpg";
 import SCREEN_2 from "./assets/screen_2.jpg";
 import SCREEN_3 from "./assets/screen_3.jpg";

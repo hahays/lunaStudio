@@ -1,4 +1,5 @@
 .contact-us-block{
+    
     background: url('./assets/bg.png');
     background-size: cover;
   height: fit-content;
@@ -9,7 +10,21 @@
     object-position: 65px -15px;
     background-position: -3px 10px;
     background-size: 1719px 848px;
- 
+
+
+    input:-internal-autofill-selected {
+        appearance: menulist-button;
+        background-image: none !important;
+        background-color: -internal-light-dark(rgb(232, 240, 254), rgba(70, 90, 126, 0.4)) !important;
+        color: fieldtext !important;
+        background: rgba(127, 133, 158, 0.192);
+    }
+
+    input:autofill {
+        background: rgba(127, 133, 158, 0.192);
+        border: 1px solid darkblue;
+    }
+    
     .custom-checkbox {
         position: absolute;
         z-index: 1;
@@ -184,12 +199,14 @@
 
     line-height: 1.2;
   }
+
   
   .main-input,
   .main-textarea {
     // width: 100%;
     outline: none;
-    background-color: rgba(255, 0, 183, 0.08);
+    background: rgba(127, 133, 158, 0.192);
+    backdrop-filter: blur(19px);
     border: 1px solid rgba(255, 0, 183, 1);
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
@@ -198,6 +215,7 @@
     border-radius: 10px;
     transition: 0.3s;
     color: white;
+    
   }
   
   .main-textarea:focus {
@@ -253,6 +271,90 @@
   
 
 @media (max-width: 2920px) {
+    .modal__content.active{
+        width: 30%;
+        height: 50%;
+        border-radius: 30px;
+      }
+    .contact-us-page-modal{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      height: 100%;
+      .contact-us-modal-text{
+        width: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .contact-us-modal-text-header{
+            color: white;
+            font-size: 32px;
+              text-shadow: 0 0 20px #ff00ec;
+              font-weight: 100;
+        }
+        .contact-us-modal-text-subHeader{
+               color: white;
+            font-size: 25px;
+            width: 70%;
+              text-shadow: 0 0 20px #ff00ec;
+             h3{
+                 font-weight: 100;
+                 text-align: center;
+             }
+
+        }
+        .contact-us-modal-text-button{
+            width: 100%;
+            .blue-l{
+                width: 100%;
+                height: 70px;
+                font-size: 30px;
+            }
+            .blue-l::before{
+                display: none;
+            }
+        }
+      }
+      .contact-us-page-modal-x{
+        display: flex;
+        justify-content: end;
+        transition: 1s;
+        button{
+          transition: 1s;
+          background: url("./assets/close.png");
+          height: 25px;
+          object-fit: unset;
+          background-size: cover;
+          width: 25px;
+          border: none;
+          background-repeat: no-repeat;
+          cursor: pointer;
+        }
+        button:hover{
+          transition: 1s;
+          background: url("./assets/close_hover.png");
+          height: 25px;
+          object-fit: unset;
+          background-size: cover;
+          width: 25px;
+          border: none;
+          background-repeat: no-repeat;
+          cursor: pointer;
+        }
+      }
+      .contact-us-page-modal-video{
+        height: inherit;
+      }
+      iframe{
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;;
+        .ytp-chrome-top-buttons{
+          display: none;
+        }
+      }
+    }
     .back-form {
         margin-top: -17px;
       max-width: 1100px;
@@ -294,6 +396,80 @@
 
 @media (max-width: 1540px) {
   .contact-us-block{
+    .modal__content.active{
+        width: 30%;
+        height: 50%;
+        border-radius: 30px;
+      }
+    .contact-us-page-modal{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      height: 100%;
+      .contact-us-modal-text{
+        width: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .contact-us-modal-text-header{
+            color: white;
+            font-size: 27px;
+              text-shadow: 0 0 20px #ff00ec;
+              font-weight: 100;
+        }
+        .contact-us-modal-text-subHeader{
+               color: white;
+            font-size: 25px;
+            width: 70%;
+              text-shadow: 0 0 20px #ff00ec;
+             h3{
+                 font-weight: 100;
+                 text-align: center;
+             }
+
+        }
+        .contact-us-modal-text-button{
+            width: 100%;
+            .blue-l{
+                width: 100%;
+                height: 70px;
+                font-size: 30px;
+            }
+            .blue-l::before{
+                display: none;
+            }
+        }
+      }
+      .contact-us-page-modal-x{
+        display: flex;
+        justify-content: end;
+        transition: 1s;
+        button{
+          transition: 1s;
+          background: url("./assets/close.png");
+          height: 25px;
+          object-fit: unset;
+          background-size: cover;
+          width: 25px;
+          border: none;
+          background-repeat: no-repeat;
+          cursor: pointer;
+        }
+        button:hover{
+          transition: 1s;
+          background: url("./assets/close_hover.png");
+          height: 25px;
+          object-fit: unset;
+          background-size: cover;
+          width: 25px;
+          border: none;
+          background-repeat: no-repeat;
+          cursor: pointer;
+        }
+      }
+    }
 
     .header-block{
         padding-top: 20px;
@@ -340,7 +516,88 @@
 
 
     @media (max-width: 1124px) {
+        
         .contact-us-block{
+            .modal__content.active{
+                width: 30%;
+                height: 50%;
+                border-radius: 30px;
+              }
+            .contact-us-page-modal{
+              display: flex;
+              flex-direction: column;
+              gap: 30px;
+              height: 100%;
+              .contact-us-modal-text{
+                width: auto;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .contact-us-modal-text-header{
+                    color: white;
+                    font-size: 27px;
+                      text-shadow: 0 0 20px #ff00ec;
+                      font-weight: 100;
+                      display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+                }
+                .contact-us-modal-text-subHeader{
+                       color: white;
+                    font-size: 25px;
+                    width: 70%;
+                      text-shadow: 0 0 20px #ff00ec;
+                     h3{
+                         font-weight: 100;
+                         text-align: center;
+                     }
+        
+                }
+                .contact-us-modal-text-button{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    .blue-l{
+                        width: 80%;
+                        height: 70px;
+                        font-size: 20px;
+                    }
+                    .blue-l::before{
+                        display: none;
+                    }
+                }
+              }
+              .contact-us-page-modal-x{
+                display: flex;
+                justify-content: end;
+                transition: 1s;
+                button{
+                  transition: 1s;
+                  background: url("./assets/close.png");
+                  height: 25px;
+                  object-fit: unset;
+                  background-size: cover;
+                  width: 25px;
+                  border: none;
+                  background-repeat: no-repeat;
+                  cursor: pointer;
+                }
+                button:hover{
+                  transition: 1s;
+                  background: url("./assets/close_hover.png");
+                  height: 25px;
+                  object-fit: unset;
+                  background-size: cover;
+                  width: 25px;
+                  border: none;
+                  background-repeat: no-repeat;
+                  cursor: pointer;
+                }
+              }
+            }
             .custom-checkbox {
                 position: absolute;
                 z-index: 1;
@@ -392,7 +649,86 @@
     }
 
 @media (max-width: 950px) {
+   
     .contact-us-block{
+        .modal__content.active{
+            width: 30%;
+            height: 50%;
+            border-radius: 30px;
+          }
+        .contact-us-page-modal{
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          height: 100%;
+          .contact-us-modal-text{
+            width: auto;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .contact-us-modal-text-header{
+                color: white;
+                font-size: 20px;
+                  text-shadow: 0 0 20px #ff00ec;
+                  font-weight: 100;
+                  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+            }
+            .contact-us-modal-text-subHeader{
+                   color: white;
+                   font-size: 20px;
+                width: 70%;
+                  text-shadow: 0 0 20px #ff00ec;
+                 h3{
+                     font-weight: 100;
+                     text-align: center;
+                 }
+    
+            }
+            .contact-us-modal-text-button{
+                width: 100%;
+                .blue-l{
+                    width: 80%;
+                    height: 70px;
+                    font-size: 20px;
+                }
+                .blue-l::before{
+                    display: none;
+                }
+            }
+          }
+          .contact-us-page-modal-x{
+            display: flex;
+            justify-content: end;
+            transition: 1s;
+            button{
+              transition: 1s;
+              background: url("./assets/close.png");
+              height: 25px;
+              object-fit: unset;
+              background-size: cover;
+              width: 25px;
+              border: none;
+              background-repeat: no-repeat;
+              cursor: pointer;
+            }
+            button:hover{
+              transition: 1s;
+              background: url("./assets/close_hover.png");
+              height: 25px;
+              object-fit: unset;
+              background-size: cover;
+              width: 25px;
+              border: none;
+              background-repeat: no-repeat;
+              cursor: pointer;
+            }
+          }
+        }
         background-position: -3px 15px;
         background-size: 1719px 848px;
         .header-block{
@@ -450,6 +786,84 @@
 @media (max-width: 822px) {
     .contact-us-block{
         background-position: 0% -100%;
+        .modal__content.active{
+            width: 30%;
+            height: 50%;
+            border-radius: 30px;
+          }
+        .contact-us-page-modal{
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          height: 100%;
+          .contact-us-modal-text{
+            width: auto;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .contact-us-modal-text-header{
+                color: white;
+                font-size: 20px;
+                  text-shadow: 0 0 20px #ff00ec;
+                  font-weight: 100;
+                  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+            }
+            .contact-us-modal-text-subHeader{
+                   color: white;
+                   font-size: 20px;
+                width: 70%;
+                  text-shadow: 0 0 20px #ff00ec;
+                 h3{
+                     font-weight: 100;
+                     text-align: center;
+                 }
+    
+            }
+            .contact-us-modal-text-button{
+                width: 100%;
+                .blue-l{
+                    width: 80%;
+                    height: 70px;
+                    font-size: 20px;
+                }
+                .blue-l::before{
+                    display: none;
+                }
+            }
+          }
+          .contact-us-page-modal-x{
+            display: flex;
+            justify-content: end;
+            transition: 1s;
+            button{
+              transition: 1s;
+              background: url("./assets/close.png");
+              height: 25px;
+              object-fit: unset;
+              background-size: cover;
+              width: 25px;
+              border: none;
+              background-repeat: no-repeat;
+              cursor: pointer;
+            }
+            button:hover{
+              transition: 1s;
+              background: url("./assets/close_hover.png");
+              height: 25px;
+              object-fit: unset;
+              background-size: cover;
+              width: 25px;
+              border: none;
+              background-repeat: no-repeat;
+              cursor: pointer;
+            }
+          }
+        }
         .header-block{
             padding-top: 20px;
             h1{
@@ -489,7 +903,7 @@
  
         margin-top: -139px;
         padding-left: 142px;
-        width: 770px;
+        width: auto;
         text-align: center;
     }
     .contact-us-block .header-block h2 {
@@ -511,6 +925,22 @@
 }
 
 @media (max-width: 742px) {
+    .back-form .back-form-top .name-form {
+        width: 100%;
+        display: flex;
+    }
+    .back-form .back-form-top .phone-form {
+        width: 100%;
+        display: flex;
+    }
+    .back-form-bottom{
+        .email-form{
+            display: flex;
+        }
+        .textArea-form{
+            display: flex;
+        }
+    }
     .contact-us-block .header-block h2 {
         transition: 1s;
         font-size: 40px;
@@ -610,7 +1040,90 @@
 }
 
 @media (max-width: 620px) {
-    .contact-us-block{
+    
+
+     .contact-us-block{
+        .modal__content.active{
+            width: 30%;
+            height: 50%;
+            border-radius: 30px;
+          }
+        .contact-us-page-modal{
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          height: 100%;
+          .contact-us-modal-text{
+            width: auto;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .contact-us-modal-text-header{
+                color: white;
+                font-size: 27px;
+                  text-shadow: 0 0 20px #ff00ec;
+                  font-weight: 100;
+                  display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+            }
+            .contact-us-modal-text-subHeader{
+                   color: white;
+                font-size: 25px;
+                width: 70%;
+                  text-shadow: 0 0 20px #ff00ec;
+                 h3{
+                     font-weight: 100;
+                     text-align: center;
+                 }
+    
+            }
+            .contact-us-modal-text-button{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                .blue-l{
+                    width: 80%;
+                    height: 70px;
+                    font-size: 20px;
+                }
+                .blue-l::before{
+                    display: none;
+                }
+            }
+  
+          .contact-us-page-modal-x{
+            display: flex;
+            justify-content: end;
+            transition: 1s;
+            button{
+              transition: 1s;
+              background: url("./assets/close.png");
+              height: 25px;
+              object-fit: unset;
+              background-size: cover;
+              width: 25px;
+              border: none;
+              background-repeat: no-repeat;
+              cursor: pointer;
+            }
+            button:hover{
+              transition: 1s;
+              background: url("./assets/close_hover.png");
+              height: 25px;
+              object-fit: unset;
+              background-size: cover;
+              width: 25px;
+              border: none;
+              background-repeat: no-repeat;
+              cursor: pointer;
+            }
+          }
+        }
+        
         .contact-us-block-main{
             .main-left{
                 width: 35%;
@@ -639,6 +1152,7 @@
            
         }
       }
+     }
       .text-about{
         margin-left: -37px;
         .text-about-header{
@@ -675,8 +1189,88 @@
 
 @media (max-width: 561px) {
     .contact-us-block{
+        .modal__content.active{
+            width: 50%;
+            height: max-content;
+            border-radius: 30px;
+          }
+        .contact-us-page-modal{
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          height: 100%;
+          .contact-us-modal-text{
+            width: auto;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .contact-us-modal-text-header{
+                color: white;
+                font-size: 20px;
+                  text-shadow: 0 0 20px #ff00ec;
+                  font-weight: 100;
+                  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+            }
+            .contact-us-modal-text-subHeader{
+                   color: white;
+                   font-size: 20px;
+                width: 70%;
+                  text-shadow: 0 0 20px #ff00ec;
+                 h3{
+                     font-weight: 100;
+                     text-align: center;
+                 }
+    
+            }
+            .contact-us-modal-text-button{
+                width: 100%;
+                .blue-l{
+                    width: 80%;
+                    height: 70px;
+                    font-size: 20px;
+                }
+                .blue-l::before{
+                    display: none;
+                }
+            }
+          }
+          .contact-us-page-modal-x{
+            display: flex;
+            justify-content: end;
+            transition: 1s;
+            height: max-content;
+            button{
+              transition: 1s;
+              background: url("./assets/close.png");
+              height:30px;
+              object-fit: unset;
+              background-size: cover;
+              width: 30px;
+              border: none;
+              background-repeat: no-repeat;
+              cursor: pointer;
+            }
+            button:hover{
+              transition: 1s;
+              background: url("./assets/close_hover.png");
+              height:30px;
+              object-fit: unset;
+              background-size: cover;
+              width: 30px;
+              border: none;
+              background-repeat: no-repeat;
+              cursor: pointer;
+            }
+          }
+        }
         .contact-us-block-main{
-            margin-top: 0px;
+            
+            margin-top: 72px;
             display: flex;
             flex-direction: column;
             height: fit-content;
@@ -687,7 +1281,9 @@
                 margin-top: 44px;
                 width: 100%;
                 .back-form{
-                    margin-left: 17px;
+                    margin-left: 0px;
+                    width: 100%;
+                    justify-content: center;
                     .back-form-top{
                         gap: 28px;
                     }
@@ -696,11 +1292,12 @@
         }
         background: url("./assets/anime-girl.png");
         background-repeat: no-repeat;
-        background-position: 0% -100%;
+        background-position: -409% -2%;
         padding: 20px 0px;
         .header-block{
-            padding-top: 20px;
+            padding-top: 0px;
             h1{
+                padding-top: 10px;
                 font-size: 30px;
             }
             h2{
@@ -714,9 +1311,9 @@
       .text-about{
         margin-left: -37px;
         .text-about-header{
-            padding-left: 33px;
+            padding: 0 20px;
             width: 70%;
-            text-align: center;
+            text-align: inherit;
            h2{
             font-size: 15px;
            }
@@ -724,14 +1321,15 @@
         .text-about-number{
             margin-top: 26px;
     margin-top: 40px;
+    margin-left: 0px;
             h1{
-               margin-left: 88px;
+                margin-left: 89px;
              font-size: 20px;
             }
          }
          .text-about-subHeader{
             margin-top: -5px;
-            padding-left: 110px;
+            padding-left: 18px;
             h2{
                 font-size: 15px;
             }
@@ -739,11 +1337,12 @@
     }
     .contact-us-block .header-block h2 {
         transition: 1s;
-        font-size: 35px;
+        font-size: 40px;
         text-align: center;
-        margin-top: -101px;
-        width: 370px;
-        padding-left: 91px;
+        margin-top: 0px;
+        width: auto;
+        padding-left: 0px;
+        padding-top: 0px;
     }
 }
 
@@ -751,6 +1350,7 @@
     .contact-us-block{
   height: max-content;
   padding: 39px 0px;
+  
         .contact-us-block-main{
             flex-direction: column;
             margin-top: 60px;
@@ -764,7 +1364,7 @@
                 margin-top: 44px;
                 width: 100%;
                 .back-form{
-                    margin-left: 17px;
+                    margin-left: 0px;
                     .back-form-top{
                         gap: 28px;
                     }
@@ -787,9 +1387,9 @@
       .text-about{
         margin-left: -37px;
         .text-about-header{
-            padding-left: 33px;
+            padding-left: 0px;
             width: 70%;
-            text-align: center;
+            text-align: start;
            h2{
             font-size: 15px;
            }
@@ -797,15 +1397,15 @@
         .text-about-number{
             margin-top: 26px;
     margin-top: 40px;
-    margin-left: 87px;
+    margin-left: 0px;
             h1{
-               margin-left: 88px;
+               margin-left: 68px;
              font-size: 20px;
             }
          }
          .text-about-subHeader{
             margin-top: -5px;
-            padding-left: 30px;
+            padding-left: 0px;
             h2{
                 font-size: 15px;
             }
@@ -822,7 +1422,7 @@
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
     .contact-us-block{
         .custom-checkbox {
             position: absolute;
@@ -836,7 +1436,7 @@
             font-size: 20px;
         }
       height: fit-content;
-      padding: 96px 0px;
+      padding: 58px 0px;
       background: url("./assets/anime-girl.png");
       background-repeat: no-repeat;
       background-position: 97px 162px;
@@ -849,7 +1449,7 @@
             }
             .main-right{
                 margin-top: 44px;
-                width: 100%;
+                width: 89%;
                 .central-form{
                     .checkBox-form{
                         align-items: center;
@@ -858,6 +1458,9 @@
                 }
                 .back-form{
                     margin: 0 auto;
+               input, textarea {
+                font-size: 15px;
+               }
                     .back-form-top{
                         gap: 28px;
                         .name-form{
@@ -885,7 +1488,7 @@
             }
         }
         .header-block{
-            padding-top: 0px;
+           padding-top: 41px;
             h1{
                 display: none;
                 font-size: 30px;
@@ -899,10 +1502,10 @@
         }
       }
       .text-about{
-        margin-left: 1px;
+        margin: 0 40px;
         .text-about-header{
             margin-left: 0px;
-            width: 70%;
+            width: 100%;
             text-align: inherit;
            h2{
             font-size: 15px;
@@ -910,13 +1513,14 @@
         }
         .text-about-number{
             margin-top: 16px;
-            margin-left: 30px;
+            margin-left: 0px;
             h1{
                margin-left: 0px;
              font-size: 20px;
             }
          }
          .text-about-subHeader{
+            width: 100%;
             margin-top: -5px;
             margin-left: 0px;
             h2{
@@ -935,214 +1539,6 @@
     .contact-us-block .header-block h2 {
         transition: 1s;
         font-size: 45px;
-        text-align: center;
-        margin-top: -92px;
-        width: auto;
-        padding-left: 0px;
-
-    }
-}
-@media (max-width: 375px) {
-    .contact-us-block{
-        .custom-checkbox {
-            position: absolute;
-            z-index: 1;
-            opacity: 0;
-            left: 2;
-            margin-top: 13px;
-            margin-left: 10px;
-        }
-        
-        .custom-checkbox + label {
-            font-size: 20px;
-        }
-        height: fit-content;
-        padding: 39px 0px;
-        .contact-us-block-main{
-            flex-direction: column;
-            margin-top: 60px;
-            margin-left: 0px;
-            .main-left{
-                margin-left: -24px;
-                width: 100%;
-            }
-            .main-right{
-                margin-top: 44px;
-                width: 100%;
-                .central-form{
-                    .checkBox-form{
-                        align-items: center;
-                        font-size: 11px;
-                    }
-                }
-                .back-form{
-                    margin: 0 auto;
-                    .back-form-top{
-                        gap: 28px;
-                    }
-                }
-            }
-        }
-        background: url("./assets/anime-girl.png");
-      background-repeat: no-repeat;
-      background-position: 97px 162px;
-        .header-block{
-            padding-top: 20px;
-            h1{
-                display: none;
-            }
-            h2{
-               font-size: 53px;
-               margin-top: -89px;
-                padding-left: 0xpx;
-            }
-           
-        }
-      }
-      .text-about{
-        margin-left: 1px;
-        .text-about-header{
-            margin-left: 0px;
-
-            width: 70%;
-            text-align: inherit;
-           h2{
-            width: 100%;
-            font-size: 15px;
-           }
-        }
-        .text-about-number{
-            margin-top: 16px;
-            margin-left: 37px;
-            h1{
-               
-             font-size: 18px;
-             padding-left: -16px;
-            }
-         }
-         .text-about-subHeader{
-            margin-top: -5px;
-            margin-left: 7px;
-            h2{
-                font-size: 15px;
-            }
-         }
-    }
-    .contact-us-block .header-block h2 {
-        transition: 1s;
-        font-size: 35px;
-        text-align: center;
-        margin-top: -101px;
-        width: auto;
-        padding-left:0px;
-    }
-    .contact-us-block .header-block h2 {
-        transition: 1s;
-        font-size: 40px;
-        text-align: center;
-        margin-top: -92px;
-        width: auto;
-        padding-left: 0px;
-
-    }
-}
-@media (max-width: 360px) {
-    .contact-us-block{
-        .custom-checkbox {
-            position: absolute;
-            z-index: 1;
-            opacity: 0;
-            left: 2;
-            margin-top: 13px;
-            margin-left: 10px;
-        }
-        
-        .custom-checkbox + label {
-            font-size: 20px;
-        }
-        height: fit-content;
-        padding: 39px 0px;
-        .contact-us-block-main{
-            flex-direction: column;
-            margin-top: 60px;
-            margin-left: 0px;
-            .main-left{
-                margin-left: -24px;
-                width: 100%;
-            }
-            .main-right{
-                margin-top: 44px;
-                width: 100%;
-                .central-form{
-                    .checkBox-form{
-                        align-items: center;
-                        font-size: 11px;
-                    }
-                }
-                .back-form{
-                    margin: 0 auto;
-                    .back-form-top{
-                        gap: 28px;
-                    }
-                }
-            }
-        }
-        background: url("./assets/anime-girl.png");
-      background-repeat: no-repeat;
-      background-position: 97px 162px;
-        .header-block{
-            padding-top: 20px;
-            h1{
-                display: none;
-            }
-            h2{
-               font-size: 53px;
-               margin-top: -89px;
-                padding-left: 0xpx;
-            }
-           
-        }
-      }
-      .text-about{
-        margin-left: 1px;
-        .text-about-header{
-            margin-left: 0px;
-
-            width: 70%;
-            text-align: inherit;
-           h2{
-            width: 100%;
-            font-size: 15px;
-           }
-        }
-        .text-about-number{
-            margin-top: 16px;
-            margin-left: 37px;
-            h1{
-               
-             font-size: 18px;
-             padding-left: -16px;
-            }
-         }
-         .text-about-subHeader{
-            margin-top: -5px;
-            margin-left: 7px;
-            h2{
-                font-size: 15px;
-            }
-         }
-    }
-    .contact-us-block .header-block h2 {
-        transition: 1s;
-        font-size: 35px;
-        text-align: center;
-        margin-top: -101px;
-        width: auto;
-        padding-left:0px;
-    }
-    .contact-us-block .header-block h2 {
-        transition: 1s;
-        font-size: 40px;
         text-align: center;
         margin-top: -92px;
         width: auto;

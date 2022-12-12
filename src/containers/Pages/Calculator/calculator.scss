@@ -12,8 +12,8 @@
         object-fit: cover;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: 125% -100%;
-        background-size: 1820px 1024px;
+        background-position: -2px 5px;
+        background-size: 1583px 848px;
         height: max-content;
         .calculator-block-main {
           background: rgba(127, 133, 158, 0.192);
@@ -38,7 +38,7 @@
             display: flex;
             justify-content: center;
             a{
-              width: 30%;
+              width: 40%;
               .blue-l{
                 width: 100%;
                 height: 79px;
@@ -731,7 +731,9 @@
     }
   }
   @media (max-width: 1232px) {
-
+    .calculator-block .calculator-block-main .calculator-block-button a {
+      width: 30%;
+  }
     background-image: url("./assets/bg.png");
 
     background-repeat: no-repeat;
@@ -751,6 +753,27 @@
       border-radius: 15px;
       // border: 1px solid rgba(43, 43, 43, 0.568);
       display: block;
+      .calculator-block-button{
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        a{
+          width: 60%;
+          .blue-l{
+            width: 100%;
+            height: 79px;
+            font-size: 25px;
+            border-radius: 30px;
+          }
+          .blue-l:hover{
+            background-color: rgb(255, 0, 183);
+          }
+          .blue-l::before{
+            display: none;
+          }
+        }
+ 
+      }
       p {
         display: block;
         margin-block-start: 1em;
@@ -1223,7 +1246,6 @@
       .calculator-block-button{
         a{
           .blue-l{
-            font-size: 17px;
           }
         }
       
@@ -1392,15 +1414,15 @@
   }
   @media (max-width: 889px) {
 
-    background-image: url("./assets/bg.png");
+    background-image: url("./assets/bg_new.png");
 
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 91% 14%;
-    background-size: 1820px 1024px;
+    background-position: 91% 0%;
+    background-size: 1105px 1024px;
     .calculator-block-main {
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
@@ -1413,6 +1435,7 @@
       display: block;
       .calculator-block-button{
         a{
+      
           .blue-l{
             display: none;
             font-size: 17px;
@@ -1443,8 +1466,13 @@
         .calculator-block-container-button{
           display: flex;
           justify-content: center;
+          a{
+            width: 60%;
+            justify-content: center;
+      display: flex;
+          }
           .blue-l{
-            width: 50%;
+            width: 100%;
             height: 60px;
             border-radius: 30px;
           }
@@ -1600,15 +1628,14 @@
   }
   @media (max-width: 640px) {
 
-    background-image: url("./assets/bg.png");
 
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 91% 14%;
-    background-size: 1820px 1024px;
+    background-position: 91% 0%;
+    background-size: 1105px 1024px;
     .calculator-block-main {
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
@@ -1782,14 +1809,13 @@
   }
   @media (max-width: 556px) {
 
-    background-image: url("./assets/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 91% 14%;
-    background-size: 1820px 1024px;
+    background-position: 91% 0%;
+    background-size: 1105px 1024px;
     .calculator-block-main {
       background: rgba(127, 133, 158, 0.192);
       backdrop-filter: blur(19px);
@@ -1960,6 +1986,7 @@
     }
   }
   @media (max-width: 440px) {
+    
     .header-block{
         padding-top: 13px;
         h1{
@@ -1977,7 +2004,7 @@
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 91% -125%;
+    background-position: 91% -82%;
     background-size: 1026px 1024px;
     margin: 0px;
     .calculator-block-main {
@@ -1990,6 +2017,7 @@
       border-radius: 15px;
       // border: 1px solid rgba(43, 43, 43, 0.568);
       display: block;
+      
       p {
         display: block;
         margin-block-start: 1em;
@@ -2012,10 +2040,13 @@
         display: flex;
         flex-direction: column;
         .calculator-block-container-button{
-       
+          a{
+            width: 100%;
             .blue-l{
               width: 70%;
             }
+          }
+          
         
         }
         p {

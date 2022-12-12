@@ -75,9 +75,7 @@ function Answers() {
             </div>
             <div className="main-item-right">
               <div class="spoiler">
-                <label for="spoiler5">
-                  Как проходит обучение моделингу? Важен ли опыт работу?
-                </label>
+                <label for="spoiler5">Важен ли опыт работы?</label>
                 <input type="checkbox" id="spoiler5" />
                 <label
                   className="spoiler-arrow"
@@ -95,7 +93,7 @@ function Answers() {
             </div>
             <div className="main-item-right">
               <div class="spoiler">
-                <label for="spoiler6">Это заканно? Нужно раздеваться?</label>
+                <label for="spoiler6">Нужно раздеваться?</label>
                 <input type="checkbox" id="spoiler6" />
                 <label
                   className="spoiler-arrow"
@@ -238,7 +236,7 @@ function Answers() {
                   вайб, поэтому внешность и знание английского языка отходит на
                   второй план.
                 </p>
-                <div className="spoiler-line"></div>
+                <div className="spoiler-line last-one"></div>
               </div>
             </div>
           </div>

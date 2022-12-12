@@ -10,6 +10,7 @@ const sayHello = () => {
 };
 
 function CotactUs() {
+  const [modalActive, setModalActive] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -25,7 +26,7 @@ function CotactUs() {
         setPhone("");
         setChecked(true);
         if (state.succeeded) {
-          <Modal></Modal>;
+          setModalActive(true);
         }
       },
     },
@@ -42,18 +43,43 @@ function CotactUs() {
   const handlePhone = (e) => {
     setPhone(e.target.value);
   };
-  const handleCheck = () => {
-    console.log(`Do: ${checked}`);
-    setChecked(!checked);
-    console.log(`POCLE: ${checked}`);
-  };
+  // const handleCheck = () => {
+  //   console.log(`Do: ${checked}`);
+  //   setChecked(!checked);
+  //   console.log(`POCLE: ${checked}`);
+  // };
   return (
     <div id="contactUs" className="contact-us-block">
       <Header
         header="Собеседование"
         subHeader="Запишитесь на собеседование сейчас"
       />
-
+      <Modal active={modalActive} setActive={setModalActive}>
+        <div className="contact-us-page-modal">
+          <div className="contact-us-page-modal-x">
+            <button
+              onClick={() => {
+                setModalActive(false);
+              }}
+            ></button>
+          </div>
+          <div className="contact-us-modal-text">
+            <div className="contact-us-modal-text-header">
+              <h2 className="shadow-color">Спасибо за отклик</h2>
+            </div>
+            <div className="contact-us-modal-text-subHeader">
+              <h3>Мы свяжемся с вами в ближайшее время</h3>
+            </div>
+            <div className="contact-us-modal-text-button">
+              <Button
+                className="btn blue-l"
+                text="Продолжить"
+                onClick={() => setModalActive(false)}
+              />
+            </div>
+          </div>
+        </div>
+      </Modal>
       <div className="contact-us-block-main">
         <div className="main-left">
           <div className="text-about">
@@ -77,7 +103,7 @@ function CotactUs() {
           <div className="central-form">
             <div className="col"></div>
             <div className="back-form">
-              <form onSubmit={handleSubmit}>
+              <form onSubmit={handleSubmit} autocomplete="off">
                 <div className="back-form-top">
                   <div className="name-form">
                     <input
@@ -90,6 +116,7 @@ function CotactUs() {
                       onChange={handleName}
                       name="name"
                       placeholder="Ваше имя"
+                      autocomplete="off"
                     />
                     <ValidationError
                       prefix="Name"
@@ -99,6 +126,7 @@ function CotactUs() {
                   </div>
                   <div className="phone-form">
                     <input
+                      autocomplete="off"
                       required
                       className="main-input"
                       pattern={phone}
@@ -119,6 +147,7 @@ function CotactUs() {
                 <div className="back-form-bottom">
                   <div className="email-form">
                     <input
+                      autocomplete="off"
                       className="main-input"
                       required
                       pattern={email}
@@ -138,6 +167,7 @@ function CotactUs() {
 
                   <div className="textArea-form">
                     <textarea
+                      autocomplete="off"
                       className="main-textarea"
                       required
                       pattern={message}
@@ -167,11 +197,7 @@ function CotactUs() {
                   />
                   <label for="_optin"></label>
                   Согласие на обработку{" "}
-                  <a
-                    href="https://sun9-east.userapi.com/sun9-41/s/v1/ig2/lJqRTfNS3dgdIJTWCLIiPuZGRscgAa8K3i37Gh6znyNEaTxcm7mssqYUAD_3XdyXY483x9zi7yiGQdtZXbK8ArTf.jpg?size=1920x1920&quality=96&type=album"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="./assets/rules.pdf" target="_blank" rel="noreferrer">
                     персональных данных.
                   </a>
                   <ValidationError

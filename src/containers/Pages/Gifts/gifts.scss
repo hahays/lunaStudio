@@ -16,10 +16,10 @@
           button{
             transition: 1s;
             background: url("./assets/close.png");
-            height: 25px;
+            height: 30px;
             object-fit: unset;
             background-size: cover;
-            width: 25px;
+            width: 30px;
             border: none;
             background-repeat: no-repeat;
             cursor: pointer;
@@ -27,10 +27,10 @@
           button:hover{
             transition: 1s;
             background: url("./assets/close_hover.png");
-            height: 25px;
+            height: 30px;
             object-fit: unset;
             background-size: cover;
-            width: 25px;
+            width: 30px;
             border: none;
             background-repeat: no-repeat;
             cursor: pointer;
@@ -40,8 +40,8 @@
           height: inherit;
         }
         iframe{
-          width: -webkit-fill-available;
-          height: -webkit-fill-available;;
+          width: 100%;
+          height: 100%;
           .ytp-chrome-top-buttons{
             display: none;
           }
@@ -81,6 +81,8 @@
                 height: 100%;
                 .card-item-img{
                     height: 75%;
+                    display: flex;
+                    justify-content: center;
                 }
                 .card-item-text{
                     height: 25%;
@@ -90,8 +92,10 @@
                     display: flex;
                     grid-column-gap: 0px;
                     grid-row-gap: 0px;
-                    justify-content: center;
+                    justify-content: end;
                     align-items: center;
+                    padding: 0 0px;
+                    width: 78%;
                     .text-1 {
                         width: 57%;
                         text-align:start;
@@ -129,6 +133,7 @@
 
     .gifts-block-video{
         padding-bottom: 30px;
+        position: relative;
         /* width: 90vw; */
         width: 80vw;
         margin: 0 auto;
@@ -136,8 +141,10 @@
         display: grid;
         justify-content: center;
         background: url("./assets/bg.png");
-        background-position-x: -20px;
+        background-position-x: 81px;
+        background-position-y: 107px;
         background-repeat: no-repeat;
+        background-size: 485px 569px;
 
         
 
@@ -176,9 +183,12 @@
             width: 800px;
             border-radius: 15px;
             border: 1px solid rgba(43, 43, 43, 0.568);
-            .button-play{
+            
+            .gift-button-play{
                 cursor: pointer;
                 transform: rotate(0deg);
+                position: absolute;
+                right: 326px;
                a {
                 transition: 1s;
                  
@@ -386,7 +396,12 @@
     }
   }
   @media (max-width: 414px) {
+    background:  url("./assets/bg.png");
+    background-position-x: 119px;
+    background-position-y: 1743px;
+    background-repeat: no-repeat;
     .answers-block-header{
+        
         padding-top: 60px;
         width: auto;
         text-align: center;
@@ -421,6 +436,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        gap: 0px;
         
         .gifts-card{
             display: flex;
@@ -440,13 +456,15 @@
                 }
                 .card-item-text{
                     height: 25%;
+                    width: 100%;
                     color: white;
                     font-family: "Montserrat", system-ui;
                     font-size: 18px;
                     display: flex;
                     grid-column-gap: 0px;
                     grid-row-gap: 0px;
-                    justify-content: center;
+                    justify-content:flex-start;
+                    
                     align-items: center;
                     .text-1 {
                         width: 57%;
@@ -454,9 +472,10 @@
                         text-indent: 0px;
                         display: flex;
                         justify-content: center;
+                        padding-left: 40px;
                         text-align: center;
                         padding-bottom: 20px;
-                        margin-right: 50px;
+                        margin-right: 0px;
                     }
                     .text-2 {
                         width: 65%;
@@ -464,12 +483,14 @@
                         display: flex;
                         justify-content: center;
                         text-align: center;
+                        padding-left: 40px;
                     }
                     .text-3 {
                         width: 63%;
                         text-align:start;
                         display: flex;
                         justify-content: center;
+                        padding-left: 40px;
                         text-align: center;
                     }
                     p{
@@ -491,7 +512,7 @@
         height: fit-content;
         display: grid;
         justify-content: center;
-        background: url("./assets/bg.png");
+        background: none;
         background-position-x: -20px;
         background-repeat: no-repeat;
 
@@ -534,13 +555,14 @@
             height: 391px;
             border-radius: 15px;
             border: 1px solid rgba(43, 43, 43, 0.568);
-            .button-play{
+            .gift-button-play{
                 transform: rotate(0deg);
                 transition: 1s;
     font-size: 40px;
     padding-right: 0px;
     padding-bottom: 0px;
     margin-left: 0px;
+    right: 101px;
     margin-top: 0px;
                a {
                 transition: 1s;
@@ -610,6 +632,7 @@
         }
     }
     .gifts-block-cards{
+        gap: 0px;
         margin: auto;
         display: flex;
         height: max-content;
@@ -643,6 +666,7 @@
                     grid-column-gap: 0px;
                     grid-row-gap: 0px;
                     justify-content: center;
+
                     align-items: center;
                     .text-1 {
                         width: 75%;
@@ -651,6 +675,7 @@
                         text-align: inherit;
                         padding-bottom: 0px;
                         margin-right: 0px;
+                        padding-left: 0px;
                     }
                     .text-2 {
                         width: 73%;
@@ -658,6 +683,7 @@
                         display: flex;
                         justify-content: center;
                         text-align: inherit;
+                        padding-left: 0px;
                     }
                     .text-3 {
                         width: 73%;
@@ -665,6 +691,7 @@
                         display: flex;
                         justify-content: center;
                         text-align: inherit;
+                        padding-left: 0px;
                     }
                     
                     p{
@@ -729,9 +756,10 @@
             height: 320px;
             border-radius: 15px;
             border: 1px solid rgba(43, 43, 43, 0.568);
-            .button-play{
+            .gift-button-play{
                 transform: rotate(0deg);
                 transition: 1s;
+                right: 80px;
     font-size: 40px;
     padding-right: 0px;
     padding-bottom: 0px;

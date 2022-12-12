@@ -26,8 +26,8 @@ function Team() {
           </div>
           <div className="team-page-modal-video">
             <iframe
-              width=" -webkit-fill-available;"
-              height="315"
+              width="100%"
+              height="100%"
               src={
                 modalActive ? "https://www.youtube.com/embed/jjKkEYtatHg" : ""
               }
@@ -50,7 +50,23 @@ function Team() {
             оформлении контента. Такого тебе точно не предложит ни одна другая
             студия в городе.{" "}
           </div>
+          <div className="team-text-mobile">
+            <span>
+              Наш коллектив - творческие и яркие девчонки, мы устраиваем
+              масштабные костюмированные корпоративы, а еще регулярно проводим
+              тематические фотосессии по желанию моделей.
+            </span>
+          </div>
           <div className="team-button">
+            <a>
+              <Button
+                className="btn blue-l play"
+                text="Посмотреть видео"
+                onClick={() => {
+                  setModalActive(true);
+                }}
+              />
+            </a>
             <HashLink to="/#contactUs">
               <Button className="btn blue-l" text="Заполнить анкету" />
             </HashLink>

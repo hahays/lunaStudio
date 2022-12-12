@@ -5,7 +5,9 @@
 
 .aboutUs-block{
     height: fit-content;
-  
+  .header-block{
+    padding-top: 20px;
+  }
    @media (max-width: 2400px) {
     .mobile-girl{
         display: none;
@@ -55,8 +57,8 @@ height: fit-content;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: inherit;
-    background-position: 358px 133px;
-    background-size: 1233px 904px;
+    background-position: 358px 94px;
+    background-size: 1233px 846px;
     position: inherit;
     z-index: 99999;
 
@@ -65,14 +67,6 @@ height: fit-content;
         position: absolute;
         right: 00px;
         bottom: 255px;
-    }
-    .header-block{
-            height: 200px;
-     
-
-        h1{
-       
-        }
     }
     .aboutUs-block-main{
         position: relative;
@@ -116,7 +110,7 @@ height: fit-content;
                     margin-inline-end: 0px;
                 }
                 padding-bottom: 10px;
-                padding-right: 420px;
+                padding-right: 335px;
                 display: flex;
                 color: white;
             }
@@ -129,8 +123,8 @@ height: fit-content;
         background: url("./assets/bg.png");
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 121px 168px;
-            background-size: 1222px 782px;
+        background-position: 245px 185px;
+        background-size: 1155px 717px;
             position: inherit;
         position: inherit;
         z-index: 99999;
@@ -155,14 +149,7 @@ height: fit-content;
                 
         
         }
-        .header-block{
-                height: 200px;
-         
     
-            h1{
-           
-            }
-        }
         .aboutUs-block-main{
             // font-family: "Montserrat";
             // font-weight: initial;
@@ -242,14 +229,6 @@ height: fit-content;
            
                     
             
-            }
-            .header-block{
-                    height: 200px;
-             
-        
-                h1{
-               
-                }
             }
             .aboutUs-block-main{
                 // font-family: "Montserrat";
@@ -333,14 +312,7 @@ height: fit-content;
                     
             
             }
-            .header-block{
-                    height: 200px;
-             
-        
-                h1{
-               
-                }
-            }
+       
             .aboutUs-block-main{
                 // font-family: "Montserrat";
                 // font-weight: initial;
@@ -433,14 +405,7 @@ height: fit-content;
                 
         
         }
-        .header-block{
-                height: 200px;
-         
-    
-            h1{
-           
-            }
-        }
+     
         .aboutUs-block-main{
             // font-family: "Montserrat";
             // font-weight: initial;
@@ -529,14 +494,7 @@ height: fit-content;
                 
         
         }
-        .header-block{
-                height: 200px;
-         
-    
-            h1{
-           
-            }
-        }
+     
         .aboutUs-block-main{
             // font-family: "Montserrat";
             // font-weight: initial;
@@ -632,14 +590,7 @@ height: fit-content;
                 
         
         }
-        .header-block{
-                height: 200px;
-         
     
-            h1{
-           
-            }
-        }
         .aboutUs-block-main{
             // font-family: "Montserrat";
             // font-weight: initial;
@@ -735,14 +686,7 @@ height: fit-content;
                 
         
         }
-        .header-block{
-                height: 200px;
-         
     
-            h1{
-           
-            }
-        }
         .aboutUs-block-main{
             // font-family: "Montserrat";
             // font-weight: initial;
@@ -878,14 +822,7 @@ height: fit-content;
                 
         
         }
-        .header-block{
-                height: 200px;
-         
-    
-            h1{
-           
-            }
-        }
+   
         .aboutUs-block-main{
             // font-family: "Montserrat";
             // font-weight: initial;
@@ -1026,14 +963,7 @@ height: fit-content;
                 
         
         }
-        .header-block{
-                height: 200px;
-         
-    
-            h1{
-           
-            }
-        }
+      
         .aboutUs-block-main{
             // font-family: "Montserrat";
             // font-weight: initial;
@@ -1129,11 +1059,13 @@ height: fit-content;
             
             padding-top: 20px;
             h1{
-                padding-top: 9px;
+                display: none;
+                padding-top: 0px;
                font-size:  40px;
             }
             h2{
-                margin-top: -236px;
+                font-size: 45px;
+                margin-top: -136px;
             }
         }
     
@@ -1171,14 +1103,6 @@ height: fit-content;
        
                 
         
-        }
-        .header-block{
-                height: 200px;
-         
-    
-            h1{
-           
-            }
         }
         .aboutUs-block-main{
             // font-family: "Montserrat";
@@ -1243,7 +1167,8 @@ height: fit-content;
             align-items: center;
            background: url('./assets/bg-mobile.png');
            background-size: cover;
-           background-position: 10px;
+           background-position: -23px -69px;
+           background-size: 456px 540px;
            button{
             cursor: pointer;
             transition: 1s;
@@ -1280,7 +1205,7 @@ height: fit-content;
                 font-size: 25px;
             }
             h2{
-                margin-top: -236px;
+                margin-top: -96px;
             }
         }
     
@@ -1318,14 +1243,6 @@ height: fit-content;
        
                 
         
-        }
-        .header-block{
-                height: 200px;
-         
-    
-            h1{
-           
-            }
         }
         .aboutUs-block-main{
             // font-family: "Montserrat";
@@ -1390,8 +1307,10 @@ height: fit-content;
             display: flex;
             align-items: center;
            background: url('./assets/bg-mobile.png');
-           background-size: cover;
-           background-position: 10px;
+        //    background-size: 100% 100%;
+           background-repeat: no-repeat;
+           background-position: -26px -69px;
+           background-size: 422px 540px;
            button{
             display: none;
             cursor: pointer;

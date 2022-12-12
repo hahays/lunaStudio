@@ -35,7 +35,7 @@ function MainPage() {
             <iframe
               border="1px solid pink"
               width=" -webkit-fill-available;"
-              height="315"
+              height="100%"
               src={
                 modalActive ? "https://www.youtube.com/embed/wzrqTNLDi8c" : ""
               }
@@ -62,23 +62,21 @@ function MainPage() {
             </h3>
           </div>
         </div>
-        <div className="main-page-block-right">
-          <div className="button-play">
-            {/* <ButtonPlay /> */}
-            <button
-              onClick={() => {
-                setModalActive(true);
-              }}
-            ></button>
-          </div>
-          <div className="button-arrow">
-            <button className="button-arrow-model">
-              <HashLink to="/#contactUs">
-                <span> &#8595;</span>
-              </HashLink>
-            </button>
-            <span className="button-arrow-text"> Стать моделью</span>
-          </div>
+        <div className="button-play">
+          {/* <ButtonPlay /> */}
+          <button
+            onClick={() => {
+              setModalActive(true);
+            }}
+          ></button>
+        </div>
+        <div className="button-arrow">
+          <button className="button-arrow-model">
+            <HashLink to="/#contactUs">
+              <span> &#8595;</span>
+            </HashLink>
+          </button>
+          <span className="button-arrow-text"> Стать моделью</span>
         </div>
       </div>
     </div>

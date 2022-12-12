@@ -35,7 +35,7 @@
       justify-content: center;
       font-family: "Poiret One";
       font-weight: 500;
-      font-size: 60px;
+      font-size: 70px;
       margin-top: -160px;
       color: white;
       text-shadow: 0 0 20px #ff00ec;
@@ -85,13 +85,13 @@
 
         h1 {
             transition: 1s;
-          font-size: 120px;
+            font-size: 60px;
           display: flex;
         }
         h2 {
             transition: 1s;
           font-size: 50px;
-          margin-top: -200px;
+          margin-top: -115px;
 
         }
       }
@@ -103,7 +103,7 @@
         padding-top: 32px;
         h1 {
             transition: 1s;
-          font-size: 100px;
+          font-size: 80px;
           display: flex;
         }
         h2 {
@@ -140,7 +140,7 @@
         padding-top: 50px;
         h1 {
             transition: 1s;
-            font-size: 60px;
+            font-size: 40px;
           display: flex;
         }
         h2 {
@@ -173,12 +173,13 @@
 
 
 @media (max-width: 490px) { 
+
     .header-block {
         padding-top: 80px;
         h1 {
             transition: 1s;
           font-size: 40px;
-          display: flex;
+          display: none
         }
         h2 {
             transition: 1s;

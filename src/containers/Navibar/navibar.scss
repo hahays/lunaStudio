@@ -76,7 +76,59 @@
       .navibar-block-right{
           // padding-right: 130px;
           width: 70%;
-          padding-right: 62px;
+          padding-right: 0px;
+          display: flex;
+          justify-content: end;
+          /* margin-right: 100px; */
+          align-items: center;
+       
+      }
+  
+      .navibar-block-right-info{
+          display: flex;
+          gap: 40px;
+          .blue-l-navi{
+            transition: 1s;
+          }
+          .blue-l-navi:hover{
+            transition: all ease 1s;
+            transform: translateY(-1px);
+            text-shadow: #000000 1px 0 10px;
+            box-shadow: 2px 1px 20px 0px rgb(110, 4, 80);
+                
+         }
+     
+      }
+   
+  }
+ }
+ @media (max-width: 1000px) {
+  z-index: 10000;
+  position: sticky;
+
+   
+  .navibar-block{
+      position: fixed;
+      display: flex;
+      width: 100%;
+      height: 100px;
+      // background-color: hsla(254, 45%, 35%, 1);
+      .navibar-block-left{
+        padding: 0 28px;
+          display: flex;
+          justify-content: left;
+          // padding-left: 100px;
+          align-items: center;
+          width: 30%;
+          .logo-luna{
+              height: 100px;
+          }
+      }
+  
+      .navibar-block-right{
+        margin-right: 100px;
+          width: 70%;
+          padding-right: 0px;
           display: flex;
           justify-content: end;
           /* margin-right: 100px; */
@@ -159,9 +211,11 @@
   
   }
     .navibar-block .navibar-block-right {
+      width: 100%;
       transition: 1s;
       // padding-right: 27px;
-      padding-right: 0px;
+      padding: 0 140px;
+      
   
          .menu {
           padding-top: 15px;
@@ -185,7 +239,7 @@
         padding-left: 222px;
     }
     .nav .blue-l-navi {
-      margin-left: 219px;
+      margin-left: 100px;
   }
   .nav .city {
     transition: 1s;
@@ -353,7 +407,7 @@
         padding-left: 320px;
     }
     .nav .blue-l-navi {
-      margin-left: 269px;
+      margin-left: 138px;
       height: 50px;
       width: 35%;
   }

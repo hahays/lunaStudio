@@ -1,9 +1,10 @@
 import React from "react";
 
-import { Pagination } from "swiper";
+import { Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 import "./whyWeACool.scss";
 import ANIME_GIRL_S from "./assets/girl-s.png";
@@ -22,10 +23,11 @@ function WhyWeACool() {
     <div key="projects">
       <Swiper
         className="swiper-card-s"
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
+        navigation={true}
       >
         <SwiperSlide>
           <div className="block">

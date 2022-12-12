@@ -3,12 +3,13 @@
     // height: 163vh;
     max-height:fit-content;
     background-image: url("./assets/bg.png");
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
     margin-bottom: 30px;
     background-repeat: no-repeat;
-    background-position-x: 105px;
-    background-attachment:initial;
+    background-position-x: 115px;
+    background-position-y: 186px;
+    background-attachment: initial;
     .answers-block-main::before{
       content: "";
       content: "";
@@ -34,7 +35,7 @@
           justify-content: space-around;
           font-size: 20px;
           margin-top: 10px;
-          text-shadow: 1px 1px 0px #ff00ec;
+          // text-shadow: 1px 1px 0px #ff00ec;
           label {
           
           }
@@ -43,6 +44,9 @@
           width: 99%;
           // padding-top: 15px;
           border-bottom: 1px solid #999999;
+      }
+      .last-one{
+        display: none;
       }
   
       .spoiler input, .spoiler p  { 
@@ -93,7 +97,7 @@
     }
       .answers-block-header{
           padding-top: 50px;
-          width: 550px;
+          width: 31%;
           text-align: center;
           /* display: grid; */
         margin: 0 auto;
@@ -179,7 +183,7 @@
           justify-content: space-around;
           font-size: 20px;
           margin-top: 10px;
-          text-shadow: 1px 1px 0px #ff00ec;
+          text-shadow: none;
           label {
           
           }
@@ -289,7 +293,7 @@
   
 }
 
-@media (max-width: 440px){
+@media (max-width: 460px){
   .answers-block{
     .answers-block-item-card{
       display: flex;
@@ -306,9 +310,9 @@
     background-position-x: 105px;
     background-attachment:initial;
     .answers-block-main::before{
+      display: none;
       content: "";
-      content: "";
-      background: indigo;
+      background: none;
       z-index: -1;
       border-radius: 15px;
       border: 1px solid rgba(43, 43, 43, 0.568);
@@ -331,10 +335,7 @@
           font-size: 17px;
           margin-top: 0px;
           width: 90%;
-          text-shadow: 1px 1px 0px #ff00ec;
-          label {
-          
-          }
+          text-shadow: none;
       }
       .spoiler-line {
           width: 99%;
@@ -372,7 +373,7 @@
           justify-content: flex-end;
           // margin-bottom: 10px;
           position: relative;
-          top: -49px;
+          top: -33px;
           left: 47px;
           height: 30px;
           .spoiler1{
@@ -424,7 +425,7 @@
             padding-top: 20px;
             text-align: initial;
             padding-left: 25px;
-            text-shadow: 1px 1px 0px #ff00ec;
+            text-shadow: none;
             color: white;
     font-size: 15px;
     font-family: "Montserrat", system-ui;

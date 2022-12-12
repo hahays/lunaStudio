@@ -89,7 +89,7 @@ function Gifts() {
         </div>
         <div className="gifts-block-video-button">
           {/* &#10148; */}
-          <span className="button-play">
+          <span className="gift-button-play">
             <a
               onClick={() => {
                 setModalActive(true);

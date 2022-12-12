@@ -7,6 +7,7 @@ import PHOTO_3 from "./assets/photo_3.jpg";
 import PHOTO_4 from "./assets/photo_4.jpg";
 import PHOTO_5 from "./assets/photo_5.jpg";
 import PHOTO_6 from "./assets/photo_6.jpg";
+import PHOTO_7 from "./assets/photo_7.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -45,7 +46,8 @@ function ElseComments() {
                 slideShadows: false,
               }}
               pagination={true}
-              modules={[EffectCoverflow, Pagination]}
+              navigation={true}
+              modules={[EffectCoverflow, Pagination, Navigation]}
               className="mySwiper"
               initialSlide={0}
             >
@@ -75,10 +77,11 @@ function ElseComments() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="carousel-item">
-                  <div className="carousel-item-bot">
-                    <p className="swiper-3"> Заботливые.</p>
-                    <p className="swiper-3"> Понимающие.</p>
-                    <p className="swiper-3"> Честные.</p>
+                  <div className="carousel-item-bot side-slide">
+                    <p className="swiper-3">
+                      Зарплата всегда вовремя или раньше. Веселый коллектив,
+                      гибкий график. Чумовые корпоративы.
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
@@ -91,26 +94,33 @@ function ElseComments() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="carousel-item">
-                  <div className="carousel-item-bot">
-                    <p>Зарплата всегда вовремя или раньше</p>
-                    <p>Веселый коллектив, гибкий график</p>
-                    <p>Чумовые корпоративы</p>
+                  <div className="carousel-item-bot side-slide">
+                    <p>
+                      Лояльный подход к каждой модели, вам не пофиг. Пышки от
+                      Анатолия конечно же!))) Красивый и разнообразный интерьер
+                      комнат.
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="carousel-item">
-                  <div className="carousel-item-bot">
+                  <div className="carousel-item-bot ">
                     <img src={PHOTO_4} alt="photo" />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="carousel-item">
-                  <div className="carousel-item-bot">
-                    <p>Отзывчивые администаторы</p>
-                    <p>Гибкий график</p>
-                    <p>Разнообразие контента</p>
+                  <div className="carousel-item-bot side-slide">
+                    <p>
+                      Расположение студии. Красивый и разнообразный интерьер
+                      комнат.
+                    </p>
+                    <p>
+                      Отзывчивее администраторы, гибкий график, разнообразие
+                      контента.
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
@@ -123,28 +133,47 @@ function ElseComments() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="carousel-item">
-                  <div className="carousel-item-bot">
-                    <div className="carousel-item-bot">
-                      <p>Лояльный подход к каждой модели, вам не пофиг</p>
-                      <p>Красивый и разнообразный интерьер комнат</p>
-                      <p>Расположение</p>
-                    </div>
+                  <div className="carousel-item-bot side-slide">
+                    <p>
+                      Кофемашина, чистота, приятный запах, Ди (спасибо тебе за
+                      поддержку, ты первый человек в студии , который сказал мне
+                      приятные и мотивирующие слова)
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="carousel-item">
-                  <div className="carousel-item-bot">
+                  <div className="carousel-item-bot ">
                     <img src={PHOTO_6} alt="photo" />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="carousel-item">
-                  <div className="carousel-item-bot">
-                    <p>Интерьеры, админы</p>
-                    <p>Свободный график</p>
-                    <p>Стабильные выплаты</p>
+                  <div className="carousel-item-bot side-slide">
+                    <p>Дружный коллектив, лояльные админы, зп без задержек</p>
+                    <p>
+                      Интерьеры, свободный график, админы, стабильные выплаты,
+                      подарки лучшим по зп.
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="carousel-item">
+                  <div className="carousel-item-bot ">
+                    <img src={PHOTO_7} alt="photo" />
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="carousel-item">
+                  <div className="carousel-item-bot side-slide last">
+                    <p>
+                      Креативность. Заинтересован- ность в заработке модели.
+                      Классные админы.
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
