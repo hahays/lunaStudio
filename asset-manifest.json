@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/lunaStudio/static/css/main.3374c423.css",
-    "main.js": "/lunaStudio/static/js/main.52d0432d.js",
-    "static/media/bg.png": "/lunaStudio/static/media/bg.831e84ea0b6a58bad16c.png",
-    "static/media/Партнерка Best Webcam.gif": "/lunaStudio/static/media/Партнерка Best Webcam.8c0fb40c220c88d49e44.gif",
+    "main.css": "/lunaStudio/static/css/main.e751f7d2.css",
+    "main.js": "/lunaStudio/static/js/main.b552634d.js",
     "static/media/animeGIrl2.svg": "/lunaStudio/static/media/animeGIrl2.edaa86bfc224a695dd1d4a99e3bcdb19.svg",
     "static/media/главная.png": "/lunaStudio/static/media/главная.9fc8bfa1df4a22a5dfe5.png",
     "static/media/bg_new.png": "/lunaStudio/static/media/bg_new.804c1181c9de27e796d9.png",
     "static/media/bg-mobile.png": "/lunaStudio/static/media/bg-mobile.4d70db6b947d2700ce6b.png",
     "static/media/card.png": "/lunaStudio/static/media/card.e86319e456a7083b1cdd.png",
+    "static/media/bg.png": "/lunaStudio/static/media/bg.831e84ea0b6a58bad16c.png",
     "static/media/result3.png": "/lunaStudio/static/media/result3.1741d16815489ba8221d.png",
     "static/media/result2.png": "/lunaStudio/static/media/result2.ed25170816f23fa10d44.png",
     "static/media/result4.png": "/lunaStudio/static/media/result4.f102ce62590b7cf2e671.png",
@@ -48,6 +47,7 @@
     "static/media/photo_2.jpg": "/lunaStudio/static/media/photo_2.1cf156f53fde854adfd3.jpg",
     "static/media/Партнерка Best Webcam dark.gif": "/lunaStudio/static/media/Партнерка Best Webcam dark.cccd29ec59043e81b9d6.gif",
     "static/media/q5_1.png": "/lunaStudio/static/media/q5_1.ca2cd29ca092ad47509c.png",
+    "static/media/Партнерка Best Webcam.gif": "/lunaStudio/static/media/Партнерка Best Webcam.7c0d25e66c649e370a64.gif",
     "static/media/photo_1.jpg": "/lunaStudio/static/media/photo_1.cb82be2e2ed2f2989f6d.jpg",
     "static/media/logo-headerNew.svg": "/lunaStudio/static/media/logo-headerNew.6a68ee58e8ba90893a38e4359caad5e8.svg",
     "static/media/photo_4.jpg": "/lunaStudio/static/media/photo_4.39e4753ca0c391ed4d2e.jpg",
@@ -72,11 +72,11 @@
     "static/media/youtube.svg": "/lunaStudio/static/media/youtube.df8b2da170c71bb3a8a65c7dc222582c.svg",
     "static/media/eclipse.svg": "/lunaStudio/static/media/eclipse.01c5a1dc12dd81fbcc6a72a721a187a2.svg",
     "static/media/vector.svg": "/lunaStudio/static/media/vector.64e539cd9838d12d94ca.svg",
-    "main.3374c423.css.map": "/lunaStudio/static/css/main.3374c423.css.map",
-    "main.52d0432d.js.map": "/lunaStudio/static/js/main.52d0432d.js.map"
+    "main.e751f7d2.css.map": "/lunaStudio/static/css/main.e751f7d2.css.map",
+    "main.b552634d.js.map": "/lunaStudio/static/js/main.b552634d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3374c423.css",
-    "static/js/main.52d0432d.js"
+    "static/css/main.e751f7d2.css",
+    "static/js/main.b552634d.js"
   ]
 }
