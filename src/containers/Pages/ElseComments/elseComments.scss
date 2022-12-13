@@ -296,12 +296,13 @@
     .elseComments-header{
       .header-block{
         padding-top: 147px;
+        display: flex;
         h1{
           display: none;
         }
         h2{
-          font-size: 70px;
-    width: 70%;
+          font-size: 45px;
+    width: 60%;
           width: fit-content;
         }
       }

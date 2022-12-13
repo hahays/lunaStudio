@@ -5,10 +5,6 @@ import "./contact.scss";
 import Button from "../../button/Button";
 import Modal from "../../../components/Modal/Modal";
 
-const sayHello = () => {
-  alert("OTPRAVLENO");
-};
-
 function CotactUs() {
   const [modalActive, setModalActive] = useState(false);
   const [name, setName] = useState("");

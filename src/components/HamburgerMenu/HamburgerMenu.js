@@ -43,13 +43,35 @@ function HamburgerMenu() {
               <HashLink to="/#">Главная</HashLink>
             </li>
             <li>
-              <HashLink to="/#whyWeACool">Почему у нас круто</HashLink>
+              <Link to="/vacancies">Вакансии и подарки</Link>
+              {/* <a
+                href="#vacancies"
+                onClick={() => setActiveNav("#vacancies")}
+                className={classNames("header-option", {
+                  active: selectedScreen === 3,
+                })}
+              >
+                Вакансии и подарки
+              </a> */}
+            </li>
+            <li>
+              <Link to="/test"> Тест: Какая ты госпожа</Link>
+              {/* <a
+                href="#testLuna"
+                onClick={() => setActiveNav("#testLuna")}
+                className={classNames("header-option", {
+                  active: selectedScreen === 3,
+                })}
+              ></a> */}
+            </li>
+            <li>
+              <HashLink to="/#whyWeACool">Почему у нас классно</HashLink>
             </li>
             <li>
               <HashLink to="/#calculator">Онлайн-калькулятор</HashLink>
             </li>
             <li>
-              <HashLink to="/#contactUs">Запишись на собеседование</HashLink>
+              <HashLink to="/#contactUs">Запись на собеседование</HashLink>
             </li>
             <li>
               <HashLink to="/#aboutUs">О нас</HashLink>
@@ -87,18 +109,10 @@ function HamburgerMenu() {
                 Отзывы
               </a> */}
             </li>
-            <li>
+            {/* <li>
               <HashLink to="/#elseComments">Еще отзывы</HashLink>
-              {/* <a
-                href="#elseComments"
-                onClick={() => setActiveNav("#elseComments")}
-                className={classNames("header-option", {
-                  active: selectedScreen === 3,
-                })}
-              >
-                Еще отзывы
-              </a> */}
-            </li>
+      
+            </li> */}
             <li>
               <HashLink to="/#answers">FAQ</HashLink>
               {/* <a
@@ -110,29 +124,6 @@ function HamburgerMenu() {
               >
                 FAQ
               </a> */}
-            </li>
-            <li>
-              <Link to="/vacancies">Вакансии и подарки</Link>
-              {/* <a
-                href="#vacancies"
-                onClick={() => setActiveNav("#vacancies")}
-                className={classNames("header-option", {
-                  active: selectedScreen === 3,
-                })}
-              >
-                Вакансии и подарки
-              </a> */}
-            </li>
-
-            <li>
-              <Link to="/test"> Тест: Какая ты госпожа</Link>
-              {/* <a
-                href="#testLuna"
-                onClick={() => setActiveNav("#testLuna")}
-                className={classNames("header-option", {
-                  active: selectedScreen === 3,
-                })}
-              ></a> */}
             </li>
           </ul>
 
