@@ -28,7 +28,7 @@ function SocialNet() {
       <a
         target="_blank"
         rel="noopenar noreferrer"
-        href="tg://resolve?domain=lunnayprizma"
+        href="https://t.me/lunastudio_spb"
       >
         <svg
           width="35"

@@ -395,6 +395,550 @@
         }
     }
   }
+  @media (max-width: 1116px) {
+    .answers-block-header{
+        padding-top: 60px;
+        width: 100%;
+        text-align: center;
+        /* display: grid; */
+      margin: 0 auto;
+        h1{
+            padding-top: 30px;
+        }
+        h2{
+        }
+        .answers-block-header-side-info{
+            width: 60%;
+            margin: 0 auto;
+            color: white;
+            font-size: 20px;
+            font-family: "Montserrat", system-ui;
+        }
+    }
+    .gifts-block-cards{
+        margin: auto;
+        display: flex;
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        .gifts-card{
+            height:100%;
+            width: 27%;
+            .gifts-card-item{
+                height: 100%;
+                .card-item-img{
+                    height: 75%;
+                    img{
+                        height: 318px;
+                        width: 375px;
+                    }
+                }
+                .card-item-text{
+                    height: 25%;
+                    color: white;
+                    font-family: "Montserrat", system-ui;
+                    font-size: 18px;
+                    display: flex;
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    justify-content: center;
+                    align-items: center;
+                    .text-1 {
+                        width: 57%;
+                        text-align:start;
+                        text-indent: 20px;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        padding-bottom: 20px;
+                        margin-right: 50px;
+                    }
+                    .text-2 {
+                        width: 65%;
+                        text-align:start;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                    }
+                    .text-3 {
+                        width: 63%;
+                        text-align:start;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                    }
+                    p{
+                        margin-block-start: 0em;
+                        margin-block-end: 3em;
+                        margin-inline-start: 0px;
+                        margin-inline-end: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .gifts-block-video{
+        padding-bottom: 30px;
+        /* width: 90vw; */
+        width: 80vw;
+        margin: 0 auto;
+        height: 60vh;
+        display: grid;
+        justify-content: center;
+        background: url("./assets/bg.png");
+        background-position-x: -20px;
+        background-repeat: no-repeat;
+
+        
+
+        .gifts-block-video-text{
+            color: white;
+            font-family: "Montserrat", system-ui;
+            font-size: 30px;
+
+            p{ 
+                justify-content: center;
+                display: flex;
+            }
+            .shadow-word{
+                text-indent: 10px;
+                text-shadow: 1px 1px 0px #ff00ec;
+                color: white;
+                margin-block-start: 0em;
+                margin-block-end: 0em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+            }
+        }
+        .gifts-block-video-button{
+            height: 20px;
+            width: 600px;
+            background: inherit;
+            border-radius: 15px;
+            border: 1px solid rgba(43, 43, 43, 0.568);
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.192);
+            backdrop-filter: blur(10px);
+            height: 450px;
+            width: 800px;
+            border-radius: 15px;
+            border: 1px solid rgba(43, 43, 43, 0.568);
+            .button-play{
+                transform: rotate(0deg);
+               a {
+                transition: 1s;
+                 
+                }
+           
+                    
+            
+            }
+            .button-play:hover{
+                transform: rotate(0deg);
+               a {
+           
+                    color: #ff00ec;
+                }
+           
+                    
+            
+            }
+        }
+        .gifts-block-video-button::before{
+            position: absolute;
+            content: "";
+            background: #37167aab;
+            height: 387px;
+            width: 734px;
+            left: 34px;
+            right: 0;
+            top: 31px;
+            bottom: 0;
+            box-shadow: inset 0 0 0 3000px rgb(150 150 150 / 19%);
+            filter: blur(10px);
+            border-radius: 15px;
+        }
+    }
+  }
+  @media (max-width: 842px) {
+    .answers-block-header{
+        padding-top: 60px;
+        width: 100%;
+        text-align: center;
+        /* display: grid; */
+      margin: 0 auto;
+        h1{
+            padding-top: 30px;
+        }
+        h2{
+        }
+        .answers-block-header-side-info{
+            width: 60%;
+            margin: 0 auto;
+            color: white;
+            font-size: 20px;
+            font-family: "Montserrat", system-ui;
+        }
+    }
+    .gifts-block-cards{
+        margin: auto;
+        display: flex;
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        .gifts-card{
+            height:100%;
+            width: 27%;
+            .gifts-card-item{
+                height: 100%;
+                .card-item-img{
+                    height: 75%;
+                    img{
+                        height: 226px;
+                        width: 291px;
+                    }
+                }
+                .card-item-text{
+                    height: 25%;
+                    color: white;
+                    font-family: "Montserrat", system-ui;
+                    font-size: 18px;
+                    display: flex;
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    justify-content: center;
+                    align-items: center;
+                    .text-1 {
+                        width: 57%;
+                        text-align:start;
+                        text-indent: 20px;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        padding-bottom: 20px;
+                        margin-right: 50px;
+                    }
+                    .text-2 {
+                        width: 65%;
+                        text-align:start;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                    }
+                    .text-3 {
+                        width: 63%;
+                        text-align:start;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                    }
+                    p{
+                        margin-block-start: 0em;
+                        margin-block-end: 3em;
+                        margin-inline-start: 0px;
+                        margin-inline-end: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .gifts-block-video{
+        padding-bottom: 30px;
+        /* width: 90vw; */
+        width: 100%;
+        margin: 0 auto;
+        height: 60vh;
+        display: grid;
+        justify-content: center;
+        background: url("./assets/bg.png");
+        background-position-x: -20px;
+        background-repeat: no-repeat;
+
+        
+
+        .gifts-block-video-text{
+            color: white;
+            font-family: "Montserrat", system-ui;
+            font-size: 30px;
+
+            p{ 
+                justify-content: center;
+                display: flex;
+            }
+            .shadow-word{
+                text-indent: 10px;
+                text-shadow: 1px 1px 0px #ff00ec;
+                color: white;
+                margin-block-start: 0em;
+                margin-block-end: 0em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+            }
+        }
+        .gifts-block-video-button{
+            background: inherit;
+            border-radius: 15px;
+            border: 1px solid rgba(43, 43, 43, 0.568);
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.192);
+            backdrop-filter: blur(10px);
+            height: 391px;
+            width: 651px;
+            border-radius: 15px;
+            border: 1px solid rgba(43, 43, 43, 0.568);
+            .gift-button-play{
+                transform: rotate(0deg);
+                right: 300px;
+               a {
+                transition: 1s;
+                 
+                }
+           
+                    
+            
+            }
+            .button-play:hover{
+                transform: rotate(0deg);
+               a {
+           
+                    color: #ff00ec;
+                }
+           
+                    
+            
+            }
+        }
+        .gifts-block-video-button::before{
+            position: absolute;
+            content: "";
+            background: #37167aab;
+            height: 387px;
+            width: 593px;
+            left: 34px;
+            right: 0;
+            top: 31px;
+            bottom: 0;
+            box-shadow: inset 0 0 0 3000px rgb(150 150 150 / 19%);
+            filter: blur(10px);
+            border-radius: 15px;
+        }
+    }
+  }
+  @media (max-width: 689px) {
+    background:  url("./assets/bg.png");
+    background-position-x: 119px;
+    background-position-y: 1743px;
+    background-repeat: no-repeat;
+    .answers-block-header{
+        
+        padding-top: 60px;
+        width: auto;
+        text-align: center;
+        /* display: grid; */
+      margin: 0 auto;
+      .header-block{
+        padding-top: 0px;
+        h1{
+            padding-top: 30px;
+            display: none;
+        }
+        h2{
+            font-size: 50x;
+            padding-top: 0px;
+        }
+      }
+    
+        .answers-block-header-side-info{
+            width: fit-content;
+            padding: 0px 20px;
+            text-align: center;
+            margin: 0 auto;
+            color: white;
+            font-size: 18px;
+        }
+    }
+    .gifts-block-cards{
+        margin: auto;
+        display: flex;
+        height: max-content;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px;
+        
+        .gifts-card{
+            display: flex;
+            height:100%;
+            width: 100%;
+            .gifts-card-item{
+                width: 100%;
+                height: 100%;
+                .card-item-img{
+                    height: 75%;
+                    display: flex;
+    justify-content: center;
+                img{
+                    height: 400px;
+                    width: 90%;
+                }
+                }
+                .card-item-text{
+                    height: 25%;
+                    width: 100%;
+                    color: white;
+                    font-family: "Montserrat", system-ui;
+                    font-size: 18px;
+                    display: flex;
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    justify-content:flex-start;
+                    
+                    align-items: center;
+                    .text-1 {
+                        width: 57%;
+                        text-align:start;
+                        text-indent: 0px;
+                        display: flex;
+                        justify-content: center;
+                        padding-left: 40px;
+                        text-align: center;
+                        padding-bottom: 20px;
+                        margin-right: 0px;
+                    }
+                    .text-2 {
+                        width: 65%;
+                        text-align:start;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        padding-left: 40px;
+                    }
+                    .text-3 {
+                        width: 63%;
+                        text-align:start;
+                        display: flex;
+                        justify-content: center;
+                        padding-left: 40px;
+                        text-align: center;
+                    }
+                    p{
+                        margin-block-start: 0em;
+                        margin-block-end: 3em;
+                        margin-inline-start: 0px;
+                        margin-inline-end: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .gifts-block-video{
+        padding-bottom: 30px;
+        /* width: 90vw; */
+        width: 80%;
+        margin: 0 auto;
+        height: fit-content;
+        display: grid;
+        justify-content: center;
+        background: none;
+        background-position-x: -20px;
+        background-repeat: no-repeat;
+
+        
+
+        .gifts-block-video-text{
+            color: white;
+            font-family: "Montserrat", system-ui;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            p{ 
+                justify-content: center;
+                display: block;
+                font-size: 20px;
+            }
+            .shadow-word{
+                text-indent: 10px;
+                text-shadow: 1px 1px 0px #ff00ec;
+                color: white;
+                margin-block-start: 0em;
+                margin-block-end: 0em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+            }
+        }
+        .gifts-block-video-button{
+            width: auto;
+            background: inherit;
+            border-radius: 15px;
+            border: 1px solid rgba(43, 43, 43, 0.568);
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.192);
+            backdrop-filter: blur(10px);
+            height: 391px;
+            border-radius: 15px;
+            border: 1px solid rgba(43, 43, 43, 0.568);
+            .gift-button-play{
+                transform: rotate(0deg);
+                transition: 1s;
+    font-size: 40px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    right: 156px;
+    margin-top: 0px;
+               a {
+                transition: 1s;
+                 
+                }
+           
+                    
+            
+            }
+            .button-play:hover{
+                transform: rotate(0deg);
+               a {
+           
+                    color: #ff00ec;
+                }
+           
+                    
+            
+            }
+        }
+        .gifts-block-video-button::before{
+            position: absolute;
+            content: "";
+            background: #37167aab;
+            height: 332px;
+            width: 378px;
+            left: 35px;
+            right: 0;
+            top: 31px;
+            box-shadow: inset 0 0 0 3000px rgb(150 150 150 / 19%);
+            filter: blur(10px);
+            border-radius: 15px;
+        }
+    }
+  }
   @media (max-width: 414px) {
     background:  url("./assets/bg.png");
     background-position-x: 119px;

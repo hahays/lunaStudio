@@ -19,10 +19,10 @@ function FirstPage() {
       <Calculator />
       <CotactUs />
       <AboutUs />
-      <Team />
+      {/* <Team />
       <Comments />
       <ElseComments />
-      <Answers />
+      <Answers /> */}
     </>
   );
 }

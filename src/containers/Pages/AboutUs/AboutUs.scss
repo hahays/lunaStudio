@@ -547,13 +547,14 @@ height: fit-content;
        }
        @media (max-width: 943px) {
         .header-block{
-            padding-top: 20px;
+            padding-top: 21px;
             h1{
                 padding-top: 9px;
-               font-size:  70px;
+               font-size:  40px;
             }
             h2{
-                margin-top: -236px;
+                padding-top: -13px;
+                margin-top: -12px;
             }
         }
     
@@ -600,7 +601,7 @@ height: fit-content;
             padding-top: 0px;
             margin-left: 63px;
             font-size: 17px;
-            margin-top: -59px;
+            margin-top: 15px;
             
             .main-top{
                 padding-top: 10px;

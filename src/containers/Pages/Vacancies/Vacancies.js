@@ -114,7 +114,7 @@ function Vacancies() {
                 setModalModel(false);
               }}
             >
-              <img src={KREST} />
+              {/* <img src={KREST} /> */}
             </button>
           </div>
           <div className="modal-open-window">
@@ -200,9 +200,7 @@ function Vacancies() {
               onClick={() => {
                 setModalAdmin(false);
               }}
-            >
-              <img src={KREST} />
-            </button>
+            ></button>
           </div>
           <div className="modal-open-window">
             <header>
@@ -299,9 +297,7 @@ function Vacancies() {
               onClick={() => {
                 setModalAgent(false);
               }}
-            >
-              <img src={KREST} />
-            </button>
+            ></button>
           </div>
           <div className="modal-open-window">
             <header>
