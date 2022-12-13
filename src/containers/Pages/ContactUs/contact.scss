@@ -148,6 +148,7 @@
         gap: 10px;
         .name-form{
             width: 100%;
+            display: flex;
             input {
                 width: 90%;
                 height: 70%;
@@ -155,6 +156,7 @@
         }
         .phone-form{
             width: 100%;
+            display: flex;
             input{
                 width: 88%;
                 height: 70%;
@@ -166,12 +168,14 @@
         display: flex;
         flex-direction: column;
         .email-form{
+            display: flex;
             input {
                 width: 94%;
                 height: 35px;
             }
         }
         .textArea-form{
+            display: flex;
             textarea{
                 height: 200px;
                 width: 94%;
@@ -783,9 +787,11 @@
     }
 }
 
-@media (max-width: 822px) {
+@media (max-width: 840px) {
     .contact-us-block{
+        min-height: 70vh;
         background-position: 0% -100%;
+        background-size: 1082px 749px;
         .modal__content.active{
             width: 30%;
             height: 50%;
@@ -868,6 +874,7 @@
             padding-top: 20px;
             h1{
                 font-size: 60px;
+                display: none;
             }
             h2{
                font-size: 50px;
@@ -917,135 +924,19 @@
     .contact-us-block .header-block h2 {
         transition: 1s;
         font-size: 50px;
-        margin-top: -127px;
+      margin-top: -59px;
         padding-left: 0px;
-        width: 769px;
+        width: 100%;
         text-align: center;
     }
 }
+
 
 @media (max-width: 742px) {
-    .back-form .back-form-top .name-form {
-        width: 100%;
-        display: flex;
-    }
-    .back-form .back-form-top .phone-form {
-        width: 100%;
-        display: flex;
-    }
-    .back-form-bottom{
-        .email-form{
-            display: flex;
-        }
-        .textArea-form{
-            display: flex;
-        }
-    }
-    .contact-us-block .header-block h2 {
-        transition: 1s;
-        font-size: 40px;
-        margin-top: -77px;
-        padding-left: 73px;
-        width: 567px;
-        text-align: center;
-    }
-}
-
-@media (max-width: 724px) {
     .contact-us-block{
-        .contact-us-block-main{
-            .main-left{
-                width: 35%;
-            }
-            .main-right{
-                width: 60%;
-                .back-form{
-                    margin-left: 17px;
-                    .back-form-top{
-                        gap: 28px;
-                    }
-                }
-            }
-        }
-        background-position: 0% -100%;
-        .header-block{
-            padding-top: 20px;
-            h1{
-                font-size: 60px;
-            }
-            h2{
-               font-size: 50px;
-                margin-top: -174px;
-                padding-left: 294px;
-            }
-           
-        }
-      }
-      .text-about{
-        margin-left: -37px;
-        .text-about-header{
-            width: 60%;
-           h2{
-            font-size: 17px;
-           }
-        }
-        .text-about-number{
-            margin-left: 130px;
-    margin-top: 40px;
-            h1{
-                margin-left: -60px;
-             font-size: 20px;
-            }
-         }
-         .text-about-subHeader{
-            margin-top: 25px;
-            margin-left: 72px;
-            h2{
-                font-size: 19px;
-            }
-         }
-    }
-    .contact-us-block .header-block h2 {
-        transition: 1s;
- 
-        margin-top: -139px;
-        padding-left: 142px;
-        width: 770px;
-        text-align: center;
-    }
-    .contact-us-block .header-block h2 {
-        transition: 1s;
-        font-size: 50px;
-        margin-top: -137px;
-        padding-left: 41px;
-        width: 770px;
-        text-align: center;
-    }
-    .contact-us-block .header-block h2 {
-        transition: 1s;
-        font-size: 50px;
-        margin-top: -127px;
-        padding-left: 0px;
-        width: 769px;
-        text-align: center;
-    }
-    .contact-us-block .header-block h2 {
-        transition: 1s;
-        font-size: 35px;
-        margin-top: -106px;
-        padding-left: -15px;
-        width: 100%;
-        text-align: center;
-    }
-}
-
-@media (max-width: 620px) {
-    
-
-     .contact-us-block{
         .modal__content.active{
-            width: 30%;
-            height: 50%;
+            width: 50%;
+            height: max-content;
             border-radius: 30px;
           }
         .contact-us-page-modal{
@@ -1062,17 +953,17 @@
             align-items: center;
             .contact-us-modal-text-header{
                 color: white;
-                font-size: 27px;
+                font-size: 20px;
                   text-shadow: 0 0 20px #ff00ec;
                   font-weight: 100;
                   display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
             }
             .contact-us-modal-text-subHeader{
                    color: white;
-                font-size: 25px;
+                   font-size: 20px;
                 width: 70%;
                   text-shadow: 0 0 20px #ff00ec;
                  h3{
@@ -1083,8 +974,6 @@ text-align: center;
             }
             .contact-us-modal-text-button{
                 width: 100%;
-                display: flex;
-                justify-content: center;
                 .blue-l{
                     width: 80%;
                     height: 70px;
@@ -1094,18 +983,19 @@ text-align: center;
                     display: none;
                 }
             }
-  
+          }
           .contact-us-page-modal-x{
             display: flex;
             justify-content: end;
             transition: 1s;
+            height: max-content;
             button{
               transition: 1s;
               background: url("./assets/close.png");
-              height: 25px;
+              height:30px;
               object-fit: unset;
               background-size: cover;
-              width: 25px;
+              width: 30px;
               border: none;
               background-repeat: no-repeat;
               cursor: pointer;
@@ -1113,67 +1003,80 @@ text-align: center;
             button:hover{
               transition: 1s;
               background: url("./assets/close_hover.png");
-              height: 25px;
+              height:30px;
               object-fit: unset;
               background-size: cover;
-              width: 25px;
+              width: 30px;
               border: none;
               background-repeat: no-repeat;
               cursor: pointer;
             }
           }
         }
-        
         .contact-us-block-main{
+            
+            margin-top: 72px;
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
             .main-left{
-                width: 35%;
+                width: 100%;
             }
             .main-right{
-                width: 60%;
+                margin-top: 44px;
+                width: 100%;
                 .back-form{
-                    margin-left: 17px;
+                    margin-left: 0px;
+                    width: 100%;
+                    justify-content: center;
                     .back-form-top{
                         gap: 28px;
                     }
                 }
             }
         }
-        background-position: 0% -100%;
+        background: url("./assets/anime-girl.png");
+        background-repeat: no-repeat;
+        background-position: -409% -2%;
+        padding: 20px 0px;
         .header-block{
-            padding-top: 20px;
+            padding-top: 0px;
             h1{
-                font-size: 50px;
+                padding-top: 10px;
+                font-size: 30px;
             }
             h2{
-               font-size: 50px;
-                margin-top: -174px;
+               font-size: 53px;
+               margin-top: -108px;
                 padding-left: 294px;
             }
            
         }
       }
-     }
       .text-about{
         margin-left: -37px;
         .text-about-header{
-            width: 60%;
+            padding: 0 20px;
+            width: 70%;
+            text-align: inherit;
            h2{
-            font-size: 17px;
+            font-size: 15px;
            }
         }
         .text-about-number{
-            margin-left: 130px;
+            margin-top: 26px;
     margin-top: 40px;
+    margin-left: 0px;
             h1{
-                margin-left: -60px;
+                margin-left: 89px;
              font-size: 20px;
             }
          }
          .text-about-subHeader{
-            margin-top: 25px;
-            margin-left: 72px;
+            margin-top: -5px;
+            padding-left: 18px;
             h2{
-                font-size: 19px;
+                font-size: 15px;
             }
          }
     }
@@ -1181,9 +1084,10 @@ text-align: center;
         transition: 1s;
         font-size: 40px;
         text-align: center;
-        margin-top: -127px;
-        width: 370px;
-        padding-left: 108px;
+        margin-top: 0px;
+        width: auto;
+        padding-left: 0px;
+        padding-top: 0px;
     }
 }
 

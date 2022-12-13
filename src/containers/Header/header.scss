@@ -119,8 +119,9 @@
 
 @media (max-width: 850px) { 
     .header-block {
-        padding-top: 42px;
+        padding-top: 0px;
         h1 {
+          padding-top: 0px;
             transition: 1s;
             font-size: 60px;
           display: flex;

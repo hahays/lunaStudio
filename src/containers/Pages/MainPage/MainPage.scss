@@ -1147,6 +1147,12 @@ section .text span {
 
 }
 @media (max-width: 840px) { 
+  .main-page{
+    min-height: 80vh;
+  }
+  .header-block{
+    padding-top: 0px;
+  }
   .main-page .main-page-block .button-play button {
     height: 123px; width: 142px; background-size: 223px 220px;
   
@@ -1174,7 +1180,7 @@ section .text span {
     display: flex;
     flex-direction: column;
     color: white;
-    bottom: 413px;
+    bottom: 189px;
     right: 42px;
     align-items: center;
     span{
@@ -1201,7 +1207,7 @@ section .text span {
       span{
         transition: 1s;
         font-size: 50px;
-        padding-top: 40px;
+        padding-top: 1px;
       }
     }
     .button-arrow-model:hover {
@@ -1365,8 +1371,9 @@ section .text span {
 }
 
 }
-@media (max-width: 740px) { 
+@media (max-width: 748px) { 
 
+  .ma
   .main-page .main-page-block .main-page-block-left {
     transition: 1s;
     align-items: center;
@@ -2334,7 +2341,7 @@ section .text {
     display: flex;
     flex-direction: column;
     color: white;
-    bottom: 94px;
+    bottom: 148px;
     right: 22px;
     align-items: center;
     span{
@@ -2362,8 +2369,8 @@ section .text {
       }
       span{
         transition: 1s;
-        font-size: 50px;
-        padding-top: 40px;
+        font-size: 45px;
+        padding-top: 50px;
       }
     }
     .button-arrow-model:hover {
@@ -2462,6 +2469,7 @@ section .text {
   background-size: cover;
   background-position-x: -524px;
   background-position-y: -21px;
+  min-height: 100vh;
 }
   .main-page .main-page-block .main-page-block-right .button-play {
     position: absolute;

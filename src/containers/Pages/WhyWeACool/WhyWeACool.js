@@ -10,7 +10,6 @@ import "./whyWeACool.scss";
 import ANIME_GIRL_S from "./assets/girl-s.png";
 import ANIME_GIRL2 from "./assets/animeGIrl2.svg";
 import Header from "../../Header/Header";
-
 import ONE from "./assets/cards/1.svg";
 import TWO from "./assets/cards/2.svg";
 import THREE from "./assets/cards/3.svg";

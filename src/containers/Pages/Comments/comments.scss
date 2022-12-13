@@ -164,6 +164,22 @@
 }
 }
   }
+  @media(max-width: 843px){
+    .comments-block-header {
+      font-family: "Montserrat", system-ui;
+      width: 100%;
+      text-align: center;
+      /* display: grid; */
+      margin: 0 auto;
+      .comments-block-side-info {
+        color: white;
+        font-size: 20px;
+        font-family: "Montserrat", system-ui;
+        width: 60%;
+        margin: 0 auto;
+      }
+    }
+  }
   @media (max-width: 420px) {
     .swiper-button-prev, .swiper-rtl .swiper-button-next {
       left: 100px;

@@ -644,10 +644,13 @@
         height: fit-content;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 34% 244%;
+        background-position: 31% 102%;
         background-size: 983px 774px;
         position: inherit;
         z-index: 99999;
+        .header-block{
+            margin-top: 37px;
+        }
         .team-block-main{
             padding-top: 20px;
             display: flex;

@@ -260,7 +260,12 @@
   }
 
   @media (max-width: 870px) {
-    
+    min-height: 80vh;
+    .mobile-carousel{
+      .carousel{
+        width: auto;
+      }
+    }
     .whyWeACool .anime-girl img {
       width: 1081px;
       margin-top: -206px;
@@ -268,7 +273,7 @@
     }
     .cards-list {
       top: 20px;
-      padding-left: 120px;
+      padding-left: 161px;
     }
 
     .cards-list .card-item {
