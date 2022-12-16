@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lunaStudio/static/css/main.36a8e809.css",
-    "main.js": "/lunaStudio/static/js/main.440b060c.js",
+    "main.css": "/lunaStudio/static/css/main.02d57e0c.css",
+    "main.js": "/lunaStudio/static/js/main.298de383.js",
     "static/media/animeGIrl2.svg": "/lunaStudio/static/media/animeGIrl2.edaa86bfc224a695dd1d4a99e3bcdb19.svg",
     "static/media/главная.png": "/lunaStudio/static/media/главная.9fc8bfa1df4a22a5dfe5.png",
     "static/media/bg_new.png": "/lunaStudio/static/media/bg_new.804c1181c9de27e796d9.png",
@@ -10,6 +10,7 @@
     "static/media/bg.png": "/lunaStudio/static/media/bg.831e84ea0b6a58bad16c.png",
     "static/media/result3.png": "/lunaStudio/static/media/result3.1741d16815489ba8221d.png",
     "static/media/result2.png": "/lunaStudio/static/media/result2.ed25170816f23fa10d44.png",
+    "static/media/404.jpeg": "/lunaStudio/static/media/404.3cfb609e8e873d4bc7c9.jpeg",
     "static/media/result4.png": "/lunaStudio/static/media/result4.f102ce62590b7cf2e671.png",
     "static/media/result1.png": "/lunaStudio/static/media/result1.eda36fb6b60d8f5c09b4.png",
     "static/media/result5.png": "/lunaStudio/static/media/result5.691c51a478504b840bd7.png",
@@ -45,6 +46,7 @@
     "static/media/photo_3.jpg": "/lunaStudio/static/media/photo_3.2d62d45d7fa7c904218b.jpg",
     "static/media/q3_5.png": "/lunaStudio/static/media/q3_5.3a09eda7367e8cb3a396.png",
     "static/media/photo_2.jpg": "/lunaStudio/static/media/photo_2.1cf156f53fde854adfd3.jpg",
+    "static/media/photo_8.jpg": "/lunaStudio/static/media/photo_8.82cb33cb8722e535168e.jpg",
     "static/media/Партнерка Best Webcam dark.gif": "/lunaStudio/static/media/Партнерка Best Webcam dark.cccd29ec59043e81b9d6.gif",
     "static/media/q5_1.png": "/lunaStudio/static/media/q5_1.ca2cd29ca092ad47509c.png",
     "static/media/Партнерка Best Webcam.gif": "/lunaStudio/static/media/Партнерка Best Webcam.7c0d25e66c649e370a64.gif",
@@ -72,11 +74,11 @@
     "static/media/youtube.svg": "/lunaStudio/static/media/youtube.df8b2da170c71bb3a8a65c7dc222582c.svg",
     "static/media/eclipse.svg": "/lunaStudio/static/media/eclipse.01c5a1dc12dd81fbcc6a72a721a187a2.svg",
     "static/media/vector.svg": "/lunaStudio/static/media/vector.64e539cd9838d12d94ca.svg",
-    "main.36a8e809.css.map": "/lunaStudio/static/css/main.36a8e809.css.map",
-    "main.440b060c.js.map": "/lunaStudio/static/js/main.440b060c.js.map"
+    "main.02d57e0c.css.map": "/lunaStudio/static/css/main.02d57e0c.css.map",
+    "main.298de383.js.map": "/lunaStudio/static/js/main.298de383.js.map"
   },
   "entrypoints": [
-    "static/css/main.36a8e809.css",
-    "static/js/main.440b060c.js"
+    "static/css/main.02d57e0c.css",
+    "static/js/main.298de383.js"
   ]
 }
