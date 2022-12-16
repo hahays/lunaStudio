@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import classNames from "classnames";
 import "./hamburgerMenu.scss";
 import SocialNet from "../SocialNet/SocialNet";
 import Button from "../../containers/button/Button";
@@ -8,8 +7,6 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 function HamburgerMenu() {
-  const [selectedScreen, setSelectedScreen] = useState(0);
-  const [activeNav, setActiveNav] = useState("#");
   const [showNavibar, setShowNavibar] = useState(false);
 
   return (
@@ -26,7 +23,7 @@ function HamburgerMenu() {
             setShowNavibar(!showNavibar);
           }}
           className="hamb"
-          for="side-menu"
+          htmlFor="side-menu"
         >
           <div className="hamb-new"></div>
           <div className="hamb-line"></div>

@@ -99,7 +99,7 @@ function CotactUs() {
           <div className="central-form">
             <div className="col"></div>
             <div className="back-form">
-              <form onSubmit={handleSubmit} autocomplete="off">
+              <form onSubmit={handleSubmit} autoComplete="off">
                 <div className="back-form-top">
                   <div className="name-form">
                     <input
@@ -112,7 +112,7 @@ function CotactUs() {
                       onChange={handleName}
                       name="name"
                       placeholder="Ваше имя"
-                      autocomplete="off"
+                      autoComplete="off"
                     />
                     <ValidationError
                       prefix="Name"
@@ -122,7 +122,7 @@ function CotactUs() {
                   </div>
                   <div className="phone-form">
                     <input
-                      autocomplete="off"
+                      autoComplete="off"
                       required
                       className="main-input"
                       pattern={phone}
@@ -143,7 +143,7 @@ function CotactUs() {
                 <div className="back-form-bottom">
                   <div className="email-form">
                     <input
-                      autocomplete="off"
+                      autoComplete="off"
                       className="main-input"
                       required
                       pattern={email}
@@ -163,7 +163,7 @@ function CotactUs() {
 
                   <div className="textArea-form">
                     <textarea
-                      autocomplete="off"
+                      autoComplete="off"
                       className="main-textarea"
                       required
                       pattern={message}
@@ -191,7 +191,7 @@ function CotactUs() {
                     id="message"
                     value={checked}
                   />
-                  <label for="_optin"></label>
+                  <label htmlFor="_optin"></label>
                   Согласие на обработку{" "}
                   <a href="./assets/rules.pdf" target="_blank" rel="noreferrer">
                     персональных данных.

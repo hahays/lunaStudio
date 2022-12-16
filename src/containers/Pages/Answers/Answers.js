@@ -154,7 +154,7 @@ function Answers() {
             <div className="main-item-right">
               <div class="spoiler">
                 <label for="spoiler9">
-                  Если у меня не модельная внешность, смогу-ли я работать?
+                  Если у меня не модельная внешность, смогу ли я работать?
                 </label>
                 <input type="checkbox" id="spoiler9" />
                 <label
@@ -216,11 +216,31 @@ function Answers() {
             </div>
             <div className="main-item-right">
               <div class="spoiler">
-                <label for="spoiler12">Какой средний заработок в вебкам?</label>
+                <label for="spoiler12">
+                  Законна ли работа на adult-площадках?
+                </label>
                 <input type="checkbox" id="spoiler12" />
                 <label
                   className="spoiler-arrow"
                   for="spoiler12"
+                  type="checkbox"
+                ></label>
+                <p>
+                  Да, законна, если среди моделей только совершеннолетние люди.
+                  Поэтому в нашу вебкам студию мы никогда не примем
+                  несовершеннолетних, даже с поддельным паспортом ( и такое
+                  бывает )
+                </p>
+                <div className="spoiler-line"></div>
+              </div>
+            </div>
+            <div className="main-item-right">
+              <div class="spoiler">
+                <label for="spoiler13">Какой средний заработок в вебкам?</label>
+                <input type="checkbox" id="spoiler13" />
+                <label
+                  className="spoiler-arrow"
+                  for="spoiler13"
                   type="checkbox"
                 ></label>
                 <p>

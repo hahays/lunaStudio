@@ -231,6 +231,7 @@
 
     .nav{transition: max-height 0.5s ease-out;
     max-height: 100%;
+    overflow: auto;
     width: 400px;
     height: 100%;
     position:fixed;

@@ -8,6 +8,7 @@ import PHOTO_4 from "./assets/photo_4.jpg";
 import PHOTO_5 from "./assets/photo_5.jpg";
 import PHOTO_6 from "./assets/photo_6.jpg";
 import PHOTO_7 from "./assets/photo_7.jpg";
+import PHOTO_8 from "./assets/photo_8.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -18,7 +19,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { EffectCoverflow, Pagination, EffectFlip, Navigation } from "swiper";
+import { EffectCoverflow, Pagination, Navigation } from "swiper";
 
 import {} from "swiper";
 
@@ -54,7 +55,7 @@ function ElseComments() {
               <SwiperSlide>
                 <div className="carousel-item">
                   <div className="carousel-item-bot">
-                    <img src={PHOTO_1} alt="photo" />
+                    <img src={PHOTO_1} alt="luna-studio" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -71,7 +72,7 @@ function ElseComments() {
               <SwiperSlide>
                 <div className="carousel-item">
                   <div className="carousel-item-bot">
-                    <img src={PHOTO_2} alt="photo" />
+                    <img src={PHOTO_8} alt="luna-studio" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -88,7 +89,7 @@ function ElseComments() {
               <SwiperSlide>
                 <div className="carousel-item">
                   <div className="carousel-item-bot">
-                    <img src={PHOTO_3} alt="photo" />
+                    <img src={PHOTO_2} alt="model-1" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -105,8 +106,8 @@ function ElseComments() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="carousel-item">
-                  <div className="carousel-item-bot ">
-                    <img src={PHOTO_4} alt="photo" />
+                  <div className="carousel-item-bot">
+                    <img src={PHOTO_3} alt="model-2" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -126,8 +127,8 @@ function ElseComments() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="carousel-item">
-                  <div className="carousel-item-bot">
-                    <img src={PHOTO_5} alt="photo" />
+                  <div className="carousel-item-bot ">
+                    <img src={PHOTO_4} alt="model-3" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -144,8 +145,8 @@ function ElseComments() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="carousel-item">
-                  <div className="carousel-item-bot ">
-                    <img src={PHOTO_6} alt="photo" />
+                  <div className="carousel-item-bot">
+                    <img src={PHOTO_5} alt="model-4" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -163,7 +164,7 @@ function ElseComments() {
               <SwiperSlide>
                 <div className="carousel-item">
                   <div className="carousel-item-bot ">
-                    <img src={PHOTO_7} alt="photo" />
+                    <img src={PHOTO_6} alt="model-5" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -174,6 +175,13 @@ function ElseComments() {
                       Креативность. Заинтересован- ность в заработке модели.
                       Классные админы.
                     </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="carousel-item">
+                  <div className="carousel-item-bot ">
+                    <img src={PHOTO_7} alt="model-6" />
                   </div>
                 </div>
               </SwiperSlide>

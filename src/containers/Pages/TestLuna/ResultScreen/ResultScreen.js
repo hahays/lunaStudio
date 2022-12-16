@@ -1,8 +1,6 @@
 import React from "react";
 import "./resultScreen.scss";
-import CotactUs from "../../ContactUs/CotactUs";
 import { HashLink } from "react-router-hash-link";
-import { Link } from "react-router-dom";
 
 function ResultScreen({ result, onClick }) {
   return (
@@ -21,7 +19,7 @@ function ResultScreen({ result, onClick }) {
           <div className="form-block-text">
             <h3>
               Спасибо за прохождение нашего теста! Если Вам интересна эта
-              работа, то заполните форму или выберите другой образ :)
+              работа, то заполните форму.
             </h3>
           </div>
           <div className="form-block-button">

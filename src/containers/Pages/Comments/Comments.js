@@ -53,34 +53,6 @@ function Comments() {
               className="mySwiper"
               initialSlide={3}
             >
-              {/* <SwiperSlide>
-                <div className="carousel-item">
-                  <div className="carousel-item-top">
-                    <img src={PHOTO_ONE} alt="photo" />
-                  </div>
-                  <div className="carousel-item-mid">
-                    <div className="header">
-                      <p>Настя</p>
-                    </div>
-                    <div className="subHeader">
-                      <p>Опыт- 1год</p>
-                    </div>
-                  </div>
-                  <div className="carousel-item-bot">
-                    <p>
-                      Amet minim mollit non deserunt ullamco est sit aliqua
-                      dolor do amet sint. Velit officia consequat duis enim
-                      velit mollit. Exercitation veniam consequat sunt nostrud
-                      amet. Amet minim mollit non deserunt ullamco est sit
-                      aliqua dolor do amet sint. Velit officia consequat duis
-                      enim velit mollit. Exercitation veniam consequat sunt
-                      nostrud amet.Amet minim mollit non deserunt ullamco est
-                      sit aliqua dolor do amet sint. Velit officia consequat
-                      duis enim velit mollit.{" "}
-                    </p>
-                  </div>
-                </div>
-              </SwiperSlide> */}
               <SwiperSlide>
                 <div className="carousel-item">
                   {/* <div className="carousel-item-top">
